@@ -1,3 +1,7 @@
+<div align="center">
+<img src="../assets/lena_smile.gif" width="360" alt="Lena" />
+</div>
+
 # 🟣 Solana 스캠 주소
 
 **지갑과 토큰/풀을 온체인으로 판별해 분리**한 데이터. 모든 주소를 Solana RPC

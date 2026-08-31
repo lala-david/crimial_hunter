@@ -1,3 +1,7 @@
+<div align="center">
+<img src="../assets/lena_field.gif" width="360" alt="Lena" />
+</div>
+
 # 📡 Sources — 소스별 원천 데이터
 
 모든 파일이 표준 스키마(`address, chain, category, source, label, detail, ref_date`)로 정규화되어 있다.

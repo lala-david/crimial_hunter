@@ -1,3 +1,7 @@
+<div align="center">
+<img src="../assets/lena_command.gif" width="360" alt="Lena" />
+</div>
+
 # ⚙️ Pipeline
 
 ```mermaid

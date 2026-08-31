@@ -1,3 +1,7 @@
+<div align="center">
+<img src="../assets/lena_serious.gif" width="360" alt="Lena" />
+</div>
+
 # 🔷 Ethereum 스캠 주소
 
 전량 **Etherscan `getaddresstag`로 검증**하고, 미검증분은 **GoPlus로 2차 검증**해 등급(tier)을 매긴 데이터.
