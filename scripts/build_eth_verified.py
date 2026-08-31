@@ -6,7 +6,8 @@ import csv, os
 from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "ethereum")
+VER = os.path.join(BASE, "ethereum", "verify")
 
 # 거래소/합법 라벨 → 위양성 후보
 EXCHANGE_HINTS = ("binance", "coinbase", "kraken", "okx", "deposit address", "gitcoin",
@@ -15,7 +16,7 @@ EXCHANGE_HINTS = ("binance", "coinbase", "kraken", "okx", "deposit address", "gi
 
 # 검증 로드
 ver = {}
-with open(os.path.join(OUT, "etherscan_verify.csv"), encoding="utf-8") as f:
+with open(os.path.join(VER, "etherscan_verify.csv"), encoding="utf-8") as f:
     for r in csv.DictReader(f):
         ver[r["address"].lower()] = (r.get("reputation", ""), r.get("labels", ""), r.get("nametag", ""))
 
@@ -24,7 +25,7 @@ with open(os.path.join(OUT, "etherscan_verify.csv"), encoding="utf-8") as f:
 GOPLUS_STRONG = {"phishing_activities", "stealing_attack", "blackmail_activities",
                  "cybercrime", "sanctioned"}
 gp = {}
-gpp = os.path.join(OUT, "goplus_verify.csv")
+gpp = os.path.join(VER, "goplus_verify.csv")
 if os.path.exists(gpp):
     with open(gpp, encoding="utf-8") as f:
         for r in csv.DictReader(f):

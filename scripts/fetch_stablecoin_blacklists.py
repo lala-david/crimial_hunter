@@ -10,7 +10,7 @@ import csv, json, os, time, urllib.request
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 STATE = os.path.join(RAW, "stablecoin_logs_state.json")
 EVENTS = os.path.join(RAW, "stablecoin_events.jsonl")
 

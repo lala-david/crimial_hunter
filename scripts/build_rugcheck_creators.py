@@ -6,11 +6,12 @@ import csv, os
 from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "processed")
+VER = os.path.join(BASE, "solana", "verify")
+OUT = os.path.join(BASE, "sources")
 INFRA_THRESHOLD = 50
 
 cnt = Counter()
-with open(os.path.join(OUT, "rugcheck_creators.csv"), encoding="utf-8") as f:
+with open(os.path.join(VER, "rugcheck_creators.csv"), encoding="utf-8") as f:
     for r in csv.DictReader(f):
         c = (r.get("creator") or "").strip()
         if c and str(r.get("rugged")).lower() == "true":

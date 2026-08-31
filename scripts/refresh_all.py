@@ -10,7 +10,11 @@ from datetime import date
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+SRC = os.path.join(BASE, "sources")
+ETH = os.path.join(BASE, "ethereum")
+SOL = os.path.join(BASE, "solana")
+ETH_VER = os.path.join(ETH, "verify")
+SOL_VER = os.path.join(SOL, "verify")
 SCRIPTS = os.path.dirname(os.path.abspath(__file__))
 NO_CRAWL = "--no-crawl" in sys.argv
 
@@ -87,13 +91,13 @@ WALLET_SOURCES = [
 def classify_delta():
     known = set()
     for f in ("sol_types_curated.csv", "sol_types_jcb07.csv", "sol_types_new.csv"):
-        p = os.path.join(OUT, f)
+        p = os.path.join(SOL_VER, f)
         if os.path.exists(p):
             for r in csv.DictReader(open(p, encoding="utf-8")):
                 known.add(r["address"])
     todo = set()
     for fn in WALLET_SOURCES:
-        p = os.path.join(OUT, fn)
+        p = os.path.join(SRC, fn)
         if not os.path.exists(p):
             continue
         for r in csv.DictReader(open(p, encoding="utf-8")):
@@ -109,7 +113,7 @@ def classify_delta():
     tgt = os.path.join(RAW, "sol_classify_delta.txt")
     with open(tgt, "w", encoding="utf-8") as f:
         f.write("\n".join(sorted(todo)))
-    run_py("classify_solana.py", tgt, os.path.join(OUT, "sol_types_new.csv"))
+    run_py("classify_solana.py", tgt, os.path.join(SOL_VER, "sol_types_new.csv"))
 
 # ---------- 5) 마스터 재빌드 ----------
 def rebuild():
@@ -127,34 +131,34 @@ def verify():
     if not key:
         print("  ETHERSCAN_KEY 없음 — 검증 생략 (미검증 신규분은 COMMUNITY_ONLY로 유지)")
         return
-    run_py("verify_etherscan.py", os.path.join(OUT, "master_ethereum.csv"),
-           os.path.join(OUT, "etherscan_verify.csv"))
+    run_py("verify_etherscan.py", os.path.join(ETH, "master_ethereum.csv"),
+           os.path.join(ETH_VER, "etherscan_verify.csv"))
 
 def goplus():
     # 전일 아카이브(미검증분)를 일일 상한만큼 2차 검증 — 락파일로 동시실행 자동 회피
-    arch = os.path.join(OUT, "archive_ethereum_community_unverified.csv")
+    arch = os.path.join(ETH, "archive_ethereum_community_unverified.csv")
     if not os.path.exists(arch):
         print("  아카이브 없음 — 생략")
         return
-    run_py("verify_goplus.py", arch, os.path.join(OUT, "goplus_verify.csv"))
+    run_py("verify_goplus.py", arch, os.path.join(ETH_VER, "goplus_verify.csv"))
 
 def tiering():
     run_py("build_eth_verified.py")
 
 # ---------- 7) 매니페스트 ----------
 def manifest():
-    def rows(name):
-        p = os.path.join(OUT, name)
+    def rows(d, name):
+        p = os.path.join(d, name)
         return list(csv.DictReader(open(p, encoding="utf-8"))) if os.path.exists(p) else []
-    sol = rows("master_solana_wallets.csv")
-    eth_conf = rows("master_ethereum_confirmed.csv")
+    sol = rows(SOL, "master_solana_wallets.csv")
+    eth_conf = rows(ETH, "master_ethereum_confirmed.csv")
     tiers = Counter()
-    p = os.path.join(OUT, "master_ethereum_verified.csv")
+    p = os.path.join(ETH, "master_ethereum_verified.csv")
     if os.path.exists(p):
         for r in csv.DictReader(open(p, encoding="utf-8")):
             tiers[r["tier"]] += 1
-    tok = sum(1 for _ in open(os.path.join(OUT, "master_solana_tokens.csv"), encoding="utf-8")) - 1 \
-        if os.path.exists(os.path.join(OUT, "master_solana_tokens.csv")) else 0
+    tokp = os.path.join(SOL, "master_solana_tokens.csv")
+    tok = sum(1 for _ in open(tokp, encoding="utf-8")) - 1 if os.path.exists(tokp) else 0
     src = Counter(s for r in sol for s in r["sources"].split("|"))
     m = {
         "generated": date.today().isoformat(),
@@ -175,7 +179,7 @@ def manifest():
         "solana_tokens_separated": {"total": tok, "file": "master_solana_tokens.csv (지갑 아님)"},
         "refresh_failures": failures,
     }
-    with open(os.path.join(OUT, "MANIFEST.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(BASE, "MANIFEST.json"), "w", encoding="utf-8") as f:
         json.dump(m, f, ensure_ascii=False, indent=2)
     print(json.dumps({k: m[k] for k in ("generated", "ethereum_confirmed", "solana_wallets")},
                      ensure_ascii=False)[:600])

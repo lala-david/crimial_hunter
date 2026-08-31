@@ -7,7 +7,9 @@ import csv, os, re
 from collections import defaultdict, Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "processed")
+SRC = os.path.join(BASE, "sources")
+VER = os.path.join(BASE, "solana", "verify")
+OUT = os.path.join(BASE, "solana")
 
 # 지갑 소스(기본 wallet) / 토큰·풀 소스(기본 token)
 WALLET_SOURCES = [
@@ -22,7 +24,7 @@ TOKEN_SOURCES = ["solrpds_rugpull_sol.csv", "jupiter_banned_sol.csv"]
 # 온체인 분류 로드
 types = {}
 for f in ("sol_types_curated.csv", "sol_types_jcb07.csv", "sol_types_new.csv"):
-    p = os.path.join(OUT, f)
+    p = os.path.join(VER, f)
     if os.path.exists(p):
         for r in csv.DictReader(open(p, encoding="utf-8")):
             types[r["address"]] = r["type"]
@@ -42,7 +44,7 @@ addr_of = {}
 dates = {}
 
 def add(path, default_wallet, want_wallet):
-    p = os.path.join(OUT, path)
+    p = os.path.join(SRC, path)
     if not os.path.exists(p):
         print(f"  (없음) {path}"); return 0
     n = 0
@@ -92,7 +94,7 @@ total = 0
 for src in WALLET_SOURCES:
     total += add(src, default_wallet=True, want_wallet=True)
 # ofac SOL
-p = os.path.join(OUT, "ofac_sanctions_all.csv")
+p = os.path.join(SRC, "ofac_sanctions_all.csv")
 if os.path.exists(p):
     for r in csv.DictReader(open(p, encoding="utf-8")):
         if r.get("chain") == "SOL" and is_wallet(r["address"], True):

@@ -10,7 +10,7 @@ from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.join(BASE, "raw", "tayvano_x", "lazarus-bluenoroff-research-main")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 
 KEEP_DIRS = ["hacks-and-thefts", "more-hacks-and-thefts"]
 EXTRA_DIRS = ["dprk-it-workers", "malicious-shit", "nick-franklin"]

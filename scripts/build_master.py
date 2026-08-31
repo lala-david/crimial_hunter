@@ -6,7 +6,10 @@ import csv, os, re
 from collections import defaultdict, Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(BASE, "processed")
+SRC = os.path.join(BASE, "sources")
+DIR_OF = {"master_solana.csv": os.path.join(BASE, "solana"),
+          "master_ethereum.csv": os.path.join(BASE, "ethereum"),
+          "master_all.csv": BASE}
 
 # (파일, 컬럼매핑) — 표준스키마는 None
 # 매핑: address,chain,category,source,label,detail,ref_date 로 정규화
@@ -58,7 +61,7 @@ agg = defaultdict(_new)
 addr_of = {}   # (chain,key) -> 원본 주소 문자열
 
 for fn, mp in FILES:
-    p = os.path.join(OUT, fn)
+    p = os.path.join(SRC, fn)
     if not os.path.exists(p):
         print(f"  (건너뜀, 없음) {fn}")
         continue
@@ -101,7 +104,7 @@ def dump(chain, name):
             (max(e["dates"]) if e["dates"] else ""),
         ])
     rows.sort(key=lambda x: (-x[2], x[0]))   # source_count 내림차순
-    with open(os.path.join(OUT, name), "w", newline="", encoding="utf-8") as f:
+    with open(os.path.join(DIR_OF[name], name), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["address", "chain", "source_count", "sources", "categories", "labels", "ref_date"])
         w.writerows(rows)
@@ -116,7 +119,7 @@ sol = dump("SOL", "master_solana.csv")
 eth = dump("ETH", "master_ethereum.csv")
 
 # 통합
-with open(os.path.join(OUT, "master_all.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(BASE, "master_all.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["address", "chain", "source_count", "sources", "categories", "labels", "ref_date"])
     w.writerows(sol + eth)

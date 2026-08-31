@@ -6,7 +6,7 @@ import csv, json, os, urllib.request
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 
 def download(url, dst, min_bytes=1000):
     tmp = dst + ".tmp"

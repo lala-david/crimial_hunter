@@ -7,7 +7,7 @@ from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 
 ADDR_BND = re.compile(r"(?<![0-9a-fA-F])0x[0-9a-fA-F]{40}(?![0-9a-fA-F])")
 SOL_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{42,44}$")

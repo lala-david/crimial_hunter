@@ -10,7 +10,7 @@ from collections import Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 
 CATEGORY = {
     "take-action": "phishing",

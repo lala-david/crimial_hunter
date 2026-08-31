@@ -5,7 +5,7 @@ from collections import Counter, defaultdict
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
-OUT = os.path.join(BASE, "processed")
+OUT = os.path.join(BASE, "sources")
 
 EVM_RE = re.compile(r"^0x[0-9a-fA-F]{40}$")
 B58_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]+$")
