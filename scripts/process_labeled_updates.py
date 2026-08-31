@@ -33,9 +33,29 @@ try:
              os.path.join(RAW, "scamsniffer_address.json"))
 except Exception as e:
     print(f"  (scamsniffer 다운로드 실패, 기존 raw 사용: {e})")
+# combined.json = 피싱 도메인별 드레이너 주소 매핑 (address.json보다 넓음)
+try:
+    download("https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/combined.json",
+             os.path.join(RAW, "scamsniffer_combined.json"), min_bytes=50000)
+except Exception as e:
+    print(f"  (scamsniffer combined 다운로드 실패, 기존 raw 사용: {e})")
+
+import re as _re
+_ETH = _re.compile(r"^0x[0-9a-fA-F]{40}$")
+addr_domain = {}   # addr -> 첫 등장 도메인
 ss = json.load(open(os.path.join(RAW, "scamsniffer_address.json"), encoding="utf-8"))
+for a in ss:
+    if _ETH.match(a):
+        addr_domain.setdefault(a.lower(), "")
+cp = os.path.join(RAW, "scamsniffer_combined.json")
+if os.path.exists(cp):
+    for domain, addrs in json.load(open(cp, encoding="utf-8")).items():
+        for a in (addrs if isinstance(addrs, list) else [addrs]):
+            if isinstance(a, str) and _ETH.match(a):
+                addr_domain.setdefault(a.lower(), domain[:50])
 write_rows(os.path.join(OUT, "scamsniffer_phishing_eth.csv"),
-           [[a.lower(), "ETH", "phishing_drainer", "scamsniffer", "phishing", "", ""] for a in ss])
+           [[a, "ETH", "phishing_drainer", "scamsniffer", "phishing", dom, ""]
+            for a, dom in sorted(addr_domain.items())])
 
 # ---- MEW darklist (커뮤니티 검증 스캠 라벨) ----
 try:

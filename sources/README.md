@@ -15,6 +15,9 @@
 | `chainabuse_desc_eth.csv` / `chainabuse_desc_sol.csv` | Chainabuse 신고 본문 | 태그 외 본문 언급 collector·cash-out 지갑 마이닝 (ETH 1,866 / SOL 593) |
 | `defihacklabs_eth.csv` | [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) | 사건 재현 PoC repo의 **공격자** 주소 (1,274, 2017~26) |
 | `solana_frozen_stablecoin.csv` | 솔라나 온체인 | **Circle/Tether 발행사 동결** 토큰계정의 owner 지갑 (freeze authority 이력 스캔) |
+| `poisonhunter_eth.csv` | [DS2L/Poison-Hunter](https://github.com/DS2L/Poison-Hunter) (CCS 2024) | **주소 오염(address poisoning)** 피싱 주소 5,890 — Etherscan+Forta **이중 라벨** groundtruth |
+| `brianleect_malicious_eth.csv` | [brianleect/etherscan-labels](https://github.com/brianleect/etherscan-labels) | Etherscan 라벨 미러의 악성 후보 3,630 (검증은 뒷단 Etherscan API) |
+| `phantom_sol.csv` | [phantom/blocklist](https://github.com/phantom/blocklist) | 솔라나 스캠 토큰 mint 3,055 (지갑 아님 → 토큰 파일로 분리) |
 | `allenhark_sol.csv` | [AllenHark](https://allenhark.com) | Pump.fun 스캐머 (매일 갱신) |
 | `ethlabels_phishhack.csv` / `ethlabels_malicious.csv` | dawsbot/eth-labels | Etherscan 공개 라벨 미러 |
 | `scamsniffer_phishing_eth.csv` | ScamSniffer | 피싱 드레이너 (라이브 재수집) |

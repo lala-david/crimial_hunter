@@ -73,11 +73,13 @@ def normalize():
     run_py("process_extra.py")
     run_py("process_chainabuse_crawl.py")
     run_py("process_ethlabels_v2.py")
+    run_py("process_brianleect.py")          # brianleect Etherscan 라벨 (악성 후보)
     run_py("process_labeled_updates.py")     # ScamSniffer·MEW 라이브 재수집
     run_py("process_tayvano.py")             # tayvano — lazarus/trace_extra 분리
     run_py("process_gov_updates.py")         # OFAC(0xB10C)·Ransomwhere 라이브 갱신
     run_py("process_chainabuse_desc.py")     # 신고 본문 주소 마이닝 (ETH+SOL)
     run_py("process_defihacklabs.py")        # DeFi 해킹 공격자 (사건 재현 repo)
+    run_py("process_poison_phantom.py")      # Poison-Hunter(ETH 오염) + Phantom(SOL 토큰)
 
 # ---------- 3c) 솔라나 발행사 동결 스캔 (증분) ----------
 def sol_freezes():

@@ -10,9 +10,9 @@
 
 | 파일 | 개수 | 용도 |
 |---|---:|---|
-| **`master_ethereum_confirmed.csv`** | 23,943 | 🥇 **차단/스크리닝용 (권장)** — 아래 3개 확정 등급만 |
-| `master_ethereum_etherscan_confirmed.csv` | 21,796 | 🔒 최엄격 — Etherscan 공식 악성만 |
-| `master_ethereum_verified.csv` | 219,570 | 🔍 전체 감사본 (모든 주소 + tier 컬럼) |
+| **`master_ethereum_confirmed.csv`** | 32,791 | 🥇 **차단/스크리닝용 (권장)** — 아래 3개 확정 등급만 |
+| `master_ethereum_etherscan_confirmed.csv` | 27,398 | 🔒 최엄격 — Etherscan 공식 악성만 |
+| `master_ethereum_verified.csv` | 225,483 | 🔍 전체 감사본 (모든 주소 + tier 컬럼) |
 | `archive_ethereum_community_unverified.csv` | ~192,900 | 📦 미검증 신고 (참고용 — 무고 주소 혼입 가능) |
 | `master_ethereum.csv` | 217,411 | 교차출처 병합 원본 (검증 컬럼 없음, 파이프라인 중간산출) |
 | `verify/` | — | 검증 캐시 (Etherscan·GoPlus 응답) |

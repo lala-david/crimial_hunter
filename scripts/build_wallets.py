@@ -35,7 +35,8 @@ WALLET_SOURCES = [
     "solana_frozen_stablecoin.csv",
 ]  # 휴리스틱 제외: jcb07(BFS), midsummer(wash-trading) 는 수집 안 함
 # ofac SOL은 ofac_sanctions_all.csv에서, jcb07은 아래 별도
-TOKEN_SOURCES = ["solrpds_rugpull_sol.csv", "jupiter_banned_sol.csv"]
+# 토큰 소스(기본 token): Phantom mint = 스캠 토큰, 지갑 아님
+TOKEN_SOURCES = ["solrpds_rugpull_sol.csv", "jupiter_banned_sol.csv", "phantom_sol.csv"]
 
 # 온체인 분류 로드
 types = {}
