@@ -12,7 +12,9 @@
 | 파일 | 소스 | 성격 |
 |---|---|---|
 | `chainabuse_crawl_ETH/SOL.csv` | [Chainabuse](https://chainabuse.com) (TRM Labs) | 피해자 신고 19.6만 건 전량 크롤 |
-| `chainabuse_desc_sol.csv` | Chainabuse 신고 본문 | collector·cash-out 지갑 추출 |
+| `chainabuse_desc_eth.csv` / `chainabuse_desc_sol.csv` | Chainabuse 신고 본문 | 태그 외 본문 언급 collector·cash-out 지갑 마이닝 (ETH 1,866 / SOL 593) |
+| `defihacklabs_eth.csv` | [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) | 사건 재현 PoC repo의 **공격자** 주소 (1,274, 2017~26) |
+| `solana_frozen_stablecoin.csv` | 솔라나 온체인 | **Circle/Tether 발행사 동결** 토큰계정의 owner 지갑 (freeze authority 이력 스캔) |
 | `allenhark_sol.csv` | [AllenHark](https://allenhark.com) | Pump.fun 스캐머 (매일 갱신) |
 | `ethlabels_phishhack.csv` / `ethlabels_malicious.csv` | dawsbot/eth-labels | Etherscan 공개 라벨 미러 |
 | `scamsniffer_phishing_eth.csv` | ScamSniffer | 피싱 드레이너 (라이브 재수집) |

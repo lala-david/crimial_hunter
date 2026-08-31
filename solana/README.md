@@ -11,7 +11,7 @@
 
 | 파일 | 개수 | 용도 |
 |---|---:|---|
-| **`master_solana_wallets.csv`** | 13,079 | 🥇 **스캠 지갑 (차단/스크리닝용)** |
+| **`master_solana_wallets.csv`** | 13,214 | 🥇 **스캠 지갑 (차단/스크리닝용)** |
 | `master_solana_tokens.csv` | 101,547 | 🪙 스캠 토큰 mint·유동성 풀 (지갑 아님 — 토큰 필터링용) |
 | `master_solana.csv` | — | 병합 원본 (파이프라인 중간산출) |
 | `verify/` | — | 온체인 분류 캐시 (`sol_types_*`) · RugCheck creator 캐시 |

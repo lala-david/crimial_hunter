@@ -3,7 +3,7 @@
 온체인 분류(sol_types_*.csv) 반영. 미분류는 소스 기본값 적용.
 출력: master_solana_wallets.csv (지갑), master_solana_tokens.csv (토큰/풀)
 """
-import csv, os, re
+import csv, os
 from collections import defaultdict, Counter
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -11,12 +11,28 @@ SRC = os.path.join(BASE, "sources")
 VER = os.path.join(BASE, "solana", "verify")
 OUT = os.path.join(BASE, "solana")
 
+# base58 32바이트 유효성 — 무효 pubkey(0x혼입·체크섬 미달) 노이즈 배제
+_ALPH = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+_IDX = {c: i for i, c in enumerate(_ALPH)}
+
+def valid_pubkey(s):
+    if not (32 <= len(s) <= 44):
+        return False
+    n = 0
+    for c in s:
+        if c not in _IDX:
+            return False
+        n = n * 58 + _IDX[c]
+    body = n.to_bytes((n.bit_length() + 7) // 8, "big") if n else b""
+    return len(b"\x00" * (len(s) - len(s.lstrip("1"))) + body) == 32
+
 # 지갑 소스(기본 wallet) / 토큰·풀 소스(기본 token)
 WALLET_SOURCES = [
     "chainabuse_crawl_SOL.csv", "chainabuse_desc_sol.csv", "allenhark_sol.csv",
     "chainpatrol_blocked.csv", "solphishhunter_sol.csv", "silent_killer_sol.csv",
     "graphsense_sol.csv",
     "tayvano_lazarus.csv", "kismp_defihack.csv", "rugcheck_creator_sol.csv",
+    "solana_frozen_stablecoin.csv",
 ]  # 휴리스틱 제외: jcb07(BFS), midsummer(wash-trading) 는 수집 안 함
 # ofac SOL은 ofac_sanctions_all.csv에서, jcb07은 아래 별도
 TOKEN_SOURCES = ["solrpds_rugpull_sol.csv", "jupiter_banned_sol.csv"]
@@ -52,8 +68,8 @@ def add(path, default_wallet, want_wallet):
         a = (r.get("address") or "").strip()
         if not a or (r.get("chain") or "") != "SOL":
             continue
-        # 노이즈 배제: 진짜 솔라나 pubkey는 all-hex가 아니고 길이 32~44
-        if re.match(r"^[0-9a-f]+$", a) or not (32 <= len(a) <= 44):
+        # 노이즈 배제: base58 32바이트 유효성 미달(0x혼입·체크섬 실패) 제거
+        if not valid_pubkey(a):
             continue
         if is_wallet(a, default_wallet) != want_wallet:
             continue

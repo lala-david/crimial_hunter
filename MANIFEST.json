@@ -2,45 +2,42 @@
   "generated": "2026-08-31",
   "policy": "실제 기반만 (신고·라벨·제재·수사·온체인 사실). 휴리스틱(BFS/wash/ML) 제외.",
   "ethereum_confirmed": {
-    "total": 23139,
-    "etherscan_official_malicious": 21733,
-    "cross_source_confirmed": 1284,
-    "file": "master_ethereum_confirmed.csv"
+    "total": 23943,
+    "etherscan_official_malicious": 21796,
+    "goplus_confirmed": 187,
+    "cross_source_confirmed": 1960,
+    "file": "ethereum/master_ethereum_confirmed.csv"
   },
   "ethereum_all_tiers": {
-    "CONFIRMED_MALICIOUS": 21733,
-    "CROSS_CONFIRMED": 1284,
-    "EXCHANGE_FALSE_POSITIVE": 1413,
-    "GOPLUS_CONFIRMED": 122,
-    "COMMUNITY_ONLY": 192859
+    "CONFIRMED_MALICIOUS": 21796,
+    "CROSS_CONFIRMED": 1960,
+    "EXCHANGE_FALSE_POSITIVE": 1487,
+    "GOPLUS_CONFIRMED": 187,
+    "COMMUNITY_ONLY": 194140
   },
   "solana_wallets": {
-    "total": 13079,
+    "total": 13214,
     "by_source": {
       "allenhark": 6488,
-      "chainabuse_crawl": 3765,
+      "chainabuse_crawl": 3758,
       "rugcheck_creator": 1800,
-      "tayvano_lazarus": 572,
-      "chainabuse_desc": 398,
-      "chainpatrol": 52,
+      "tayvano_lazarus": 630,
+      "chainabuse_desc": 501,
+      "chainpatrol": 51,
       "solphishhunter": 36,
       "silent_killer": 26,
-      "kismp_defihack": 12,
-      "ofac_sdn": 5,
-      "graphsense_binance_hack": 3
+      "kismp_defihack": 24,
+      "ofac_sdn": 5
     },
     "by_onchain_type": {
       "WALLET": 5501,
-      "EMPTY": 7560,
-      "unclassified": 18
+      "EMPTY": 7632,
+      "unclassified": 81
     },
-    "file": "master_solana_wallets.csv"
+    "file": "solana/master_solana_wallets.csv"
   },
   "solana_tokens_separated": {
     "total": 101547,
-    "file": "master_solana_tokens.csv (지갑 아님)"
-  },
-  "refresh_failures": [
-    "GoPlus 2차 검증 (일일 슬라이스): verify_goplus.py exit 4294967295: "
-  ]
+    "file": "solana/master_solana_tokens.csv"
+  }
 }

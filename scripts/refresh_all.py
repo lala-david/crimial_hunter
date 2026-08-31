@@ -76,6 +76,12 @@ def normalize():
     run_py("process_labeled_updates.py")     # ScamSniffer·MEW 라이브 재수집
     run_py("process_tayvano.py")             # tayvano — lazarus/trace_extra 분리
     run_py("process_gov_updates.py")         # OFAC(0xB10C)·Ransomwhere 라이브 갱신
+    run_py("process_chainabuse_desc.py")     # 신고 본문 주소 마이닝 (ETH+SOL)
+    run_py("process_defihacklabs.py")        # DeFi 해킹 공격자 (사건 재현 repo)
+
+# ---------- 3c) 솔라나 발행사 동결 스캔 (증분) ----------
+def sol_freezes():
+    run_py("fetch_solana_freezes.py")
 
 # ---------- 3b) 스테이블코인 온체인 동결 스캔 (증분) ----------
 def stablecoin():
@@ -86,6 +92,7 @@ WALLET_SOURCES = [
     "chainabuse_crawl_SOL.csv", "chainabuse_desc_sol.csv", "allenhark_sol.csv",
     "chainpatrol_blocked.csv", "solphishhunter_sol.csv", "silent_killer_sol.csv",
     "graphsense_sol.csv", "tayvano_lazarus.csv", "kismp_defihack.csv", "rugcheck_creator_sol.csv",
+    "solana_frozen_stablecoin.csv",
 ]
 
 def classify_delta():
@@ -191,6 +198,7 @@ if not NO_CRAWL:
     step("Chainabuse/ChainPatrol 증분 크롤", crawl)
 step("소스 정규화", normalize)
 step("스테이블코인 동결 스캔", stablecoin)
+step("솔라나 동결 스캔", sol_freezes)
 step("SOL 델타 온체인 분류", classify_delta)
 step("마스터 재빌드", rebuild)
 step("Etherscan 델타 검증", verify)

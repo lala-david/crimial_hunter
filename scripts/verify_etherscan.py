@@ -9,6 +9,10 @@ import csv, json, os, sys, time, urllib.request, urllib.parse
 SRC, DST = sys.argv[1], sys.argv[2]
 KEY = os.environ.get("ETHERSCAN_KEY") or (sys.argv[3] if len(sys.argv) > 3 else "")
 if not KEY:
+    kf = os.path.join(os.path.expanduser("~"), ".etherscan_key")
+    if os.path.exists(kf):
+        KEY = open(kf, encoding="ascii").read().strip()
+if not KEY:
     sys.exit("ETHERSCAN_KEY 필요")
 BATCH = 100
 
