@@ -2,9 +2,9 @@
   "generated": "2026-09-01",
   "policy": "실제 기반만 (신고·라벨·제재·수사·온체인 사실). 휴리스틱(BFS/wash/ML) 제외.",
   "ethereum_confirmed": {
-    "total": 34676,
+    "total": 34685,
     "etherscan_official_malicious": 27479,
-    "goplus_confirmed": 1958,
+    "goplus_confirmed": 1967,
     "cross_source_confirmed": 5239,
     "file": "ethereum/master_ethereum_confirmed.csv"
   },
@@ -12,8 +12,8 @@
     "CONFIRMED_MALICIOUS": 27479,
     "CROSS_CONFIRMED": 5239,
     "EXCHANGE_FALSE_POSITIVE": 1494,
-    "GOPLUS_CONFIRMED": 1958,
-    "COMMUNITY_ONLY": 190020
+    "GOPLUS_CONFIRMED": 1967,
+    "COMMUNITY_ONLY": 190011
   },
   "solana_wallets": {
     "total": 13263,

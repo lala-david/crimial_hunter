@@ -19790,19 +19790,27 @@ address,chain,source_count,sources,categories,etherscan_reputation,etherscan_lab
 0x34415cb3cbc359586505e0834129465257185064,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing145492,CONFIRMED_MALICIOUS
 0x344bcafbe79f0045d7f6348fcf8a8072c9cf3871,ETH,1,chainabuse_crawl,chainabuse,2,,,CONFIRMED_MALICIOUS
 0x3455955cccf5b2774f129afb965484e109eff33d,ETH,1,chainabuse_crawl,chainabuse,2,Phish / Hack,Fake_Phishing277190,CONFIRMED_MALICIOUS
+0x34580efe9cfb9cc2d8aedf6a8b8e74d9716f3bc1,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x345b1caafa7ccd0467f3a4a752dc6011f22dd7c2,ETH,1,chainabuse_crawl,chainabuse,2,,,CONFIRMED_MALICIOUS
 0x345d069b9d376829c5a8d3e202ac51e65a138946,ETH,1,ptxphish_ndss2025,phishing,2,Phish / Hack,Fake_Phishing187011,CONFIRMED_MALICIOUS
 0x345d39744f1aab9c93bd92903770b9d856e51fcb,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing5941639,CONFIRMED_MALICIOUS
 0x345e3789538cfb1d5b030cfce8ca18532c871aab,ETH,1,chainabuse_crawl,chainabuse,2,Phish / Hack,Fake_Phishing179658,CONFIRMED_MALICIOUS
 0x345f11f67d3d6e8d19eecdad38fb6d4b844b65fa,ETH,1,tayvano_lazarus,state_actor_dprk,2,Heist,Poloniex Hacker 328,CONFIRMED_MALICIOUS
 0x3464e4caa2658c8fdd4d3c51e75ce535c3187137,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing135455,CONFIRMED_MALICIOUS
+0x3465c605198bffa5677b88a4dd42fc2706f56b14,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
+0x346812666347b9548ab2e21f5370a071a0551efe,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x346c7ea0422faafe0ebdf6170b501b9477e7da67,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing2738381,CONFIRMED_MALICIOUS
 0x346cdcae72eca0f9e37cbb1ce7b7b19f7cb296df,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing7458725,CONFIRMED_MALICIOUS
 0x346e0eeb1a4d207c45d4126c0bffe7cfa40f7c23,ETH,1,chainabuse_crawl,chainabuse,2,Phish / Hack,Fake_Phishing193637,CONFIRMED_MALICIOUS
+0x3470163ab39262a0eb935904e47f83c8c3f461a1,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x347046e2f7058451ee5583712f6f50fe476dc605,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing4734004,CONFIRMED_MALICIOUS
+0x347133c50E3dd94E07d41f3BcD7935eEaeBE113c,ETH,1,chainabuse_crawl,chainabuse,,,,GOPLUS_CONFIRMED
 0x34728e087c3105dfd5659308c575f2a87bc8c2a1,ETH,1,chainabuse_crawl,chainabuse,2,Phish / Hack,Fake_Phishing1206825,CONFIRMED_MALICIOUS
+0x3474d1a1af51c12f5bb942bab325d733f84e61e1,ETH,1,scamsniffer,phishing_drainer,,,,GOPLUS_CONFIRMED
+0x3477fcc2b2cfeb1d26559af941a15dfa68295f00,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x3478185b31922bef1c143bda3594076e19c74444,ETH,1,chainpatrol,blocklist,2,Phish / Hack|Poisoning Address,Fake_Phishing4848164,CONFIRMED_MALICIOUS
 0x347cab3001b590d2e16aaf7a385aa67944044444,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing2428209,CONFIRMED_MALICIOUS
+0x347cf0e40719027d514b742279546602ee19a419,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x347ee30229bb0d6f8559770e4810e9c85ba18218,ETH,1,chainabuse_crawl,chainabuse,2,Phish / Hack,Fake_Phishing193905,CONFIRMED_MALICIOUS
 0x347f752cc4d7304f7520cfd36beedca8b1a55d37,ETH,1,eth_labels_dawsbot,phishing,2,Compromised|Take Action,Vulnerable Contract: 0x347...D37,CONFIRMED_MALICIOUS
 0x34867bb3cffd07f0cea37170c0b915d4198c6f2c,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing107811,CONFIRMED_MALICIOUS
@@ -19811,6 +19819,7 @@ address,chain,source_count,sources,categories,etherscan_reputation,etherscan_lab
 0x348c18beffe5a83bb40a0f5379c41b0a0fb98bbb,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing94888,CONFIRMED_MALICIOUS
 0x348cae9fdf3be472ae42392fa542f8a36dea672b,ETH,1,chainpatrol,blocklist,2,Phish / Hack|Poisoning Address,Fake_Phishing4848059,CONFIRMED_MALICIOUS
 0x348e60310ec49d721dfff69c5af427debef0ec37,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing4734381,CONFIRMED_MALICIOUS
+0x348fc4dfdcd3427d8a4b43ad965b4443d55cf955,ETH,1,tayvano_lazarus,state_actor_dprk,,,,GOPLUS_CONFIRMED
 0x34914c3e28b766c99db02207d083ef3afbe7c867,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing133458,CONFIRMED_MALICIOUS
 0x3496a1f02dbfeed89dfcf1588be9432477ceb85c,ETH,1,poison_hunter,address_poisoning,2,Phish / Hack,Fake_Phishing92294,CONFIRMED_MALICIOUS
 0x3497d9522042cb4ed9df2d4bb3ea1519fd96d9df,ETH,1,chainpatrol,blocklist,2,Phish / Hack,Fake_Phishing6497126,CONFIRMED_MALICIOUS
