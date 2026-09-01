@@ -20,6 +20,7 @@
 | `phantom_sol.csv` | [phantom/blocklist](https://github.com/phantom/blocklist) | 솔라나 스캠 토큰 mint 3,055 (지갑 아님 → 토큰 파일로 분리) |
 | `rekt_attacker.csv` | [rekt.news](https://rekt.news) leaderboard | 314개 해킹 사건 크롤 → **문맥 판별로 공격자 주소만** (ETH 360 / SOL 21). 피해자·멀티시그·핫월렛·토큰mint·타체인 주소는 배제. 애매분은 `raw/rekt_review.jsonl`에 수동검수 대기 |
 | `defi_rekt_attacker.csv` | [De.Fi Rekt Database](https://de.fi/rekt-database) GraphQL API | **4,084개 사건** 전량 크롤 → description 본문에서 문맥 판별 공격자 주소 (ETH 918 / SOL 20). 프로그램·프로토콜 주소까지 배제 (Solend/Port program addr 등). 애매분 `raw/defi_rekt_review.jsonl` |
+| `solanafm_flagged.csv` | [SolanaFM Flagged](https://solanafm.substack.com/p/flagged-scam-token-wallets-on-solana) | 온체인 조사 기반 공격자 지갑 10 (스캠토큰 배포 4·가격조작 5·treasury 1) |
 | `allenhark_sol.csv` | [AllenHark](https://allenhark.com) | Pump.fun 스캐머 (매일 갱신) |
 | `ethlabels_phishhack.csv` / `ethlabels_malicious.csv` | dawsbot/eth-labels | Etherscan 공개 라벨 미러 |
 | `scamsniffer_phishing_eth.csv` | ScamSniffer | 피싱 드레이너 (라이브 재수집) |

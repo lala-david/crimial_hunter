@@ -1,6 +1,6 @@
 {
   "generated": "2026-09-01",
-  "policy": "실제 기반만 (신고·라벨·제재·수사·온체인 사실). 휴리스틱(BFS/wash/ML) 제외.",
+  "policy": "실제 기반만 (신고·라벨·제재·수사·온체인 사실). 휴리스틱(BFS/wash/ML/aged-wallet) 제외.",
   "ethereum_confirmed": {
     "total": 34685,
     "etherscan_official_malicious": 27479,
@@ -16,32 +16,32 @@
     "COMMUNITY_ONLY": 190011
   },
   "solana_wallets": {
-    "total": 13263,
+    "total": 13268,
     "by_source": {
       "allenhark": 6488,
       "chainabuse_crawl": 3758,
       "rugcheck_creator": 1800,
       "tayvano_lazarus": 630,
-      "chainabuse_desc": 500,
+      "chainabuse_desc": 499,
       "chainpatrol": 51,
       "solphishhunter": 36,
       "silent_killer": 26,
       "usdt_sol_frozen": 25,
       "kismp_defihack": 24,
-      "defi_rekt": 20,
-      "rekt_news": 20,
+      "rekt_news": 19,
+      "defi_rekt": 17,
       "usdc_sol_frozen": 13,
+      "solanafm_flagged": 10,
       "ofac_sdn": 4
     },
     "by_onchain_type": {
-      "WALLET": 5535,
-      "EMPTY": 7681,
-      "unclassified": 47
+      "WALLET": 5547,
+      "EMPTY": 7721
     },
     "file": "solana/master_solana_wallets.csv"
   },
   "solana_tokens_separated": {
-    "total": 104597,
+    "total": 104602,
     "file": "solana/master_solana_tokens.csv"
   }
 }
