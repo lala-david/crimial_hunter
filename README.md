@@ -24,9 +24,9 @@
 | | 개수 | 파일 |
 |---|---:|---|
 | 🟣 **솔라나 스캠 지갑** | **13,268** | [`solana/master_solana_wallets.csv`](solana/) |
-| 🔷 **이더리움 확정 스캠** | **35,709** | [`ethereum/master_ethereum_confirmed.csv`](ethereum/) |
+| 🔷 **이더리움 확정 스캠** | **45,558** | [`ethereum/master_ethereum_confirmed.csv`](ethereum/) |
 | 🪙 솔라나 스캠 토큰/풀 (분리) | 104,602 | [`solana/master_solana_tokens.csv`](solana/) |
-| 🔍 이더리움 전체 감사본 | 227,430 | [`ethereum/master_ethereum_verified.csv`](ethereum/) |
+| 🔍 이더리움 전체 감사본 | 234,722 | [`ethereum/master_ethereum_verified.csv`](ethereum/) |
 
 > 매일 자동 갱신 — 최신 수치는 [`MANIFEST.json`](MANIFEST.json)
 

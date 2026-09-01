@@ -37,16 +37,27 @@ if os.path.exists(gpp):
 # 교차확인 집계에서 제외: Etherscan rep 2/3 없이는 confirmed 진입 불가.
 TAINTED_TRACE = {"tayvano_lazarus", "tayvano_trace_extra"}
 
+# 고신뢰 외부 소스 — 제재·발행사집행·전문큐레이션·수사 ground-truth.
+# 커뮤니티 미검증 신고와 급이 다르므로 단일 소스여도 confirmed 자격.
+HIGH_TRUST = {"ofac_sdn", "chainalysis_oracle", "revokecash",
+              "ponzi_unica", "elementus_plustoken",
+              "fbi_ic3_psa250226", "jp_mof",
+              "opensanctions:il_nbctf", "opensanctions:us_fbi_lazarus",
+              "usdt_banned", "usdc_banned"}
+
 def tier(rep, labels, sources, addr):
     labs = (labels or "").lower()
     is_exch = any(h in labs for h in EXCHANGE_HINTS)
+    src_set = set((sources or "").split("|"))
     if rep in ("2", "3"):
         return "CONFIRMED_MALICIOUS"          # Etherscan 공식 악성
     if rep == "0" and is_exch:
         return "EXCHANGE_FALSE_POSITIVE"      # 거래소/합법 → 제외 권장
+    if src_set & HIGH_TRUST:
+        return "CURATED_CONFIRMED"            # 제재·집행·전문큐레이션·수사 (단일이어도 고신뢰)
     if addr in gp:
         return "GOPLUS_CONFIRMED"             # GoPlus 독립 악성 라벨 (2차 검증)
-    clean = [s for s in sources.split("|") if s not in TAINTED_TRACE]
+    clean = [s for s in src_set if s not in TAINTED_TRACE]
     if len(clean) >= 2:
         return "CROSS_CONFIRMED"              # 다수 소스 교차확인 (추적 데이터 제외 기준)
     return "COMMUNITY_ONLY"                   # 커뮤니티 단일 신고(미검증)
@@ -68,8 +79,9 @@ hdr = ["address", "chain", "source_count", "sources", "categories",
 with open(os.path.join(OUT, "master_ethereum_verified.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(hdr); w.writerows(out_rows)
 
-# 고신뢰 확정 = Etherscan 악성 + GoPlus 2차확정 + 교차확인 (거래소 위양성 제외)
-conf = [r for r in out_rows if r[8] in ("CONFIRMED_MALICIOUS", "GOPLUS_CONFIRMED", "CROSS_CONFIRMED")]
+# 고신뢰 확정 = Etherscan 악성 + 고신뢰큐레이션 + GoPlus 2차확정 + 교차확인 (거래소 위양성 제외)
+conf = [r for r in out_rows if r[8] in ("CONFIRMED_MALICIOUS", "CURATED_CONFIRMED",
+                                        "GOPLUS_CONFIRMED", "CROSS_CONFIRMED")]
 with open(os.path.join(OUT, "master_ethereum_confirmed.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(hdr); w.writerows(conf)
 
