@@ -33,12 +33,13 @@ try:
              os.path.join(RAW, "scamsniffer_address.json"))
 except Exception as e:
     print(f"  (scamsniffer 다운로드 실패, 기존 raw 사용: {e})")
-# combined.json = 피싱 도메인별 드레이너 주소 매핑 (address.json보다 넓음)
-try:
-    download("https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/combined.json",
-             os.path.join(RAW, "scamsniffer_combined.json"), min_bytes=50000)
-except Exception as e:
-    print(f"  (scamsniffer combined 다운로드 실패, 기존 raw 사용: {e})")
+# combined.json = 피싱 도메인별 드레이너 주소 매핑, all.json = 전체 통합(address 4,600+)
+for fn in ("combined.json", "all.json"):
+    try:
+        download(f"https://raw.githubusercontent.com/scamsniffer/scam-database/main/blacklist/{fn}",
+                 os.path.join(RAW, f"scamsniffer_{fn}"), min_bytes=50000)
+    except Exception as e:
+        print(f"  (scamsniffer {fn} 다운로드 실패, 기존 raw 사용: {e})")
 
 import re as _re
 _ETH = _re.compile(r"^0x[0-9a-fA-F]{40}$")
@@ -47,6 +48,13 @@ ss = json.load(open(os.path.join(RAW, "scamsniffer_address.json"), encoding="utf
 for a in ss:
     if _ETH.match(a):
         addr_domain.setdefault(a.lower(), "")
+# all.json의 address 리스트 (address.json보다 완전)
+ap = os.path.join(RAW, "scamsniffer_all.json")
+if os.path.exists(ap):
+    alld = json.load(open(ap, encoding="utf-8"))
+    for a in (alld.get("address") or []):
+        if isinstance(a, str) and _ETH.match(a):
+            addr_domain.setdefault(a.lower(), "")
 cp = os.path.join(RAW, "scamsniffer_combined.json")
 if os.path.exists(cp):
     for domain, addrs in json.load(open(cp, encoding="utf-8")).items():
