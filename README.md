@@ -36,8 +36,11 @@
 ├── ethereum/   🔷 이더리움 데이터 + 등급 가이드     → ethereum/README.md
 ├── solana/     🟣 솔라나 데이터 + 온체인 분류       → solana/README.md
 ├── sources/    📡 소스별 원천 데이터 (25+ 소스)     → sources/README.md
-└── scripts/    ⚙️ 수집·검증 파이프라인 + 방법론     → scripts/README.md
+├── scripts/    ⚙️ 수집·검증 파이프라인 + 방법론     → scripts/README.md
+└── research/   🔬 러그풀 조기감지 특징 분석         → research/README.md
 ```
+
+> 🔬 **연구 하이라이트**: [러그풀 조기 감지 분석](research/) — 단일홀더 지분 ≥90% 하나로 러그의 69%를 오탐 3.4%에 검출. "물량 독점"이 러그의 본질임을 러그 1,500 vs 정상 350 대조로 실측.
 
 각 폴더의 README에 데이터 설명 · 스키마 · 사용 가이드가 있습니다.
 
