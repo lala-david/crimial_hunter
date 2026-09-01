@@ -1,4 +1,7 @@
 address,chain,source_count,sources,categories,onchain_type,ref_date
+6D7fgzpPZXtDB6Zqg3xRwfbohzerbytB2U5pFchnVuzw,SOL,3,chainabuse_crawl|defi_rekt|rekt_news,chainabuse|exploit,WALLET,2022-04-01
+Esmx2QjmDZMjJ15yBJ2nhqisjEt7Gqro4jSkofdoVsvY,SOL,3,chainabuse_crawl|defi_rekt|rekt_news,chainabuse|exploit,WALLET,2022-07-03
+GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy,SOL,3,chainabuse_crawl|defi_rekt|rekt_news,chainabuse|exploit,WALLET,2023-10-10
 HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,3,chainpatrol|rekt_news|tayvano_lazarus,blocklist|exploit|state_actor_dprk,WALLET,2026-04-01
 2BLv7U2ynTwzxSe2wdfrgYTjogMfXKK2cYE59iVo9D2X,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2025-06-23
 2Rs4xxz1SdZRZBRgzBmSY7T5AZUSGRDh5GpiySoKsamW,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
@@ -12,6 +15,7 @@ HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,3,chainpatrol|rekt_news|tayvano
 4BGKKuj26cbxJNszGXMMzw1gettydfg8SVfaAnRWZ9ud,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2022-04-16
 4QFiKg8ejx5LfqqLNbnKsiCnbEgRtgakBF6abMrkquKW,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2026-07-22
 4WibHYwCn42GgnYeQMftE3yzqPWYLtStucXNgFzjknwN,SOL,2,chainabuse_crawl|rugcheck_creator,chainabuse|rugpull_dev_creator,EMPTY,2026-05-12
+4WnPebowR4HHfumvNPaDjG6Pa5Hi1jxLm6xmmBq33QVk,SOL,2,defi_rekt|kismp_defihack,defi_hack_attacker|exploit,WALLET,2026-06-10
 4gWcXNdAo9BnQTDriksi2voUY6BWx1fggm7Dr59UNhA1,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,WALLET,2026-08-22
 4vRmckRfZ6xGkt4eApDfpPpRVvtBSS2mRcrt5DTayBEQ,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2025-02-01
 5JkXEr6m5MsjCpV6Kf1ap5GnuBMer5kGmkqNBrLYn3Sp,SOL,2,chainabuse_crawl|rugcheck_creator,chainabuse|rugpull_dev_creator,WALLET,2026-04-16
@@ -21,7 +25,6 @@ HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,3,chainpatrol|rekt_news|tayvano
 5gFF8fdjTjTza83JWBv7qnRVvLR32yPp4Wpx3ycuxk5L,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,WALLET,2024-03-31
 687nV1efL1yprxkKUo2N6njPVKXiu2QqoqU5giEDzevZ,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
 6AZpMspmfdpA7jKCzHpypy18szmgh9sPTvxz6vcPY22a,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
-6D7fgzpPZXtDB6Zqg3xRwfbohzerbytB2U5pFchnVuzw,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,WALLET,2022-04-01
 6JCNpXi6zXeT1bQUj4b7jaEa2nJvAnkxSKfCj6mbgzD4,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
 6TFv5atgoCaPaFXxFip6SFgBL2BJEhUhP4fv4CL5dsS8,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2026-01-23
 6fkkfBhSxqFHfKcMR5vRwK7wn7WJ68xy5y39GshSvwQg,SOL,2,chainabuse_crawl|rugcheck_creator,chainabuse|rugpull_dev_creator,EMPTY,2025-04-21
@@ -32,10 +35,12 @@ HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,3,chainpatrol|rekt_news|tayvano
 7FeBL5D5BAkQaEReFuCkYpxGEuFipReUEktrzt9MM9Zm,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,WALLET,2025-12-16
 7G5bBWvQXj38EG5GCyCb5CFXhTNJjK2bzYYdnG2db2g9,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,EMPTY,2023-10-08
 7HTteg1Uw2kLqZGg2onSp1Z2d7ywvmfSuSJdmGsnpsE6,SOL,2,chainabuse_crawl|rugcheck_creator,chainabuse|rugpull_dev_creator,EMPTY,2026-05-17
+7RoMqGAcU7S6ESAhPDvB9iSXvASUhuoE8u7dYRxGBew9,SOL,2,defi_rekt|tayvano_lazarus,exploit|state_actor_dprk,WALLET,2026-04-01
 7kCNeLRQno5EcY6isJitgXwfiEWgdYYAtiow1TuZc3sE,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
 7raxiejD8hDUH1wyYWFDPrEuHiLUjJ4RiZi2z1u2udNh,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,EMPTY,
 7uTT8Xi5RWXzy7h9XL244GRgEycDYDhLjr3ZyNdXi8pZ,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,WALLET,2026-05-08
 8cvKyqSxMKVTdb6XqxQvhZa8iRRyg3fqe3Wn7xkLqxQQ,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
+8ggviFegLUzsddm9ShyMy42TiDYyH9yDDS3gSGdejND7,SOL,2,defi_rekt|tayvano_lazarus,exploit|state_actor_dprk,WALLET,2024-02-06
 8i5U2uNBEuTc4zskYP14zbebDg2RSwrrG8REhEnJb97K,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 8pYJjGzNoz3gsSwe7KaTS4sqa1TLbmzueXKHnxzpp5cJ,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 8ubo4HbWJHKyFJYJc2Gh74dxCP7bN7Fu2Pi13KZ9rGxw,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,WALLET,
@@ -74,6 +79,7 @@ Cnb6fyuosrzx9GBgm5fHx3rNoiZfK81Ja4M93DNVvGir,SOL,2,chainabuse_crawl|tayvano_laza
 CompuV3LmCTW7AGGnM6YBftCJkKP3ZKkK1fCAY8L7eM1,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,EMPTY,2024-01-30
 CpzWHUVaoieE3nHbKWYzN5UQKu6WsvM4wDSDvxc73pcS,SOL,2,chainabuse_crawl|rugcheck_creator,chainabuse|rugpull_dev_creator,EMPTY,2025-04-21
 CwezuQAc4HNMsKymXffGfG4PFqLazyumdZ2wfQxzmBaC,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
+CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka,SOL,2,chainabuse_desc|defi_rekt,community_reported_desc|exploit,WALLET,2022-02-27
 D8Q2BmoGEkUvgGFAQZSNZLGcByFHDGmnMSESZkLnZesT,SOL,2,rugcheck_creator|silent_killer,rugpull_dev|rugpull_dev_creator,WALLET,2026-07-17
 D9VACAfVmvTZxHLnmf1JNXhTerFRGUUEkWSeQXvs4FdJ,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
 DXq2nz7p9pwsHs63cJAzqHtUAUS5bcsvLJe7Yk7LBW4m,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
@@ -86,7 +92,7 @@ E9vf42zJXFv8Ljop1cG68NAxLDat4ZEGEWDLfJVX38GF,SOL,2,chainabuse_crawl|chainabuse_d
 EFaQQTGywnD4CjQQvTugUiyVT4LV9G6MsWqiub8X6unN,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 EFrwj8VxGJtzqrLCUCfczGU8UqqpgNmcggbbBVLxaptU,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 EKko14NvgqdvNttUb8JjXkVGuUs6BTikjfN3hqW4LQoL,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,WALLET,
-Esmx2QjmDZMjJ15yBJ2nhqisjEt7Gqro4jSkofdoVsvY,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,WALLET,2022-07-03
+EXaJnmrLf7RAKLfn1hehoKX94keKYmvZm5H5zuYVeh42,SOL,2,defi_rekt|rekt_news,exploit,unclassified,2026-07-06
 EvSqfCUavrKJ6KZx7hb43K6faTEzFu6DSsZoPQu5JUaS,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,EMPTY,2024-12-16
 Ez7KAmhBXLAjFj5MKYbNNUipU72NDUrGHzRvBS5cjGiy,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
 EzuXqpdCvModRhSMGfSNFLBaNpGQpw9rJpaMm1WzYy3R,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,EMPTY,2025-02-01
@@ -101,7 +107,6 @@ GLF8nEiqC72PcGjJJ6LracbJKkXSWFVQ1774rccaepBJ,SOL,2,chainabuse_crawl|solphishhunt
 GZd3BGEAeNiU7Av14FVCctyaMJkBCk9U6RBMUxuGYQYz,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 GZxiVHg1JM6gCWRG7FwhaD6gPYpcLhiJ21s4ga7Ynfus,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,EMPTY,2026-05-28
 Gck5PWhKL4Qn87bhFwpL19Y5gkAbFN93GXXsTzuJ1VX4,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,WALLET,2024-12-17
-GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,WALLET,2023-10-10
 GmCZ6eb3761QmngQeWTdfKePjq8x4RRGDRj9nCGQsu4u,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2024-10-27
 GpTXmkdvrTajqkzX1fBmC4BUjSboF9dHgfnqPqj8WAc4,SOL,2,allenhark|rugcheck_creator,rugpull_dev_creator|scammer_pumpfun,WALLET,
 Gux6cujdTabgkaaBn8iDpBBqqQLbZPTyNad14NJCafg8,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,WALLET,2024-03-29
@@ -118,6 +123,7 @@ N9SyhAXDckG4y2B911paJPpwS7cvxWSxcng53mebXGf,SOL,2,allenhark|rugcheck_creator,rug
 NativeLoader1111111111111111111111111111111,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,EMPTY,2025-08-15
 So11111111111111111111111111111111111111111,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2026-05-16
 TYFWG3hvvxWMs2KXEk8cDuJCsXEyKs65eeqpD9P4mK1,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,EMPTY,2025-09-08
+WZy4xxpqktWa1b6MPMRiWsD487CT8mDcapB6GufBJCH,SOL,2,defi_rekt|tayvano_lazarus,exploit|state_actor_dprk,WALLET,2025-10-30
 b8pyTBjatpNCVaKxRbPkqiujziAcvTXkcQeYDb11111,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,EMPTY,2024-01-29
 burn68h9dS2tvZwtCFMt79SyaEgvqtcZZWJphizQxgt,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2025-08-12
 iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_desc,chainabuse|community_reported_desc,WALLET,2026-04-12
@@ -601,6 +607,7 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 2XzoaF6aPh3DH492pYBtyxFrknQZUSCSQcVSEWJSo8cJ,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 2Y11BeiYPTXVwt9KX6EoAcBnzYvjeKhhRhqwG6ESjeti,SOL,1,rugcheck_creator,rugpull_dev_creator,WALLET,
 2Y7HDRX8PUcMGkwaHvdb3YvWygGqXhU8dw6uWC2M9CnH,SOL,1,chainabuse_desc,community_reported_desc,EMPTY,2022-08-03
+2Y8hZh5on4q9wyqXoNYC8oYPUVQMunrzqW8qDmxup4R8,SOL,1,defi_rekt,exploit,unclassified,2024-03-26
 2YBiXn1azHUtdqRaKbCVjtzz8J4HuCtge2a9Gng8pPS4,SOL,1,allenhark,scammer_pumpfun,WALLET,
 2YCDn6vsihtGc1mtQqmVbEVaocuBpuGc8eZA7QPr2gtn,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 2YERiDP8JqbmKDDUhPQtEfWozafQm1cdwi6KrmYo2app,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
@@ -1727,7 +1734,6 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 4WZCw4acRmgs28aqLycJXj1GkuG2k7Z1pJLYxNRLAQJ6,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 4WbdnJaXo1p88A6XZC2z2LQhdDM8RMuVyDmPUM2ncs9b,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 4WfNXVppzSb2SYDU9G58UPWyBGUbaEUxmGvsY7aJpXMC,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-09-09
-4WnPebowR4HHfumvNPaDjG6Pa5Hi1jxLm6xmmBq33QVk,SOL,1,kismp_defihack,defi_hack_attacker,WALLET,
 4WnVie574f7QjYz78bRuKSEYQsmkkEDR7jcCpjTX7CuA,SOL,1,allenhark,scammer_pumpfun,WALLET,
 4WoAh4fx2MNXNbmeWMEySe34oALvJv9JBFu9xKqBbed6,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-03-13
 4Wvf5ZFXHo1d9ohsiB2qhk3VRf6WfzWjNGoSARZ32BFp,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -1845,6 +1851,7 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 4g4RGwSd5HYSJrpbQu9k36GQznBaw9fjGbCQqbkDH9ce,SOL,1,chainabuse_desc,community_reported_desc,EMPTY,2025-04-15
 4g4p9kdtHRbYbb7HZ5mGpmQ7x8eNbtxn2ArwFGMcMBjX,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 4g4sK1L4tjZetGYA8rzM11Zs9vwwcpFBeKh2rLUpgkYp,SOL,1,allenhark,scammer_pumpfun,WALLET,
+4gHb9tUASDRgpe2vdi6Y2jh8mbSqPCmyf1ZvSUcazKSc,SOL,1,defi_rekt,exploit,unclassified,2024-04-04
 4gKjjye5GDXR15s1VgB3ZMKVBf97H4DUfAZcst4KSRdW,SOL,1,chainabuse_crawl,chainabuse,WALLET,2026-07-28
 4gLrqncNtZbTpmKRMz8eC8z56MDob4Agdkbjzh4mCMer,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-07-17
 4gYfNgYmFQZtiwjmPTxXiBh4sqTqPvpNQUqmNximt2gN,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -2268,6 +2275,7 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 5E9jkwEzGdG24UPpafgpgb33M2r9jETZX7ajMGLWQu9U,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2026-08-26
 5EJNbsLMzvukJt49jHXV1Zcow9fDmJEdtAUpZTAYH8EU,SOL,1,allenhark,scammer_pumpfun,WALLET,
 5EJrzY79MLHsfrtYpnVCNE89wmkpwCQ9U7hS9hAqqMLC,SOL,1,allenhark,scammer_pumpfun,EMPTY,
+5ELHytHM4cvKUPCWX8HPwkwtw3J866Wtexdpo8PPxp2u,SOL,1,defi_rekt,exploit,unclassified,2021-08-19
 5EgK89PLP6M7FmWQMDLgxK1F5q6rzELrNBdBYfu1bF4C,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-10-16
 5Ek8wrBP5SapBG1YogCRWXLEA21edABWZm4ooARZNZZS,SOL,1,allenhark,scammer_pumpfun,WALLET,
 5EoMcLf3pXraoNSF7DhWoyo4PAby2RSmXCX95ZnNqwSy,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-07-22
@@ -3970,7 +3978,6 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 7Rd8nR4h57TgBo9LQhbMpS8DXXsdtHCwuWFzXo4SSdfN,SOL,1,chainabuse_crawl,chainabuse,WALLET,2026-02-01
 7RmcvonEb7L7AaN2fWyMkmRk2CNJVsQ3XWF2kScLUqr,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 7RndRF3iFRZCCSDaBNYC8EYQyXLLJKpPmx9JRBQEg8wA,SOL,1,allenhark,scammer_pumpfun,EMPTY,
-7RoMqGAcU7S6ESAhPDvB9iSXvASUhuoE8u7dYRxGBew9,SOL,1,tayvano_lazarus,state_actor_dprk,WALLET,
 7RstcJPut68Q9D9HstWToqm5skRJKqvnproAo3pM7txk,SOL,1,tayvano_lazarus,state_actor_dprk,WALLET,
 7Ry85vL552Goa2a1ZHS8dSr4cLG3UPHG5DtbBmpLNZk3,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 7Ry8qRJQ9vn5yDvQ2cGQYkyQR1aS7VV8CU8XCu2L4CLP,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -4958,7 +4965,6 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 8gVngaB89nZHNxiaev61X1z9ekQXkFtDLJ6FktZNfgRX,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
 8gWHFYWSHBCgcyorWiyS7k1fWN4NycQA3bue68vGyH1S,SOL,1,chainabuse_crawl,chainabuse,WALLET,2024-07-23
 8gbKNu2GGbzZFYsNLPnLxD3KE38Y3TLDcp3DbbebWSCV,SOL,1,allenhark,scammer_pumpfun,EMPTY,
-8ggviFegLUzsddm9ShyMy42TiDYyH9yDDS3gSGdejND7,SOL,1,tayvano_lazarus,state_actor_dprk,WALLET,
 8gsW3AYSXNYiznt4dnbKxHGsypdpQ6nGFjxF9FKVqaYx,SOL,1,rugcheck_creator,rugpull_dev_creator,WALLET,
 8gvRJyf7uAqj81aG6xnXxxgzLYKRfmhaRMuqoSbifFNA,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
 8h97TLfKpdp2d6nYW629d97uY1EnuHusEqjkVj2MSq3U,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -5707,6 +5713,7 @@ iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu,SOL,2,chainabuse_crawl|chainabuse_de
 9bpt7XVgRwUfEhnDP8hePugbVE1VkXEEFbh3CVfeBzbg,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 9bsn9vh2c6gcJcQzRadFyV7g2mwQW5YVcu1Vp5pstq8x,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 9btcB8BNBxdbReSWzti3ZsNpCqMM8ZkxgnUHE7H4fg21,SOL,1,allenhark,scammer_pumpfun,WALLET,
+9bxWkNf3BtJ6iehq9KbX9uCWMjem4TFiPZ19T2sYJHvQ,SOL,1,defi_rekt,exploit,unclassified,2026-07-06
 9c14q8ebwbzmmkRUY91VFUeTrvZi2LV44XSty6WmNiTy,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-09-20
 9c1dutyCVzZQzV7YA11aCRqULRR9rg5STvjaVdxkoLB1,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-03-13
 9c22pGT7J5NduYJVcPgsa7wkQKXusbpyNwVB5HVa5mvP,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
@@ -8111,6 +8118,7 @@ Ci4qecoTMPkkhXSr7Ttw8tp4sF5i8BhQtKKE26vDR8RZ,SOL,1,allenhark,scammer_pumpfun,WAL
 Ci7uaDY12ycEibuFu1dWdabxRdZLJc6TjeLHShqjpp9e,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 CiAakJWYmvpFSquy8TtTAFmdekzjksuFu352DQH8tV6y,SOL,1,allenhark,scammer_pumpfun,WALLET,
 CiBEsnv2x3ZSFdX3tEvzjUAzDZbGjsubgKazuaZxRaDe,SOL,1,allenhark,scammer_pumpfun,EMPTY,
+CiDwX4eMS7hfit1oMHK6MCrgve9HVvgm2PAp7Cz6Bck,SOL,1,defi_rekt,exploit,unclassified,2022-07-02
 CiGpjMzMmu3PtecCcc3TVhPagcpwpiHcL7cWPYTCp3Dy,SOL,1,allenhark,scammer_pumpfun,WALLET,
 CiUWpiCCRAVsdE5NoSmiqdmmLeK4tqv2o4TWEU59XZfj,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
 CiUgdmB2LArXNscmAfgr2ZonkppZpiPFpS8vV92hvGnM,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-11-13
@@ -8339,7 +8347,6 @@ CxPqPhpkC5xGEoCD6Yz5tvehthyveQqsLbsFjtdn5ULL,SOL,1,allenhark,scammer_pumpfun,EMP
 CxS4qFVwVdr5hitYxzNzn3UN3iWGR6tyfCM2NxXWzwq4,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
 CxYmkGpkou5G2WRu891marfKmJVH6HuPnhhTERa7a4oR,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 CxdA8vUGdrfmnXvYh3DQkpNB2roiJz4hciM8DqK6CYih,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
-CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka,SOL,1,chainabuse_desc,community_reported_desc,WALLET,2022-02-27
 CxjiKj79EEbY2M7iXBE2dzbxUjXfsjYWKqa8FTQxnHec,SOL,1,chainabuse_crawl,chainabuse,WALLET,2024-03-05
 CxjxsGm7o9yUyfJvAE4XXxv9v2g6G18fFRa1oomx6CK3,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 CxqjwP6y3qEsTDpJGEvtqVYbei5d2jQnzbzbG11sapbP,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
@@ -9578,7 +9585,6 @@ EXXVPZXgM5TAhyiBR741r3vksr2owj5TPcyET8sFE9gc,SOL,1,allenhark,scammer_pumpfun,EMP
 EXYBeLSWKgf1FuHocugvtCNRCCpJ3jVJcqoKfcnx4QHg,SOL,1,chainabuse_crawl,chainabuse,WALLET,2026-05-29
 EXYLQZ5aqUH3g4mY7dq8wGTAfNdfUX76ur6bVJLf2tvx,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 EXZ1gBZxxM3oc8vYh7SF5wZCJVfBsY66n7U8vd266RDy,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-12-02
-EXaJnmrLf7RAKLfn1hehoKX94keKYmvZm5H5zuYVeh42,SOL,1,rekt_news,exploit,unclassified,
 EXeRjcSgTjPVoirFR33UjPHfcBF4bedt1Rjt2CxqsT4d,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 EXfxBZwwMMZmwFkJMmWT3MBG56ChUr8TzbybbbAFECcE,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 EY6DP8sZ2kLDPefzfk9zcYr8WAW4vEb2PqJjDHadek4t,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -9730,6 +9736,7 @@ EiqC1tZyDqVstukU8VtWKqdUHV8DaGSK7MTHMi6iZTvU,SOL,1,allenhark,scammer_pumpfun,EMP
 EiqLYmz1kbz6XRmZgng9snfxeaBo2R8en2QLMhQ1jz5K,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 EishRjFzqKsQnUL1vYFxs66mMYycKBYkDtFRdCF6U7c6,SOL,1,chainpatrol,blocklist,WALLET,2026-03-25
 EiyB3sHdrrcZCUMv4YJWpxSNSpTxy336wWqbQXN8t2Wr,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
+EiySftqENviEh339R1UhXN2Yxg9wi4ZpVHiRd99SXap7,SOL,1,defi_rekt,exploit,unclassified,2021-08-20
 EizcmExpWk3nm6TiGBVNHwSJQdGqtRJtpv1TGUWuVdAV,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 Ej5nzFhvWRprEuRwZC7KqDsiyEmXpWsTb8XosuLFXPwc,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 Ej8J9LgS5hpVEem4qAgHBNWFYFchy4XAUiejsDaGnmGK,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-01-25
@@ -10200,6 +10207,7 @@ FLiPgGTXtBtEJoytikaywvWgbz5a56DdHKZU72HSYMFF,SOL,1,chainabuse_crawl,chainabuse,W
 FLiPggWYQyKVTULFWMQjAk26JfK5XRCajfyTmD5weaZ7,SOL,1,chainabuse_crawl,chainabuse,WALLET,2024-07-17
 FLipG5QHjZe1H12f6rr5LCnrmqjhwuBTBp78GwzxnwkR,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-10-26
 FLipgewPwNeqvwPFW3CvMTLpHTvuX7BQoXC6xhrWiCR3,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-09-16
+FLq2GE2x4kv5UbK6Qw2h9FtBPcLeZnNhwSeGvDDokYbH,SOL,1,defi_rekt,exploit,unclassified,2024-02-06
 FLwXRaN8oVqPuuM455gL6W31VvdxXo4pADQsuqCveqcP,SOL,1,tayvano_lazarus,state_actor_dprk,WALLET,
 FLzMfW3QqgjsdMAH8TT9nRSnmbzNpuJrHbmJ1NxSTK57,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 FM1TBPiSnehrGvBqFsMYF7jHhMJ3LuzJdRwWgZ8DgApL,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -10298,6 +10306,7 @@ FTpFTiyxM37n8hFy9EgRYBnDY3WhwAqsJFe71z5Ler87,SOL,1,rugcheck_creator,rugpull_dev_
 FTvkg26YQZSR2FmG81N2FoNUPZgYmaPsSZ5P8uSjtUd8,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 FTz7BHvocVWvWGG9jwFwoLU9H4bTemrGkKQd99T57U9,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-11-10
 FU1gf3PrYRfncyd1wnWZhjkiWWn8pFEN63nxpMcv9vHr,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
+FU2cbiQea7mRX72BhPG716b1Q8eWu62pR2Ue5S9DC8jm,SOL,1,defi_rekt,exploit,unclassified,2025-01-21
 FU95ttwoSfEmPjjWzD8shS3ZKPfMtbhfXwb4u4JE2PBd,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 FUAp3VRkm9JZeLEHBq3yoj1dLtMiEDHCjskTrUYakX5,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 FUBKm3zywnNo5CQyoSp7exfAteME6Z6vyLGNh5Z8wZcK,SOL,1,allenhark,scammer_pumpfun,WALLET,
@@ -12241,6 +12250,7 @@ HuK63fc2ssU7siqSjDE4PUy2J2omJwHyQ9RmJYCRwYkK,SOL,1,allenhark,scammer_pumpfun,EMP
 HuKaTZxT4iFeqV92tzRKraP92gj6wYyefiefoDZX284N,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
 HuXNdY67ApxjWay7t3EKxEgzWr9jECsdbxBs6ngQroZC,SOL,1,chainabuse_crawl,chainabuse,WALLET,2026-08-21
 HudadGm6yhqvRwpmJKeJScXvDyyCJa61m9BWxXPtnwLK,SOL,1,allenhark,scammer_pumpfun,EMPTY,
+HuiYfmAceFkmhu3yP8t3a6VMYfw3VSX2Ymqqj9M2k9ib,SOL,1,defi_rekt,exploit,unclassified,2021-12-21
 HujCU9tEpfJZpJHMv3bwk1TjkartUQgh7uZEAVeUp4C8,SOL,1,chainabuse_crawl,chainabuse,WALLET,2026-03-21
 HunPqDz9EYPKhs29WPPXE1LA5PM9c8Si6SKVWx9AbnzK,SOL,1,rugcheck_creator,rugpull_dev_creator,WALLET,
 Huqk5Gm82dffzXuD5WFEg54VFyEp39CSsFm9ZN4WVGT3,SOL,1,allenhark,scammer_pumpfun,EMPTY,
@@ -12520,6 +12530,7 @@ KjF2yvBZc6g57V3XPuKgyVGZcWaXbD6Yq64PLCJ1RXP,SOL,1,chainabuse_crawl,chainabuse,WA
 Kjc3uuNbBPEfHFz6wGCyygyBC9udQ3etdWFyfxShB2i,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 KoSNAdrauadoZ2JeiEu8DWjtf3YNb2CKAe51e2dLtWf,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 L3Lf9sMqEQAYKJvU6QFvqYCzpb2VCoSDKk5VccK9xHt,SOL,1,chainabuse_crawl,chainabuse,EMPTY,2025-09-14
+LAYERruDbdbxZTT4cfFZPRLEoG4cGwn8HpwpgTToWDg,SOL,1,defi_rekt,exploit,unclassified,2025-01-21
 LDn18YuXHyHWjaHCH3A4QKz6snGbhWmAmoU4oZhF2xC,SOL,1,chainabuse_crawl,chainabuse,WALLET,2025-11-24
 LEP1uHXcWbFEPwQgkeFzdhW2ykgZY6e9Dz8Yro6SdNu,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
 LKj9iErdowCqYpBpxTTekJ3e27XFGZusg1eqk54kCzn,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
@@ -12696,7 +12707,6 @@ WGzaJ9W89x8BtVSZcKk57c5CEDVeYFg3fdwWLwyPsHU,SOL,1,allenhark,scammer_pumpfun,EMPT
 WMQ6mmC4g4Fv5Y5SVrWbjncbjcS8cuhpitdUXFDvR3f,SOL,1,rugcheck_creator,rugpull_dev_creator,EMPTY,
 WR87TKyUfMDzGojFvRxq2f1xf7Jcgkvoc7Z2tDVLHdY,SOL,1,tayvano_lazarus,state_actor_dprk,EMPTY,
 WZw575pr9Z7CXURLiwSTeGWhgA1sXemVWWt7jA7s5sT,SOL,1,allenhark,scammer_pumpfun,EMPTY,
-WZy4xxpqktWa1b6MPMRiWsD487CT8mDcapB6GufBJCH,SOL,1,tayvano_lazarus,state_actor_dprk,WALLET,
 WgRuyKSPzZJT1cV5Qp8CzSJZfDUjM1iwBk7Zfpjeh96,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 Wk7AfXgtcja5xD8STMQ8z2Qryu16iQQSiqxSjdRM8HC,SOL,1,allenhark,scammer_pumpfun,WALLET,
 WnLqxPwVwbtdgK5HReHZmEazZ2wQnjkXi9XnX5EoELn,SOL,1,allenhark,scammer_pumpfun,WALLET,
@@ -13217,6 +13227,7 @@ yCke1fbe4hHRENGn5G7xMcWu7CRgeratsZHsw9jdUqM,SOL,1,allenhark,scammer_pumpfun,EMPT
 yFF7z1Fq8qZFmckLydnBi2MmD4iWcDY7mfkEVWpxVLz,SOL,1,allenhark,scammer_pumpfun,EMPTY,
 yHCxHBEaJW5tbndqC8JciSThr7U1cqLpdcsvHcx6PRe,SOL,1,rugcheck_creator,rugpull_dev_creator,WALLET,
 yPBupFoknrnsq3YUFYSWB4LQdqaUam9SLJkMSEqCZXV,SOL,1,allenhark,scammer_pumpfun,WALLET,
+yUJw9a2PyoqKkH47i4yEGf4WXomSHMiK7Lp29Xs2NqM,SOL,1,defi_rekt,exploit,unclassified,2022-10-11
 yZUKdFMg1NDKV3UMuVLKfXcyY7SG4ChgMPZ4j7PW8gM,SOL,1,allenhark,scammer_pumpfun,WALLET,
 yaZGPHQgM7b8MGeuXidmhUkzShpqm3bariwZhQEP6xi,SOL,1,allenhark,scammer_pumpfun,WALLET,
 ybC5vJ7nvWiErzhrwxA4JAahD1MFhfyaa6AJNhg54aq,SOL,1,allenhark,scammer_pumpfun,WALLET,

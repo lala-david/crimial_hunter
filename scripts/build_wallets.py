@@ -32,7 +32,7 @@ WALLET_SOURCES = [
     "chainpatrol_blocked.csv", "solphishhunter_sol.csv", "silent_killer_sol.csv",
     "graphsense_sol.csv",
     "tayvano_lazarus.csv", "kismp_defihack.csv", "rugcheck_creator_sol.csv",
-    "solana_frozen_stablecoin.csv", "rekt_attacker.csv",
+    "solana_frozen_stablecoin.csv", "rekt_attacker.csv", "defi_rekt_attacker.csv",
 ]  # 휴리스틱 제외: jcb07(BFS), midsummer(wash-trading) 는 수집 안 함
 # ofac SOL은 ofac_sanctions_all.csv에서, jcb07은 아래 별도
 # 토큰 소스(기본 token): Phantom mint = 스캠 토큰, 지갑 아님

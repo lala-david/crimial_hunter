@@ -2,21 +2,21 @@
   "generated": "2026-09-01",
   "policy": "실제 기반만 (신고·라벨·제재·수사·온체인 사실). 휴리스틱(BFS/wash/ML) 제외.",
   "ethereum_confirmed": {
-    "total": 34368,
-    "etherscan_official_malicious": 27432,
-    "goplus_confirmed": 1774,
-    "cross_source_confirmed": 5162,
+    "total": 34676,
+    "etherscan_official_malicious": 27479,
+    "goplus_confirmed": 1958,
+    "cross_source_confirmed": 5239,
     "file": "ethereum/master_ethereum_confirmed.csv"
   },
   "ethereum_all_tiers": {
-    "CONFIRMED_MALICIOUS": 27432,
-    "CROSS_CONFIRMED": 5162,
-    "EXCHANGE_FALSE_POSITIVE": 1491,
-    "GOPLUS_CONFIRMED": 1774,
-    "COMMUNITY_ONLY": 189771
+    "CONFIRMED_MALICIOUS": 27479,
+    "CROSS_CONFIRMED": 5239,
+    "EXCHANGE_FALSE_POSITIVE": 1494,
+    "GOPLUS_CONFIRMED": 1958,
+    "COMMUNITY_ONLY": 190020
   },
   "solana_wallets": {
-    "total": 13252,
+    "total": 13263,
     "by_source": {
       "allenhark": 6488,
       "chainabuse_crawl": 3758,
@@ -28,6 +28,7 @@
       "silent_killer": 26,
       "usdt_sol_frozen": 25,
       "kismp_defihack": 24,
+      "defi_rekt": 20,
       "rekt_news": 20,
       "usdc_sol_frozen": 13,
       "ofac_sdn": 4
@@ -35,7 +36,7 @@
     "by_onchain_type": {
       "WALLET": 5535,
       "EMPTY": 7681,
-      "unclassified": 36
+      "unclassified": 47
     },
     "file": "solana/master_solana_wallets.csv"
   },
