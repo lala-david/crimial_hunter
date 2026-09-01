@@ -82,6 +82,7 @@ def normalize():
     run_py("process_poison_phantom.py")      # Poison-Hunter(ETH 오염) + Phantom(SOL 토큰)
     run_py("process_rekt.py")                # rekt.news 사건 공격자 (문맥 판별, 기존 크롤 재처리)
     run_py("process_defi_rekt.py")           # De.Fi Rekt DB 사건 공격자 (문맥 판별)
+    run_py("process_eth_new.py")             # RevokeCash·Chainalysis오라클·폰지 (고신뢰 큐레이션)
 
 # ---------- 3c) 솔라나 발행사 동결 스캔 (증분) ----------
 def sol_freezes():
