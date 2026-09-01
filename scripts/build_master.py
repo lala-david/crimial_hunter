@@ -41,6 +41,7 @@ FILES = [
     ("defihacklabs_eth.csv", None),
     ("solana_frozen_stablecoin.csv", None),
     ("poisonhunter_eth.csv", None),
+    ("rekt_attacker.csv", None),
     ("stablecoin_blacklist_eth.csv", None),
     ("ransomwhere_crypto.csv", None),
     ("jp_mof_sanctions.csv", None),

@@ -32,7 +32,7 @@ WALLET_SOURCES = [
     "chainpatrol_blocked.csv", "solphishhunter_sol.csv", "silent_killer_sol.csv",
     "graphsense_sol.csv",
     "tayvano_lazarus.csv", "kismp_defihack.csv", "rugcheck_creator_sol.csv",
-    "solana_frozen_stablecoin.csv",
+    "solana_frozen_stablecoin.csv", "rekt_attacker.csv",
 ]  # 휴리스틱 제외: jcb07(BFS), midsummer(wash-trading) 는 수집 안 함
 # ofac SOL은 ofac_sanctions_all.csv에서, jcb07은 아래 별도
 # 토큰 소스(기본 token): Phantom mint = 스캠 토큰, 지갑 아님
@@ -114,8 +114,9 @@ for src in WALLET_SOURCES:
 p = os.path.join(SRC, "ofac_sanctions_all.csv")
 if os.path.exists(p):
     for r in csv.DictReader(open(p, encoding="utf-8")):
-        if r.get("chain") == "SOL" and is_wallet(r["address"], True):
-            e = agg[r["address"]]; addr_of[r["address"]] = r["address"]
+        a = (r.get("address") or "").strip()
+        if r.get("chain") == "SOL" and valid_pubkey(a) and is_wallet(a, True):
+            e = agg[a]; addr_of[a] = a
             e["src"].add("ofac_sdn"); e["cat"].add("sanctions")
 # (jcb07 BFS 크롤 제외 — 휴리스틱)
 dump("master_solana_wallets.csv")

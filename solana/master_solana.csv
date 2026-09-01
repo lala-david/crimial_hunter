@@ -1,35 +1,46 @@
 address,chain,source_count,sources,categories,labels,ref_date
 4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R,SOL,3,chainabuse_crawl|kismp_defihack|solrpds,chainabuse|defi_hack_attacker|rugpull_token,Active|FAKE_PROJECT,2026-06-01
 EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,SOL,3,chainabuse_crawl|kismp_defihack|solrpds,chainabuse|defi_hack_attacker|rugpull_token,Active|PHISHING,2025-10-25
+HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,3,chainpatrol|rekt_news|tayvano_lazarus,blocklist|exploit|state_actor_dprk,BLOCKED|drift-protocol-rekt|hacks-and-thefts,2026-04-01
 So11111111111111111111111111111111111111112,SOL,3,chainabuse_crawl|kismp_defihack|solrpds,chainabuse|defi_hack_attacker|rugpull_token,Active|PHISHING|RUG_PULL,2025-10-25
 2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk,SOL,2,kismp_defihack|solrpds,defi_hack_attacker|rugpull_token,Active,2021
 2Rs4xxz1SdZRZBRgzBmSY7T5AZUSGRDh5GpiySoKsamW,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 2ymk4r9HunMLtbutJU4JMFfhcF46dvGywmd1WBdwnL9y,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 3HZmQ7TVkhcuPu5jb349LARJYP8LMVC7U31qsCuYCkso,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,OTHER_BLACKMAIL|PHISHING|academic,2023-10-08
 3z3nLpD8qskGW25H18mSmx5SKY9z4ibKDx4njP46H9He,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+42RLPACwZPx3vYYmxSueqsogfynBDqXK298EDsNoyoHi,SOL,2,ofac_sdn|usdc_sol_frozen,enforcement_frozen|sanctions,ILLICIT-DRUGS-EO14059|USDC frozen onchain,2025-11-20
 4gWcXNdAo9BnQTDriksi2voUY6BWx1fggm7Dr59UNhA1,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,BLOCKED|RANSOMWARE,2026-08-22
 5NqYhBxS5TKU725JokRUGZHcWteKXjL8ag5cPKrmG7kn,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 5X1N7qkaJaAdRrAfTv1yxGxcLnzdm61ixc1B2dWUsM45,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 5gFF8fdjTjTza83JWBv7qnRVvLR32yPp4Wpx3ycuxk5L,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,IMPERSONATION|academic,2024-03-31
 5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_pool,Active|RUG_PULL,2026-05-15
+5zpq7DvB6UdFFvpmBPspGPNfUGoBRRCE2HHg5u3gxcsN,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,drift-protocol-rekt|hacks-and-thefts,
 687nV1efL1yprxkKUo2N6njPVKXiu2QqoqU5giEDzevZ,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 6AZpMspmfdpA7jKCzHpypy18szmgh9sPTvxz6vcPY22a,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+6D7fgzpPZXtDB6Zqg3xRwfbohzerbytB2U5pFchnVuzw,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,CONTRACT_EXPLOIT|cashio-rekt,2022-04-01
 6JCNpXi6zXeT1bQUj4b7jaEa2nJvAnkxSKfCj6mbgzD4,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 6mo65QhKyKomsk4oKG7ecG6VyuJ1qMoKMLL7iQFToAoX,SOL,2,chainpatrol|solrpds,blocklist|rugpull_token,Active|BLOCKED,2026-08-09
+6peRRbTz28xofaJPJzEkxnpcpR5xhYsQcmJHQFdP22n,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,coindcx-rekt|more-hacks-and-thefts,
+6sEk1enayZBGFyNvvJMTP7qs5S3uC7KLrQWaEk38hSHH,SOL,2,chainabuse_crawl|usdt_sol_frozen,chainabuse|enforcement_frozen,OTHER|USDT frozen onchain,2022-11-16
+6wjqWWra8ombzaw6VHrG5xpQ972jCYF6bbHiFCbWmr4U,SOL,2,ofac_sdn|usdc_sol_frozen,enforcement_frozen|sanctions,SDGT|USDC frozen onchain,2026-08-07
 6xWoqoLbuHaijvQ5rAv5iSJ4xEq7t3FVDz2muDYc5XZK,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,OTHER|PHISHING|academic,2024-07-02
 7FeBL5D5BAkQaEReFuCkYpxGEuFipReUEktrzt9MM9Zm,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,BLOCKED|PHISHING,2025-12-16
 7G5bBWvQXj38EG5GCyCb5CFXhTNJjK2bzYYdnG2db2g9,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,OTHER_BLACKMAIL|PHISHING|academic,2023-10-08
 7f7dgNNeL1RwbEd6Eao5BE8KNurTnLZnRZeVjkCGJgQD,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_token,Active|IMPERSONATION,2024-08-17
 7kCNeLRQno5EcY6isJitgXwfiEWgdYYAtiow1TuZc3sE,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_pool,AIRDROP|Active,2024
+7raxiejD8hDUH1wyYWFDPrEuHiLUjJ4RiZi2z1u2udNh,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,hacks-and-thefts|step-finance-rekt,
 7uTT8Xi5RWXzy7h9XL244GRgEycDYDhLjr3ZyNdXi8pZ,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,BLOCKED|JOB_SCAM|OTHER_HACK,2026-05-08
+8ubo4HbWJHKyFJYJc2Gh74dxCP7bN7Fu2Pi13KZ9rGxw,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,drift-protocol-rekt|hacks-and-thefts,
 9F6SC7SRiup7Qfyzso2gWignKJJPMSEPnzXrM1dERmKV,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2025-07-23
 9htfHryds3YLLjZZxa4RTyegFfsScvGcFTQyFCcVXUVm,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,IMPERSONATION|academic,2024-06-16
 9kU1QETxpCPgHGSUspUXJwwEchBR4q2ZieDw1Y8tiYJP,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 A7HkLAzGtiffSpEFPEyRGw7n4UMRUp8VpQQZwRa6Ekus,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 A8h5fn4WLtpUwDvzNGVdxBB6vubebmvNXAkqTgVRu4nB,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2023-06-10
 ASLeKH6nmo9SYCErtzoDtE757Y1ZW6XnwoKjvw4pRfqL,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+AWe7UCUFf9c7YjD7LddWaibeawYVKemDFX76jYRQ3Hy3,SOL,2,chainabuse_crawl|usdt_sol_frozen,chainabuse|enforcement_frozen,OTHER_HACK|USDT frozen onchain,2024-11-04
 Abih5VzqFR8qMCJZNi1C7pJjkVZThgaKk9r6gjv1kYmC,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2022-07-20
+AgJddDJLt17nHyXDCpyGELxwsZZQPqfUsuwzoiqVGJwD,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,OTHER|raydium-rekt,2022-12-16
 B8iY8z7VSYvJ2ic3VA3957H8vDfpPRbvhixwnHhb8TDX,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 BPFLoaderUpgradeab1e11111111111111111111111,SOL,2,chainabuse_crawl|kismp_defihack,chainabuse|defi_hack_attacker,AIRDROP,2023-05-20
 C6BSwzLCKMajG5c7tFNVX7QatYdcEpLQtjXETaX3txmY,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,AIRDROP|IMPERSONATION|academic,2024-02-10
@@ -44,22 +55,29 @@ DfKKMo3VHsMg3NAWLKRndjAgfHBE8CEqqRnChLBMtGVg,SOL,2,chainabuse_crawl|chainpatrol,
 DmJaFCGnvQK3txE5UpMRxe2i4yZ8FEfSGr3Tsk4Lgr4r,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,OTHER|academic,2024-11-21
 DqRAkLs2DquKDXSqU6XpTeYJyrZn9FZNwmhXG2GXdrYQ,SOL,2,chainpatrol|solrpds,blocklist|rugpull_token,Active|BLOCKED,2026-08-02
 DtR4D9FtVoTX2569gaL837ZgrB6wNjj6tkmnX9Rdk9B2,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_token,Active|RUG_PULL,2026-05-10
+EKko14NvgqdvNttUb8JjXkVGuUs6BTikjfN3hqW4LQoL,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,hacks-and-thefts|m2-exchange-rekt,
 Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_token,Active|FAKE_PROJECT,2026-06-01
+Esmx2QjmDZMjJ15yBJ2nhqisjEt7Gqro4jSkofdoVsvY,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,CONTRACT_EXPLOIT|crema-finance-rekt,2022-07-03
 EvSqfCUavrKJ6KZx7hb43K6faTEzFu6DSsZoPQu5JUaS,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-12-16
 Ez7KAmhBXLAjFj5MKYbNNUipU72NDUrGHzRvBS5cjGiy,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+Fc1EwQUZyTEagaDvA1utHXCcZNyG1x2PLt2DfNu1cJdH,SOL,2,ofac_sdn|usdt_sol_frozen,enforcement_frozen|sanctions,CYBER4|USDT frozen onchain,2026-07-14
 Fq7jPefUJ4Z4exE7QsBzrWK7cfqxKW8XazNwQ5akGwBz,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_pool,Active|FAKE_RETURNS,2025-04-01
 FuCor4bRA5mNncwHXPon5KW5knCW1PHo5apvFSK5sFta,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 GLF8nEiqC72PcGjJJ6LracbJKkXSWFVQ1774rccaepBJ,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-07-03
 GZxiVHg1JM6gCWRG7FwhaD6gPYpcLhiJ21s4ga7Ynfus,SOL,2,chainabuse_crawl|chainpatrol,blocklist|chainabuse,BLOCKED|OTHER_HACK,2026-05-28
 GaE1XtFQuW3DfNJrsAs5gATT1XeP2K5zipkmUTBqaDfr,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-06-02
 Gck5PWhKL4Qn87bhFwpL19Y5gkAbFN93GXXsTzuJ1VX4,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-12-17
+GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,CONTRACT_EXPLOIT|OTHER_HACK|RUG_PULL|unsolved-mystery,2023-10-10
 Gux6cujdTabgkaaBn8iDpBBqqQLbZPTyNad14NJCafg8,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
 H24RXEMJ6TK61NrbMZoNxMj2u3yaxJcVMSM65AqfUj9o,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_token,FAKE_PROJECT|Inactive,2024-04-12
+HSr1FNv266zCnVtUdZhfYrhgWx1a4LNEpMPDymQzPg4R,SOL,2,rekt_news|tayvano_lazarus,exploit|state_actor_dprk,bigone-rekt|hacks-and-thefts,
 HbtSzZgPZJabqWgXV9t7S4n6RwkmFuUDze1tQYX22oAP,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,AIRDROP|IMPERSONATION|PHISHING|academic,2024-06-16
-HkGz4KmoZ7Zmk7HN6ndJ31UJ1qZ2qgwQxgVqQwovpZES,SOL,2,chainpatrol|tayvano_lazarus,blocklist|state_actor_dprk,BLOCKED|hacks-and-thefts,2026-04-01
 HkhFZnEeTkiDXCgG8RkHR6tZWGBbi2Trrv1Tt68CCvDo,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+Htp9MGP8Tig923ZFY7Qf2zzbMUmYneFRAhSp7vSg4wxV,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,CONTRACT_EXPLOIT|OTHER_HACK|RUG_PULL|unsolved-mystery,2023-10-10
 J6WH1RqvZZVBHDoohV1S9gWDsQsZjQzbtooaqQpNeuWy,SOL,2,chainabuse_crawl|tayvano_lazarus,chainabuse|state_actor_dprk,OTHER_HACK|hacks-and-thefts,2024-03-29
+JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,OTHER_HACK|drift-protocol-rekt,2025-10-06
 SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt,SOL,2,kismp_defihack|solrpds,defi_hack_attacker|rugpull_token,Active,2021
+TYFWG3hvvxWMs2KXEk8cDuJCsXEyKs65eeqpD9P4mK1,SOL,2,chainabuse_crawl|rekt_news,chainabuse|exploit,PHISHING|swissborg-rekt,2025-09-08
 b8pyTBjatpNCVaKxRbPkqiujziAcvTXkcQeYDb11111,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-01-29
 mRf8L1195qxZskZi8EP5NATdsVa3ZXe3YrjoYFU1Nnk,SOL,2,chainabuse_crawl|solphishhunter,chainabuse|phishing_verified,PHISHING|academic,2024-02-16
 mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chainabuse|rugpull_token,Active|PHISHING,2025-10-25
@@ -3030,6 +3048,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 2QDwtzJcxAkzxMyfamQhGKxmPKaCBaadxsx8Tejpdbmx,SOL,1,allenhark,scammer_pumpfun,blacklist,
 2QEA1KjdR9F7SWUhoxDHw8aJPbG8TmkEYDGKeBPHz8Nn,SOL,1,solrpds,rugpull_pool,Active,2024
 2QFqUmW4Yf6mWdNvsE2vkoMzmJGGb5B2nupJVGLihNEc,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+2QGKoP9qvmZrf6SxtVVWHhWSvKHXTeBdCfirCRXVJG1m,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 2QGkyRQebL9FNvCKaBk8eAtpJQmB9Ljx9kYKFZKTbSKy,SOL,1,solrpds,rugpull_token,Inactive,2023
 2QH93qGKcZ7xUhDWgT1iueG8RV5NVWgDoxeq27v9ACuF,SOL,1,solrpds,rugpull_pool,Active,2024
 2QJPppZuDApu2NjV6fzqwdsFYuigzjYx8xvodKeDqRB4,SOL,1,chainabuse_crawl,chainabuse,PHISHING,2025-08-20
@@ -3665,6 +3684,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 2Vya5VxktvVZrQwchhsdxJYBgMemNn1kDFByn2DvyuXP,SOL,1,chainpatrol,blocklist,BLOCKED,2026-06-17
 2VybYGDqyRBA6a6rgtTn4YJK7veimuZ4iJHAhRjM8Tvh,SOL,1,solrpds,rugpull_token,Active,2024
 2VydXGmaaFSgbPpnx4eD9QZh8TXDHr2C6P7fB6A5g7a9,SOL,1,allenhark,scammer_pumpfun,blacklist,
+2Vz3aAnit3u9t8reVhE2BMcNuZWPs2MuLctRyoTVpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 2VzdW6f4Wf3oVjkFtaAJzAs1ePTUhmCbL7myJZmgktfD,SOL,1,solrpds,rugpull_pool,Active,2024
 2W218YA2VjwoZZSgxAwi17bZst3bzbcUh99gcQcMXu4Q,SOL,1,solrpds,rugpull_pool,Active,2024
 2W21iAc69uZdAA1Baorhn4MB3P8CbZv5dDb4RPyVwkCG,SOL,1,solrpds,rugpull_token,Active,2024
@@ -4478,6 +4498,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 2dkjBMBG2PCsQ7XQBukKBKyCQ6T15o2zA8DcCmXyR6HM,SOL,1,allenhark,scammer_pumpfun,blacklist,
 2dmWHDJVT8wTxCGoUJeLPwLM3i24QTddCkTDxsV8jSRP,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 2dmhDrdV1Krt1s8Dzq6LJBYGiAZQhqgQUT95xBUP1WSy,SOL,1,solrpds,rugpull_token,Inactive,2024
+2dmoNLgfP1UjqM9ZxtTqWY1YJMHJdXnUkwTrcLhL7Xoq,SOL,1,rekt_news,exploit,swissborg-rekt,
 2dnKg7szHWEbzjTZHZdjuC9HXDBJ6LaB3eN7jnPocBs7,SOL,1,solrpds,rugpull_pool,Active,2024
 2dosKFX6MUD1pjyASd88i8CrAtoQGxeTok8edsaGVtQB,SOL,1,solrpds,rugpull_pool,Active,2024
 2drAZumXwwaG5jfwDKs7kWX2tmt3tuRhLeF9c5SFyU1r,SOL,1,solrpds,rugpull_pool,Active,2023
@@ -5410,6 +5431,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 2nLcQ92n5AKpYuiYb3abj7mM981a9fW2cSAHYa3Wzi2F,SOL,1,solrpds,rugpull_pool,Active,2024
 2nM6Xc9MAss33PMtriziVqZuDdPfbfC35skqz3R896f1,SOL,1,solrpds,rugpull_token,Inactive,2024
 2nMJ1NDBALuzsyBK3Tf4xscVbywLqWixNowz31YEtT6z,SOL,1,solrpds,rugpull_pool,Active,2024
+2nMj7e9jFFJ19zAJFywUsMTG32ELdrBVcVa73qQspump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 2nNeU5zY1cqe76eMyoDPFWhHz97nMZEpLyeasB2LMt4C,SOL,1,solrpds,rugpull_pool,Inactive,2024
 2nNpek769d5L25krhSnX1SdLUoG3KfCttSAggWwi3fX2,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 2nNu75hMsTagGZZq3cCDS7zeHvzdt7XrEJibZkTtjddR,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -7925,6 +7947,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 3CGrW6nEzBHmYz8afGdpBuXx1NqbHVT1FtkU7fNJ1HUi,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 3CJaScWtpHj5XrLmjR7gJ7Swsio1HXayMFFRYqrkss2u,SOL,1,solrpds,rugpull_token,Active,2023
 3CJiPpydKtGrixL2ZtxEUs9LSVDbiUz7yALeRsaYf93c,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+3CJoxK7VaP1jPt6TJ1ECvKJaEB6gzwv8pvZBCwTE4sMd,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2026-08-05
 3CJsAy1bTB8eD2rWFhoEL1t5MBYwRydSjc3969NVqSKA,SOL,1,solrpds,rugpull_pool,Active,2024
 3CJwbGDf6A5obCYa53k3t4BQdTjYX5qU2fyk4bLBRW1q,SOL,1,solrpds,rugpull_token,Active,2024
 3CJxpfRFsw7Uxavx6U8DdrV4gBxFooi2aWAPD1ssWayS,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -11002,6 +11025,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 3hPVG8AggxdyigduDtdKvQDumuZF5JLodqKCzms5qHBD,SOL,1,solrpds,rugpull_token,Active,2023
 3hQ6dukWncp1xaBk3KW2xm1Qnv2MDgsw18Q2VVjbpump,SOL,1,solrpds,rugpull_token,Active,2024
 3hRfnpSWsdajPohJDbzfPY4aEjPEV5ZnMFUiVNEspump,SOL,1,solrpds,rugpull_token,Inactive,2024
+3hRg7sCAMHR4foH29wPs6MGU2knwaKd4AjnnPW1ypump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 3hSsLVcrBzvjH1q6Xk6vbTgoBQJURXStjaoHooBqwZCp,SOL,1,chainabuse_crawl,chainabuse,PHISHING,2025-05-18
 3hSszwypZdndPKiGLjjT4pxk4AyWhjGmL5NmFP7X4HEM,SOL,1,solrpds,rugpull_pool,Active,2024
 3hTT3MZ7njxfQsWB67nijMyLTtpWLtdvLtU6qYEU3V5A,SOL,1,solrpds,rugpull_pool,Active,2021
@@ -12317,6 +12341,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 3urpmAvYNrRc8HAwSrn1vSwWRn8YNaDpgJWTzYJb4ByW,SOL,1,chainpatrol,blocklist,BLOCKED,2026-05-30
 3uucZwf5g4JbMLBuHJtNgNpMxtMqm5Uua1xgC6FS2V9b,SOL,1,solrpds,rugpull_pool,Inactive,2023
 3uv7PcnJACXwxppfYGNpAfgKjiqRKcZk8QAuAJ2WYZPb,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+3uvXon8y9FzjqvxXqwV9FoMLM7acebb3fa5rhExuqpk9,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 3uw5bZA1fRCTZnA44kmnYqeVwfpDY4XgUBoECajLYdt3,SOL,1,solrpds,rugpull_token,Inactive,2024
 3uw7JE78VKmhDmpzLsud112hNKkAoWG2MhiWLVqPQkXV,SOL,1,solrpds,rugpull_token,Inactive,2024
 3uxZ9zTqMFgDxqGb4DHa9D4QL75notugfVRXBBQHhrNS,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -12988,7 +13013,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 42Pf6rWFzNXp3mNnTdqvLDh25CTxaoYuqmW9Hvknc7kb,SOL,1,solrpds,rugpull_pool,Active,2024
 42PxsEM5Q9ZSNhYFsW74UwMxmtdxykHhTLYBvDKxZ568,SOL,1,solrpds,rugpull_pool,Active,2024
 42QgmLdFuM6QmzgZzkgBjM9x9FL4hxeAwvjEt4jjvtC7,SOL,1,solrpds,rugpull_token,Inactive,2024
-42RLPACwZPx3vYYmxSueqsogfynBDqXK298EDsNoyoHi,SOL,1,ofac_sdn,sanctions,ILLICIT-DRUGS-EO14059,
 42RNr8xPAkmDowc4pD2Zm9FA9eE6Uw1qbxYvkizPRCm7,SOL,1,solrpds,rugpull_token,Inactive,2024
 42RcvLBEGSBdx78HHDF54Kxd2r6uYpVXrMhJiVtkyhaf,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 42Rvp2YRhfYKyiW9w6zsbqSKFXXVxLAsknP8nTiJooEg,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -13619,6 +13643,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 47mFygBqZJJMqQ67g2RYo124TGTqURpAoz4rdQExi1Po,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-13
 47mGo8x18zZqz99S9KdaTH6a6H4WH1wwLPZYULG4r6XH,SOL,1,solrpds,rugpull_token,Inactive,2023
 47mYJgnTCp5bg22mx7eVLXWerYoA8S5ecKCtXFC5cbqu,SOL,1,solrpds,rugpull_pool,Active,2023
+47myGRivrncQFenEYp36c1VvX5uQdCjLN2FxB4Kmpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 47nD9F5syjaD21XeY5N6UqKzNUmtvHyg1TACjKWnM1gp,SOL,1,solrpds,rugpull_token,Active,2024
 47oL2k2vkmLCVoZ8zvfm6o5RHT8Ag8YGaNfq71AMbucZ,SOL,1,solrpds,rugpull_pool,Inactive,2024
 47osVP538t9vx3z2ZR4kqNi7nXZrjmzEbDSjmiKasSTR,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -15225,6 +15250,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4Mw2NCN7k2wrzvepBRfCYFdhe34564vNDDW1utWv1Guv,SOL,1,solrpds,rugpull_pool,Inactive,2024
 4Mw7EEXYPYSpzGcMcm4Qkpvhn3qsq7b7xuPEopu1xjkj,SOL,1,solrpds,rugpull_token,Inactive,2023
 4MwaCFKUr6MudFidZ7RpvHRnPwcB4eECYAwp1XK1pump,SOL,1,solrpds,rugpull_token,Active,2024
+4MxLAkBW2YX5uvKjcrd9axTrKtkm66NfNK4mFoSNpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 4MxcUVYN4CrgTr8fCqJpS2UdJRwPQAKHU2AYJkQu66o2,SOL,1,allenhark,scammer_pumpfun,blacklist,
 4N1C8y1voapJ8k1Ae6S4kEwUnM8z9pyhy31RNxCMSVHr,SOL,1,solrpds,rugpull_pool,Active,2024
 4N1jUSd1WLj8zu5cCjNfqUMNt8HwYLomq4T6QYzPV8tV,SOL,1,solrpds,rugpull_token,Inactive,2023
@@ -15253,6 +15279,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4NBf8yWLa5ZFxcWJ8zevhCGTHpnBpDQETg2YRGy1NTeV,SOL,1,solrpds,rugpull_pool,Active,2024
 4NC7SBJWNBXqZX2zuZb5Fykwzsd2x96ocUpA5tEJ3CJ6,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 4NCRmVtKYkoWLuik7ZhJPEPtiJoFFbacxH347qqpXnHH,SOL,1,solrpds,rugpull_pool,Active,2024
+4ND8FVPjUGGjx9VuGFuJefDWpg3THb58c277hbVRnjNa,SOL,1,rekt_news,exploit,mango-markets-rekt,
 4NFmEj75Hsaj6WzUP4hjLuPGRJek2ksdUStzuHm3tNkp,SOL,1,solrpds,rugpull_pool,Active,2024
 4NG1oPVV2iejyg42qDZC3vuipxYUALsCzygAo33qf6az,SOL,1,allenhark,scammer_pumpfun,blacklist,
 4NG5X9r9qd7DeBjRqRWQnpaZsuH52sjMjsxuL9JJAFug,SOL,1,chainabuse_crawl,chainabuse,OTHER_HACK,2024-06-28
@@ -15427,6 +15454,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4PbBjKhdUp65BhxGtqKr6w4xdiYaJ6DE8W4ZZM3pWnFq,SOL,1,solrpds,rugpull_token,Inactive,2024
 4Pbti6DRx1oXrM3XV7cTBLB2aJDATo7AQ3mZw6iH82C6,SOL,1,solrpds,rugpull_token,Inactive,2024
 4PbwqPcErN4eRQq8sccMYtU8AVt6yP9YhqivE32VsVgz,SOL,1,solrpds,rugpull_pool,Active,2024
+4PdNamPZVwqaSLXVuPuR85UNDGSJJoDHEh22ae1rLQNu,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2026-07-14
 4PdSJbb1s5q7zMsp3uSvnRt2hYkMv64vJrsXnCeqAwEy,SOL,1,chainpatrol,blocklist,BLOCKED,2026-06-01
 4Pdkn6oSuBoZXPmQiW53KugSjZWYQchu4h1rA8sTSSSD,SOL,1,solrpds,rugpull_token,Inactive,2024
 4PeR5jNUM1zbE6yzKx7T6UizFVdttW9MbxeGzCuaXkat,SOL,1,solrpds,rugpull_pool,Inactive,2024
@@ -15566,6 +15594,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4QpEmDKUBZkGGgGH3DReT9dJJyWFSgzABX6EkTgqge4X,SOL,1,solrpds,rugpull_pool,Active,2024
 4QpnQSB7Pq9aJZcG7Bz1VnZmcacbzsEyrbWLcjDguSvx,SOL,1,solrpds,rugpull_pool,Active,2024
 4Qpzt2xnDwg1aQKpNgQT8c7DpJ6K3rH9LYijad6U11KX,SOL,1,solrpds,rugpull_token,Inactive,2024
+4QsqugQcrCuSVzU9WjeLDoR6HaaSZtMEZr5JCyxwHgCV,SOL,1,rekt_news,exploit,loopscale-rekt,
 4QtCzuS1m8tPjTWUQPrGNL66747GnGed16jJ1TE71zLa,SOL,1,solrpds,rugpull_token,Active,2024
 4QtXGHxVsWwpC927PBpvMw1jFPR9qDwFEfGEqYdRb8d3,SOL,1,solrpds,rugpull_token,Inactive,2024
 4QuxcqCaZymvMBVzkXopEEVKtjMUA1kGASVNJGDnNKUq,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -16477,6 +16506,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4Z5eSCCQk5kiUAe11zvQHdZp7rfetFopqh2PJBRfd1DQ,SOL,1,solrpds,rugpull_pool,Inactive,2024
 4Z5rBgb4BLKRCaXstMtpX58FqGQaPA1xaSBK9tgUXfoN,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 4Z5xSM5ir7kaqCEmhKX9WckZbZsoRTqUG1cdhVAiecUu,SOL,1,solrpds,rugpull_pool,Active,2024
+4Z68fshrJoSahHSj14cWXa3BFsYv1EqJP2tybuPwpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 4Z72UupcX9qUEfcri1p2X4nST1PvKL63mr9TvhziF7Cz,SOL,1,solrpds,rugpull_token,Inactive,2024
 4Z94jfmdRMb9qtZNbPaTBjvN5r8RcjEAE6v77vXLkcCc,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 4ZAjzQHxhGSp4jQ72T1SifqRCbsSBaz1yQ5GdbFrPup1,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -17889,6 +17919,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4mePNLaeaDm6XSuidW9TaeEnJL3qLrQxsb3Ryz1CR8ND,SOL,1,solrpds,rugpull_token,Active,2023
 4meWJskGrTt8jz44TVBNcJyBYs6thjvevjEcru9yXa3Y,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 4mfkwtf35qXej556nnUWrWEyR9Bhq9ps4h6LEU33fBAF,SOL,1,solrpds,rugpull_token,Inactive,2024
+4mgKk5aLu6r2aAzVW6oBkEXthGddDWaaDBbEUnP1TXWM,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 4mgkUqTYxbponCEnP28wNz5KtTD8YfkJWttn9zgzoYcA,SOL,1,solrpds,rugpull_pool,Active,2024
 4mhbQEd53q97td8jhugTAn2REA9uNG9cMuxU2NzY7RWG,SOL,1,chainabuse_crawl,chainabuse,OTHER_HACK,2024-05-15
 4mjA27SChTkp8wnQxoxWPV4TifJef1Fhadq6BJ3DqAqU,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -18663,6 +18694,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 4td7xeWmEWNoJu6RE4dx4jGPdqahbQmxZ89BmDujVxvQ,SOL,1,solrpds,rugpull_token,Inactive,2024
 4tdDDJ6wnjXzQd4G3E6iv9ik1LqtxvQWHrnG7rBGGuzj,SOL,1,solrpds,rugpull_token,Active,2024
 4tdQtF2FBiX6qDk7fmtwrkqkLAMetyfkJ3NcskVpMjSs,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+4tdW8Kr8Qg5UFSoFaj3PM1MT2qngk5yZzSFsHURdpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 4tdh9mpxva7zZPx79FEwxCdwKkHqZ5tGo3LJqJs8E2c3,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 4tdmEURLTH44UfKfo98SxpbiyUnaVa35u3Pg1ttVNEUG,SOL,1,allenhark,scammer_pumpfun,blacklist,
 4tdopr4kmKFF4XnHBnjTYLe8Em2r2Ha8tf3mgo5TKKcv,SOL,1,allenhark,scammer_pumpfun,blacklist,
@@ -21148,6 +21180,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 5GMSHX3TKqdpjwVSZvRewoNxdpEUJkKpvCW8L5ffgpVQ,SOL,1,solrpds,rugpull_token,Inactive,2024
 5GN9WMtqyyympQQ4SDcmJNwwPd3pg7upRNUwtfYspump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-13
 5GNYt1jda9uqSM4fYBP7D8cLPBaUgpnxrvkbJ2sYGn9k,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
+5GNqNB2YGnzmTptoLT8xG8gYrZpsMx1FVPqke4FEy85Y,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-08-28
 5GNzg2DKqRvbaKGCtDAkmUxmuMRY1jmcx9EzNTo5kymk,SOL,1,solrpds,rugpull_pool,Active,2024
 5GPW28E6U1SnuDPJfDic7L241cEqm3wZXKcMvZMc9XJt,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 5GPeq6dzgbSMXdYPe3WRFwkmTM4TSAcYjExPYGmuLdWX,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -25941,7 +25974,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 5zoBBYQSAbHdA4CQM59vPD9eQWez5gYEeFRjh8cyjN6g,SOL,1,solrpds,rugpull_pool,Active,2024
 5zoJgBb6vmDQFEyrtErt2Yr2znQB2r8v1ss7DyDqKfGc,SOL,1,solrpds,rugpull_pool,Active,2024
 5zosizWVtXjGbwoXbjJyGD9CCgrxqPx7wEbL3uSqEh6w,SOL,1,solrpds,rugpull_pool,Active,2023
-5zpq7DvB6UdFFvpmBPspGPNfUGoBRRCE2HHg5u3gxcsN,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
 5zpqyWHAYhCASPxMTAT69DkLpQWM2tLoKmqbtWjvPMfv,SOL,1,solrpds,rugpull_pool,Active,2023
 5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9,SOL,1,solrpds,rugpull_pool,Active,2024
 5zqv1SgPC8nC6GJTwWvmPN3kUUiNpUeLEpPdCRwBLAod,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -27271,7 +27303,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6D7NaB2xsLd7cauWu1wKk6KBsJohJmP2qZH9GEfVi5Ui,SOL,1,solrpds,rugpull_token,Active,2024
 6D7cKnLaGnUN39317Dhk7Sgb6SD2t5qncF6ZtsgJfAa2,SOL,1,solrpds,rugpull_token,Active,2024
 6D7dmkUiZp6xUwuMqdwu15Suoq1u6cACnMpJDYKP5n1k,SOL,1,solrpds,rugpull_token,Inactive,2024
-6D7fgzpPZXtDB6Zqg3xRwfbohzerbytB2U5pFchnVuzw,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT,2022-04-01
 6D7ny8stDYP3LfKQRqtN34EmJBG8gsAXCwsa5G6fAvgD,SOL,1,solrpds,rugpull_token,Inactive,2024
 6D8AXENyiqxkP2Q4MidTogHRTpXWvDCuShrzqUgNupzD,SOL,1,solrpds,rugpull_pool,Inactive,2024
 6D94vSiKi5NvM8QvtJ7nbsZzrtCrYPHi3oWNRamSH3wy,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -27533,6 +27564,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6FLsSkF4AqQeDuqEmGPyBZvVebc4WWWntnZP2QZyBzG8,SOL,1,solrpds,rugpull_token,Active,2022
 6FMb6Cur2FhiKSm6qpBd54dsgpu2DTYZxYPfgBgHUqL,SOL,1,solrpds,rugpull_pool,Active,2024
 6FP7YD12aiDmauUbW5dHU2yvkFFngVF1VDgnbo66Kf1h,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+6FPFNbXoGtnWCgEwp8UiPG5GBe5ZY6VxtYnKixJ8sQUV,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 6FPJt4T1kQEzAy8X1j11Bj7U2w5JxBvenQEM2tJ5ybtc,SOL,1,solrpds,rugpull_pool,Active,2024
 6FPKoxvNkNLbsx9AuEf6Cuk8Tv8yMfQoPSA2x7jPNu1S,SOL,1,chainabuse_crawl,chainabuse,PIGBUTCHERING,2025-06-11
 6FQEtxkyUhRxLaAcXP4Sh4j8Nf2GVSaxmeSeEtWopB5x,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -27825,6 +27857,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6Hs23JmeMiZSiw3kXSQMxdMwdKRakTTRMaG5AJa8C2zm,SOL,1,solrpds,rugpull_token,Inactive,2024
 6HsC6vR4vgGX6ZkH74For4Nv5wACz66XgaEAGpuAwxoL,SOL,1,solrpds,rugpull_pool,Active,2024
 6Hsi5KFx516xBY1Gag8NY6VddayKQg1HbNztUq5VtVJ,SOL,1,solrpds,rugpull_token,Inactive,2024
+6Hsn4noVtYMvCauR6wrM5JMmLAkfucoLF9koTq4P1Awf,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2024-10-15
 6Ht1KZKKwrwfe2VEnbCAo7g2qUqJW9eXcA72g6fpnsjK,SOL,1,silent_killer,rugpull_dev,rug_count=2,2026-07-15
 6HtdHWdPqJdhi5ia2nrgg7dv6gJQs1D228Ef7zgffXjZ,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 6HtfeB4Ukr5twGbyXLQ38jME2rHLTr3WaJxt4Ke7jxDb,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -29807,6 +29840,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6bmH7RAQFHVEmomdiig9JCXSVEziePg3enNAarRY2XTL,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 6bmgHbuYtcegU83QWUb9a6ZxBHCA5wJzPfmJMHLCgydT,SOL,1,solrpds,rugpull_token,Active,2023
 6bmi2KGD6tLQtJaQcfc6MDMRmZhmeC1nwPdrTBERnWMZ,SOL,1,solrpds,rugpull_pool,Active,2024
+6bnSQH4UtGKgo4hUXRj8MeMz2bqPP6hxSaRrBjL96QaT,SOL,1,rekt_news,exploit,swissborg-rekt,
 6boMqCUBDvJMoKfMakSBuRCXuUJdh6vsf37cF9DPgkTj,SOL,1,chainabuse_crawl,chainabuse,IMPERSONATION,2026-03-12
 6bofhC8GmSwSy7aL68w7QZ4X8M4citNb5GitrDYQhbGR,SOL,1,allenhark,scammer_pumpfun,blacklist,
 6bojFX9DEmbaVf5sV4G1jtxHtomc3Jt4Atz5oNXxDCDt,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -31318,7 +31352,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6pcNQfWH7YNgNKQdbDhf5ELKr8uo3WD6Fk3F3ooHLHRD,SOL,1,solrpds,rugpull_token,Inactive,2024
 6pcPRcBkPnYJXW8BcvJqbWeZUDadf6uf5nBzejTXHzS7,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 6pd7RT61ez5i9hM7eChue1PSbD5EHFyvnWr3kVhAF5P2,SOL,1,allenhark,scammer_pumpfun,blacklist,
-6peRRbTz28xofaJPJzEkxnpcpR5xhYsQcmJHQFdP22n,SOL,1,tayvano_lazarus,state_actor_dprk,more-hacks-and-thefts,
 6pfbnFwBScTZ7xPeKEUPyXWrp5utRdpmdHM47r11DDkg,SOL,1,solrpds,rugpull_pool,Active,2024
 6pfdkDhWKhhBHdAccdn7WNJPtw56Mk7VHpuNVF3pa45u,SOL,1,solrpds,rugpull_pool,Active,2024
 6pfnwymcCGmHpNTqjqxB8edzq5RChjubxDPLQcSqAmfn,SOL,1,solrpds,rugpull_token,Active,2024
@@ -31610,7 +31643,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6sE9wA7BtPs6n13rPBr4mnhvpch6X9wVaJMsWtWUq6HX,SOL,1,solrpds,rugpull_pool,Active,2022
 6sEBEFa4djEbQyYor8DTR4xKP95gks3zZ5HxNzXMnJM2,SOL,1,solrpds,rugpull_token,Active,2023
 6sEe5Asitpa6gpstVPVgnPegCoscJBiZNBk787N4CNEq,SOL,1,chainabuse_crawl,chainabuse,RUG_PULL,2022-08-05
-6sEk1enayZBGFyNvvJMTP7qs5S3uC7KLrQWaEk38hSHH,SOL,1,chainabuse_crawl,chainabuse,OTHER,2022-11-16
 6sErpEbj39nuif4qjywR1xV38kpitpV5zmoghYVjacUp,SOL,1,solrpds,rugpull_pool,Active,2021
 6sEzSP3nKbcoE8XwGwRGw4cMN9HYrQAJ8W8BoYvc98QV,SOL,1,solrpds,rugpull_pool,Active,2024
 6sFLBr2AXGMF4bJqZBLGVT1bj5DGKkWqzkNN4JDtBnMz,SOL,1,solrpds,rugpull_pool,Active,2023
@@ -32109,7 +32141,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 6wiCkLKTkVC9UyiKNCKcTEgKF7LB7UhqJdPFDucfvtD,SOL,1,solrpds,rugpull_token,Inactive,2024
 6wii6Xk7CyApUfh1sNgvJfe1zbZeTxwyi24b6qmrrUDS,SOL,1,chainabuse_crawl,chainabuse,OTHER_HACK,2023-08-16
 6wjNuDtw1kBxWomF6gF5RiQXAn97MLVNDABXWhFBRkta,SOL,1,solrpds,rugpull_pool,Active,2024
-6wjqWWra8ombzaw6VHrG5xpQ972jCYF6bbHiFCbWmr4U,SOL,1,ofac_sdn,sanctions,SDGT,
 6wjrZ72MVgKMAfnLXCayjBotn3fcuJhozPLx6Km5ZaLq,SOL,1,allenhark,scammer_pumpfun,blacklist,
 6wktcKujaFRKV9Sz455nHUNz34dEWht1gqKzR5KQ9Ljb,SOL,1,solrpds,rugpull_token,Active,2022
 6wnaT6udiccynvgkDSAHkwKFaEGnRvgZNnS5k7kxCg3Z,SOL,1,solrpds,rugpull_pool,Inactive,2024
@@ -32913,6 +32944,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 74pFmXuZ2frijwbhLGQ3tzXxBtqAZaMGctwRxcQkStsS,SOL,1,chainabuse_crawl,chainabuse,AIRDROP,2024-03-01
 74pUFekyw6N3ckr5T3inC5awDYQNM5mA5RsLLUEFKECT,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT,2024-12-18
 74qDv1AVD5H95iSHKnuacDr1oboA5UrAieHfnTqAqPmX,SOL,1,solrpds,rugpull_pool,Active,2024
+74qvGGinDQJqohYgxJdwrtscKSR9pAht5tn6U1PwLGtN,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 74ryE2V8KTPF4CmSorCEMKLiBYDbWJB8deTLbvx559TF,SOL,1,solrpds,rugpull_pool,Inactive,2024
 74tFyuxwqu4uLMjmacUjwNiprechyX4XTcd6AonHCJAa,SOL,1,solrpds,rugpull_pool,Active,2024
 74tG5vj276dKTCRAvF3roBjtgBDVRrxX8WbHsEzmpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-21
@@ -32922,6 +32954,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 74vuFovEW1d7cpKb6xqXUxYz56EiAt1dZMGToCvuiWNe,SOL,1,solrpds,rugpull_pool,Inactive,2024
 74wLwa6hBrir6TarEo77vCx9FAUmPw8CWZTGmyBR2zbt,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 74whm6gLiHwSoZfdCHQevzTB5xg6usSW9g1dSNd4eJyN,SOL,1,solrpds,rugpull_token,Active,2024
+74wp1NuV7S1JTRnyWQAbyMz2Sh4i1SpsLSpbVu2kUWy3,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-08-28
 74y9zh3Fq9SbyG1s3ytxqZqNLVFGnSLku5kcURPSvhMD,SOL,1,solrpds,rugpull_pool,Active,2024
 751iixui8CbTywqNdSzajaQFmU7aUMcJ7izjJoNmCtpM,SOL,1,solrpds,rugpull_token,Inactive,2024
 7522XmR1rsM2ptVSdz2XDxZGnTVfBjHPjBfaRhbTnTBj,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -33968,6 +34001,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 7EW2NTuQFYKVxF3WTA1L1v62pxB7RFYmVC7veGxNDFis,SOL,1,solrpds,rugpull_token,Active,2023
 7EW88moMbxhb2Sq3N5cDechee2YSS5iQesdcamo2rri,SOL,1,solrpds,rugpull_pool,Active,2024
 7EWAfKMbpR7TkhrZpiz8Aa3FSBhcXEEuzWz76JTpump,SOL,1,solrpds,rugpull_token,Inactive,2024
+7EWG4g2QefPuCt4dCpz7Fr2zDHwMTDUWqW5z84mzkuYJ,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-08-28
 7EWSGeUu4GAKuRBDCzSQEredjm9Lisgq1ztaDQjWEc77,SOL,1,solrpds,rugpull_token,Active,2024
 7EY2fVesM3yBBfEFNuxE5T9wSgTQjN43ATMB3atioomw,SOL,1,solrpds,rugpull_pool,Active,2023
 7EYQF3S6oDTtZNRMU3LTxky3o8hCUKysH9qSjTDGwj4n,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
@@ -35879,6 +35913,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 7XDvXsxxwKJrPSUyzxDKtLwvV7LsSCTHpRWw1kWNNe3F,SOL,1,solrpds,rugpull_token,Active,2023
 7XEAcCjMi8ir4C2ovnnaaNQVdVu9ZHVM5MZrUpHQs5RX,SOL,1,solrpds,rugpull_pool,Active,2024
 7XESmB2uSS1j6CLnvNUhDLw28TN2us1Rovh9LY2raeJ4,SOL,1,solrpds,rugpull_pool,Active,2024
+7XEwCkadCb2PnSCaHeMHbF86CCQz7cG4JhSThqNrietp,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2026-08-07
 7XF9MGaL7EXeZ1WQwyQGWu6KMuQ9VBWejUVGW78zedxq,SOL,1,solrpds,rugpull_pool,Active,2024
 7XFSP99b2NbFUU1F4qMDcDnGYWxTarQuuhRJWJ3em2mV,SOL,1,solrpds,rugpull_pool,Active,2024
 7XFXYYiqrEQLLkAGvvxaoh6iYkVYQ4K7XXtKoRShpump,SOL,1,solrpds,rugpull_token,Active,2024
@@ -38081,7 +38116,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 7rYvczfCrrkWFfhvPJBTWpkmTsnbeQMHKRzLf2mDcpuh,SOL,1,solrpds,rugpull_pool,Active,2024
 7raHqUrZXAqtxFJ2wcmtpH7SQYLeN9447vD4KhZM7tcP,SOL,1,solrpds,rugpull_token,Active,2024
 7raot7E75WFPiiNn2KBSoqboaZfCYZ3gJdh3UWWzNDJC,SOL,1,solrpds,rugpull_token,Inactive,2024
-7raxiejD8hDUH1wyYWFDPrEuHiLUjJ4RiZi2z1u2udNh,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
 7rbTZLwAYjctqVm4B8WG6N2aNfpGvC2yASQCasBToVCb,SOL,1,solrpds,rugpull_token,Active,2023
 7rbgGBhpNeKhaf7dgHK4xSEYMDr5WfhNqp8bt86YbuFh,SOL,1,solrpds,rugpull_pool,Active,2023
 7rc2XppQF2Vddvxvqm7GCFpJ6pc3GrjMLGPNNdbsufcV,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -43803,6 +43837,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 8ikRraVse2KXZ8HjtN7pWNxX7i7bKaJsdBCwdLaism64,SOL,1,solrpds,rugpull_token,Inactive,2024
 8imkWMHeUCVZeYhV8GdYENigM8BqcoNHYn9aKNEurwsR,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT,2025-10-30
 8imqB3YBP4ypWvcuPrGVkok7wiauKpMpfzQSgeFucZZG,SOL,1,solrpds,rugpull_pool,Active,2024
+8inF8tLsQ1DaVk9S1th97YcQZEywDCZtWqrS1d1AqkkL,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-05-15
 8inTY66csRNgKNtGhqGhd4odAV2VeJBDcRVuF7UE3Eeh,SOL,1,allenhark,scammer_pumpfun,blacklist,
 8indGV1Bv9p5eWRs4761HUqpsUTFqTXMjkmRbvvtEN3C,SOL,1,tayvano_lazarus,state_actor_dprk,more-hacks-and-thefts,
 8injr6odmgL7YJzFfswgJx2UHWVcM9m53KkxWFWpump,SOL,1,solrpds,rugpull_token,Active,2024
@@ -45091,7 +45126,6 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 8uaz6qrwHT6ML2fHmRH1asrZQRwakbsfi5YChEYoCGSV,SOL,1,solrpds,rugpull_pool,Active,2024
 8ub6y1549eUUP5wQF4QEjvEnnEyV9YgewZApQAnH2Qyc,SOL,1,solrpds,rugpull_token,Inactive,2024
 8ubLMsoAGVa6TskxKiTgzeiZzLiKbhjw9zSA6ftDJb1a,SOL,1,solrpds,rugpull_pool,Active,2024
-8ubo4HbWJHKyFJYJc2Gh74dxCP7bN7Fu2Pi13KZ9rGxw,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
 8ucEFe1NmLPgVPqRkaDxkdhEPLg956wNxVD8Aw2DktR,SOL,1,solrpds,rugpull_pool,Active,2024
 8ucQzgMUDXQiewdG8ZTCEud9YWG8aN3fodbPUEZU9ZtP,SOL,1,solrpds,rugpull_pool,Active,2024
 8ucyU15sDPNuL6LNoBYYps72oLRpAoCUv3KvKbVeoRn9,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -50690,6 +50724,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 9mKf3Ls8vwcTaEPqobZsZX5xTfW9xLCHsKmXcvvvkRtd,SOL,1,solrpds,rugpull_pool,Inactive,2024
 9mKyP5bHthMHftoFa2f7vjcLMFXrFGffi7bWhgFva3mA,SOL,1,solrpds,rugpull_pool,Active,2024
 9mLNzaWrdsRkMYxcZJA952y3mtZwWN9MdTLGxPrVdVit,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+9mLzLYfxg2a7vk12SnF1dprUySNGECSTtGHBzvG99W8M,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2026-06-10
 9mM8V7dVsKPcPZiSfnN5oGohf4R9bcQ4FNSfrWespPxp,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 9mMQKDcXCdKkTKWvAmA568HdMNaycW1GkiULMFBUmLYQ,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 9mMkSsUi39ZenysNaYY4PXaBinsACuK9wFeMaCwcRUP4,SOL,1,solrpds,rugpull_token,Active,2023
@@ -51788,6 +51823,7 @@ mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So,SOL,2,chainabuse_crawl|solrpds,chain
 9w7S5YSApvKGoe4UNnZvv52TU1Hfn3UCfV5Zv8aiEa9y,SOL,1,solrpds,rugpull_pool,Active,2024
 9w7jWhXDvMRaJ9yU6br7bsq1WFS6QwcpfdPD9UkNMnAx,SOL,1,solrpds,rugpull_pool,Active,2024
 9w8kZyVHNc7wHNyP59FQVkv8L7D8xrgNyW42HU4GNq1L,SOL,1,solrpds,rugpull_pool,Inactive,2024
+9w9GQzbRCEjFwbyo2KtJ4RVwTXH6dZ7jMFegYwaBi5cA,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 9wA13aDuKDAAocctNBFpt8F1UU5WQNJBemba3JZFcNzE,SOL,1,solrpds,rugpull_token,Active,2021
 9wAcaWxTXRwYsNXmHubxt4TfymX2ibm8xrLZSrAPA2Uq,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 9wArhMorTzy7QkqxabADf86tPpkUz2JXMJisarNYmb7y,SOL,1,allenhark,scammer_pumpfun,blacklist,
@@ -52847,6 +52883,7 @@ A6jYYUKaoxVo5uQtQNLUmfzrHBWL6vJFoFHdE17Jpump,SOL,1,solrpds,rugpull_token,Active,
 A6jzhRA2nY8U6AmB8AZffmz9WixPVCCZ9rRVVseTPUbG,SOL,1,solrpds,rugpull_pool,Active,2024
 A6kgAPRW7dnGgeWG4panvdWf8zw9MESbse746kHYGjB8,SOL,1,solrpds,rugpull_pool,Active,2024
 A6m4aUJfufCXJ3qWWHt6cq7JqvdKpXYvNKBvDY92JvQq,SOL,1,solrpds,rugpull_pool,Active,2024
+A6m7R1RrZYQz2txnojvuoX7Ltnj4ucUnaEvjBAK6xJ71,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 A6m8oTbQbzoz86XwVeNas8sFFhsonnrJuMyzhUvvnehJ,SOL,1,solrpds,rugpull_pool,Active,2024
 A6mU4uUCY8e2Po4s9wK1QmyA6skYuKg4YDUZKGUmJhg,SOL,1,solrpds,rugpull_pool,Active,2024
 A6otAs12ziFm2jHaZbnXnK3FkAiQGZ6SeBHDX9a6DStJ,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -54329,6 +54366,7 @@ AKtCfemQNPFhruQXELLNV2qXXcYSL9omqhJ6Sr8n9whg,SOL,1,solrpds,rugpull_token,Inactiv
 AKu7BMoT8ygvGUBSLkN4SNHWieW2YAoQPAf5PJi2DM1M,SOL,1,allenhark,scammer_pumpfun,blacklist,
 AKuCci9Ya5bMBuVY8cRxop9gJcbbhoVcZMd5BUuCRqST,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 AKuxZEL6f782Zwo5NsaseddJwXcACDuJCjqcxpK7scNF,SOL,1,solrpds,rugpull_pool,Active,2024
+AKvds2swm8ivX6Jmmu8mDo9wNFHs1Pqcgf85JWCZdcw6,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2026-05-27
 AKvpiwijHUdvoLUo7bfEQGKL27h8Swx7VyG7g6Zz2xtw,SOL,1,solrpds,rugpull_pool,Inactive,2024
 AKw8PnEcRCzcgKRqM2cjhvonHfPPwvNEhdm9CxD68Yxv,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 AKw9iwPGHcMgUaTht6YBvsL9j76g3Exhsnqoqw8ynEtV,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -55535,7 +55573,6 @@ AWcwTsURwxRS5kXvdWGiJzpjyfe16pcmwt5k21gLz7qJ,SOL,1,solrpds,rugpull_pool,Active,2
 AWd1gzvtHSygqYtHewb6QLuiKSTCWWp4bRZNkWQ1AFXZ,SOL,1,solrpds,rugpull_pool,Active,2021
 AWdkojM6AFqhEWzwL2FpEdeZG7nuKzbXEjRBMyQCxZMR,SOL,1,solrpds,rugpull_pool,Inactive,2024
 AWe2qgMU3mNW6gkgfppdMsse1dvu2dZaGwCTGa4muXpF,SOL,1,solrpds,rugpull_pool,Active,2024
-AWe7UCUFf9c7YjD7LddWaibeawYVKemDFX76jYRQ3Hy3,SOL,1,chainabuse_crawl,chainabuse,OTHER_HACK,2024-10-31
 AWeAqcwtuMmuECkd1Y1EHs7Zac1wnf2uPuq11xJDJgUz,SOL,1,solrpds,rugpull_token,Inactive,2024
 AWeqgquXpJatu5hUS3NAHnK95w61mSzRFbm5TWic4co2,SOL,1,solrpds,rugpull_token,Inactive,2024
 AWfiYCAkfahbRTHHXGDkAXMXESpSFU6RbNa1Nt84YRkd,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -56637,7 +56674,6 @@ AgHSzozHymzXE9h7xXXtnbaa7Cs6jj6N24hTpCPQVbUF,SOL,1,solrpds,rugpull_pool,Active,2
 AgHYLc4TghBLH5xrq5RhdzGMpCDDBksiqKeoxX3Akeb9,SOL,1,chainpatrol,blocklist,BLOCKED,2026-06-01
 AgHg9Q1s9aUhU7YNMH7c5pvCghFVSFcnCEJ4ePKjrDZg,SOL,1,solrpds,rugpull_token,Active,2024
 AgJZquPjBK4ZeiFKytcsm7eW7nhbTPfiVhdZ9ELGaYfM,SOL,1,solrpds,rugpull_token,Inactive,2024
-AgJddDJLt17nHyXDCpyGELxwsZZQPqfUsuwzoiqVGJwD,SOL,1,chainabuse_crawl,chainabuse,OTHER,2022-12-16
 AgJzCDGNiAyhp445pHeDrBa1Uyg9hp3MGRm1nTndPZfa,SOL,1,solrpds,rugpull_token,Inactive,2024
 AgK7c1gLih9q22bJ85RsVpucBgYJLU9cfeTCSL7qqieD,SOL,1,solrpds,rugpull_token,Inactive,2024
 AgKDLtDesoGXWPD5w4Ks6xH1aoVx5oPAdADf32b83p4W,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -58102,6 +58138,7 @@ Auq3EEY5wRLj9we9qDx6DbDQ7YNw99a34WYcbVPM7LzT,SOL,1,solrpds,rugpull_pool,Active,2
 Auq7rx33TFvncngRE3Zx55KrQgq2mxY723fi869htqV7,SOL,1,solrpds,rugpull_pool,Active,2024
 AuqdfscXZgBhpVQKJJ5WWciXp6RWjFHUFJ7uzZYj5bb8,SOL,1,solrpds,rugpull_token,Active,2024
 AuqgaZxbU21vU2owxPxtcNUXYiwhwYsFkREAz89HUvGh,SOL,1,solrpds,rugpull_pool,Active,2024
+AurZuKRBt67xLEswY2g5KCtC4RnPMKi8wPBkutg7H3qE,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 Aus7ayGVCaX5iGaQ65bydHGJVCg9SaJMahWYXhrMi1HR,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 AusEdxCopHP4pYab2JCePJsqWeACuXcVTr18we3HMBwk,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 AuuVtuL5XSYY9o5ZLP52FviTvftvBqTCNN5hqJMeQ7YH,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -61290,6 +61327,7 @@ BPRCqhmfUrge68BbrsA23BrFNbpLQUbbrDMj9oZPM1U3,SOL,1,solrpds,rugpull_pool,Inactive
 BPRPvJvEheuTUTmKc6PxCpQ7MdVsfjDHjBdjxErYeUBs,SOL,1,solrpds,rugpull_pool,Active,2024
 BPSMr7UNXZyZuxaeiQnCkvkZgE3R62wMgjyoDf1Je4TG,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 BPShefRQ1Z9aqSPyMwrbC9bgX45sNqMntnz1VUkBiwZP,SOL,1,solrpds,rugpull_pool,Inactive,2023
+BPT1kDHjYKCPVoA7ybLPegHY6286ME2gzDSNSvdrA2fE,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 BPTKbZaixcw2aGNv22VqRQBJ4BquHMF76UCd4yPGrGyN,SOL,1,solrpds,rugpull_token,Inactive,2023
 BPTt1E79k5zUaowp1PiDWKGSGkSYWkRMh8eYDvPtqt9a,SOL,1,allenhark,scammer_pumpfun,blacklist,
 BPTzFPmxzzqDPgxU6vT4Rr1UtGESNEKwPvWJdZrMWFEq,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -65449,6 +65487,7 @@ C1NDG2ESn8e9eBJ9E3XC7VxWSy3Ufxk2YdSbaUrrTpvF,SOL,1,solrpds,rugpull_pool,Active,2
 C1PNeTaWZYAY2efaDPxnSLioanFMTSuk8Zorz6HTtFn7,SOL,1,solrpds,rugpull_pool,Active,2024
 C1PdKeKW8JuJJrgghB8tzzif4kdtoP6jtJj5HioaaF2G,SOL,1,solrpds,rugpull_pool,Inactive,2024
 C1QTKuBec3RtXHJ1tA2T8DpatzTJ6FfVDvSP3vqoN7f1,SOL,1,solrpds,rugpull_pool,Active,2024
+C1QyPYoWQiueqhtLeaG5Nhkv1LJ8oweBNCbfGJ3LprYT,SOL,1,rekt_news,exploit,loopscale-rekt,
 C1Qze48DQVscNyHKy5Ax6R2wYyTDS3hm9tmzCtwhTfaY,SOL,1,allenhark,scammer_pumpfun,blacklist,
 C1ResCfLjchCut1seuTvEZa1QMsDpdTZW26A9NRQjBwc,SOL,1,chainabuse_crawl,chainabuse,OTHER,2022-07-31
 C1RtCWFKziVhFm8sEF2AhRSBeuUSJgSgNaQedcR1rCpY,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -69172,6 +69211,7 @@ CZNdnxfzVYm5q32btxJfmxYYgTc86Z237xHHGQUWBK6Z,SOL,1,solrpds,rugpull_token,Active,
 CZNj5UyiGNiQcXE3byeZmmRHjCXiX498mekPzD6wFoF,SOL,1,solrpds,rugpull_pool,Active,2024
 CZP1YkMBHNb9ZKNnt7AXGmJMCpJJaVvBdrmbtJQdBcui,SOL,1,solrpds,rugpull_token,Active,2023
 CZPTyfmowf4eRfTXzytVPcbLHng38uEGhghdebbtWdyk,SOL,1,solrpds,rugpull_pool,Active,2024
+CZRBcHAvXU6TzzjGuG4rT98UuTR7PBUeSGPZRDW5mfYW,SOL,1,rekt_news,exploit,drift-protocol-rekt,
 CZRUegWvKooJjt2Hp5d1j9Hf8Lk5XcEoNRyVZwgUNW4Y,SOL,1,solrpds,rugpull_pool,Inactive,2024
 CZRjWZmZqovS3aCxezPTM1BraGwYTNo22ixf4uxnpump,SOL,1,solrpds,rugpull_token,Active,2024
 CZRu6q3FHvFYYCytapkE6tvf4DuuD7bFmNJxSRVuYTwh,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -72912,6 +72952,7 @@ D86aktBg51pw4byXvNdUuZ2SVxRsd2EzouebWaNnovCM,SOL,1,chainabuse_crawl,chainabuse,I
 D86iJtrTFX3sQnELi7dVBvFCDzD5rSrSLT9vMEHwaCbi,SOL,1,allenhark,scammer_pumpfun,blacklist,
 D88MFFNmsZhzhqA4TCxU71qNRw8V5XFsvjjZzERoNia6,SOL,1,solrpds,rugpull_pool,Inactive,2024
 D89hHJT5Aqyx1trP6EnGY9jJUB3whgnq3aUvvCqedvzf,SOL,1,chainabuse_crawl,chainabuse,IMPERSONATION,2026-08-04
+D89iCMchzvM5RY1N53Kc3tntcdhSLLjXS1ZxmEyoPJ9b,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 D89srk5TMtCpP7UhdFFHgHy6MfGXC6yWiQKFFDwHtdBA,SOL,1,solrpds,rugpull_pool,Active,2024
 D89y19hUiV1qpWGjGqoYcdiXGuZxvYrQVkvFY3ujKYqG,SOL,1,solrpds,rugpull_token,Inactive,2024
 D8Ar9vc2MfAYJGA8QuwQHNfQXzCpWyvAPXYH5L5Uzcte,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -75855,6 +75896,7 @@ DaZ2kkAei745Mc1t3Q8XcP3SjGYWm3N9ChfmUeJciQza,SOL,1,solrpds,rugpull_pool,Active,2
 DaaP53KTyoRXqfZZT84LSb1TakFJprBeSnv6scV5Xv7j,SOL,1,solrpds,rugpull_pool,Active,2024
 DaaxJGAi1SG5qiKLFuwjUGdu5KmfeQ7BvUfhVhfoo74v,SOL,1,solrpds,rugpull_pool,Active,2024
 DabXMML9APcW157soTzYL1NdLiB4MrC8u6JpgfsygTcJ,SOL,1,solrpds,rugpull_pool,Inactive,2024
+DacFdw2cUSjbCoS8N4mmLf6sE3YNo3XkW5vEqtFGs66U,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-05-10
 DacNDWbJccyzBzWNmAMgbKL2EaxUGW9QicmEeyX5SJhk,SOL,1,solrpds,rugpull_token,Inactive,2024
 DacNgHGHP4SiDgQp1VPuMMgfDFryWX6C4bkkthZaugFW,SOL,1,solrpds,rugpull_token,Active,2023
 DacZMLpkANRarNEWcfFLacJ4dXbJmBifcERL26ZRkNAY,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -76041,6 +76083,7 @@ DcARY3CJLN3u1fF4apDu1kkXMYUTyLTLjNV4bxxtpXbX,SOL,1,solrpds,rugpull_pool,Active,2
 DcBz5LXjqLc8pzsTnAHojs6nd8MM47GiRtyt7N2sWnfU,SOL,1,solrpds,rugpull_pool,Active,2024
 DcCkbXsBCrurhiLHgiZbWZWLfRpSV3NcYxZsk88uA1Wy,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 DcDoAv8sJZAjKwncmNFMwnffKZSRknhmUFXEkdUWSvxC,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+DcDwq4N5RLZ8nQWwZ6pzrGSvMxvTf2Tqjb8DKC2CCST2,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 DcFBQ6YrmUPQzH63E6aYF7XqaMTb299NKoGAXsdLpump,SOL,1,solrpds,rugpull_token,Active,2024
 DcFSmRbyCm2Piqjeijjbwkc2J6RrqgQ57YRDqYduRMoi,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 DcFpi1crczMkZJGUFFY1PPm3Ab5SSJdUjyQWabXLpump,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -79424,6 +79467,7 @@ E7nd7Lyty3FCA3AnZnkdnQjgyVNNeoecwRG6aWLypump,SOL,1,chainpatrol,blocklist,BLOCKED
 E7nzbKcDdM99gjVAeV7qCfGscDmnYd8VHgLwPb6M4RUh,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 E7o2AEHWSB19u2zB2XgBAEHDWgC6Ya8wa75o6qARxHUA,SOL,1,chainabuse_crawl,chainabuse,IMPERSONATION,2025-01-13
 E7pgdGvjzsymuRvqQeUe1k4BJk9KAQJsWX5wHEdMaNKK,SOL,1,solrpds,rugpull_pool,Active,2024
+E7r3iYSh9k38k3JhifCa2Q15QcGt4UyS5p9kxvmtM4Sc,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-11-15
 E7s1mXoTRRa23kTyKBg84xd2MsAxRevUKcocGGDq4jSH,SOL,1,solrpds,rugpull_token,Inactive,2024
 E7sTd5ES2f1JxpoHs2d2zjAFcu1cDfuRckFmKNSCt3oA,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 E7sZEjaY2aH3BVNSVmZFUPoKiRrpvc7uCpWMBhzGhko8,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -80712,7 +80756,6 @@ EKk5WSQ8DNwddYaA13qYCYCYjeMAQ39LURBzTtDCXkGm,SOL,1,solrpds,rugpull_pool,Active,2
 EKk6vrfNL7cPR5kE9kgXv2dzW7KTSXDADeWmAJphzAGQ,SOL,1,solrpds,rugpull_pool,Active,2024
 EKkHxvrGN8ZeK185inQWLMEQNF5e57AZmVszZm4M944K,SOL,1,solrpds,rugpull_token,Inactive,2024
 EKkKSWHXox7hH28WX6oKWr3wck8xC28HPuuuq4GXpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-03
-EKko14NvgqdvNttUb8JjXkVGuUs6BTikjfN3hqW4LQoL,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
 EKmEoXUL1eF44Gn1YfpsFjB21ULBBLZrdjWVCc7VtBeD,SOL,1,solrpds,rugpull_pool,Active,2024
 EKmcYNnL7FacvhECchfyjueu6Q9JNGbGpzrk3zopLTx7,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 EKnSCknLhzzwG4sCadDtBDDpH1zuPPCAAxkpNpf6dJ8j,SOL,1,allenhark,scammer_pumpfun,blacklist,
@@ -82053,6 +82096,7 @@ EXZQVH9Xj96mBZdszNGwC5wgPpwJDApxWAqnYvSM7XHh,SOL,1,solrpds,rugpull_pool,Active|I
 EXZa9EJoLEk2dH7g5qjD2h6hTp9R2qCFXqCtzkQ1SZ6B,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 EXZbeUfe5EZNAa7sJ8eEuMKeftFsq56X83c8MnYwnG3g,SOL,1,solrpds,rugpull_token,Active,2024
 EXaA6R6nWpajKRbBpFYwsV9VCV63y7ZWho8K5LahQbfL,SOL,1,solrpds,rugpull_token,Inactive,2024
+EXaJnmrLf7RAKLfn1hehoKX94keKYmvZm5H5zuYVeh42,SOL,1,rekt_news,exploit,bonkdao-rekt,
 EXaLc1oEPXjAQuwsvZkdecpzHBeVTm5K1HXAkCzLfnQU,SOL,1,solrpds,rugpull_pool,Active,2024
 EXaWJJURgZWeyoyJHCtSVtrE5P63h64MbL6Cpv8GC2rA,SOL,1,solrpds,rugpull_token,Active,2024
 EXbTsPTGPeczL56CVXPw9sFds9kXJRx5cjr2KaMVaHKm,SOL,1,solrpds,rugpull_pool,Inactive,2024
@@ -83010,6 +83054,7 @@ EfqtVjHKqfp4WbkvE79Js5TUaWYxd3xaoi6jr5DgmCUv,SOL,1,solrpds,rugpull_pool,Active|I
 EfrjR3DDK496edThePvLiXWoRG9W19F3WfdzWp4dNNzm,SOL,1,solrpds,rugpull_pool,Active,2024
 Efs3apRAxc6zaRJumGcq8EqTeo6Z3yU8denFyP1CWsLt,SOL,1,solrpds,rugpull_pool,Active,2024
 Efs9YFLo2JpEgNXLhD4zbJiDgdgn8g6rvwQD1j2fwjy,SOL,1,solrpds,rugpull_pool,Active,2024
+Efsc5vAgxzqp5qmwT2pCQu55RJchK7gxaxWFpiKxUxNU,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 Efsii8F5c6AmfRuv8BTP256uyXg874X9AKepKCvPSzeD,SOL,1,solrpds,rugpull_pool,Active,2024
 EftHgbWagQrD851NZkqyqm39n6mzzhUykBKFRYtrzXEr,SOL,1,solrpds,rugpull_pool,Active,2024
 EftcXSZQeEni2XTnsz6FB7tmuvLM6MyfaRYhHqCYod9u,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -83883,6 +83928,7 @@ EoEpUDb4hBrByUN91RDaggmsbei1b87htw8s1Mq7Es7X,SOL,1,solrpds,rugpull_pool,Active|I
 EoEsCQqfq4btbxCVEG54KgQh8f8tyx6kYq5cPedpc34Q,SOL,1,solrpds,rugpull_token,Inactive,2024
 EoJEyppNNpycP1ZoPnWq6cxwA7mSYpr9T1WXPFyjEzEy,SOL,1,solrpds,rugpull_token,Active,2024
 EoKiY2nKD33WC7ZBiHGxw6JYNtS3heEpNzRoxKJnFQtm,SOL,1,solrpds,rugpull_token,Inactive,2024
+EoL1wuLJ8Etg2QkuqqE7WLsuYcVerLZyG76bqc8HqJGc,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-06-21
 EoMqXZFJr35bKx3egxk8wAtSEWS29Gs9qX8TRAkXudVN,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 EoNrn8iUhwgJySD1pHu8Qxm5gSQqLK3za4m8xzD2RuEb,SOL,1,solrpds,rugpull_pool,Active,2024
 EoP1SASAcj9vYf1rkWD1kmSaj5jSWhZgbEdSrsCp7vyK,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-27
@@ -84379,7 +84425,6 @@ EsirN3orp85uyvZyDrZnbe9cyo7N1114ynLFdwMPCQce,SOL,1,solrpds,rugpull_token,Active,
 EskpS4o6sWFAmf7w8PDwWJQfx8LRU7hHMjPxCcyX4Eq1,SOL,1,solrpds,rugpull_pool,Active,2024
 EsmLSarwpxfXuP6wes5yBqW5ncav85uhkYArw7x6eu3N,SOL,1,solrpds,rugpull_token,Active,2024
 EsmVDCFt9EJ5xiv5ZtXyxXEBEGKxLrzxnKFrjdg7UQmc,SOL,1,solrpds,rugpull_token,Active,2024
-Esmx2QjmDZMjJ15yBJ2nhqisjEt7Gqro4jSkofdoVsvY,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT,2022-07-03
 EsoCs3EwkuwRTfBNUyKM2qUZDEKfhinvvwSYe5KcsWb7,SOL,1,solrpds,rugpull_pool,Active,2024
 EspHEyTrpUQTvM5zKG6QzXybSMtHoetxoZhRmP6crPiK,SOL,1,allenhark,scammer_pumpfun,blacklist,
 EspUQSRNo33e2ij5SmegNb2cHaet9eHycWHFKGFPbe18,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -87718,6 +87763,7 @@ FQCv6LLDMWBa2QyCGGiabFLxmzhEiAL75CzBQW6JzrfT,SOL,1,solrpds,rugpull_pool,Active|I
 FQD9MKnjHvTW7GjSHyw3Ke7YubJW8LVYV1QhmJq8ppB8,SOL,1,solrpds,rugpull_pool,Active,2024
 FQDG4CwhypP6qtduf9ut1xrt4Xssw8Hzr4ZH4qfY1pQu,SOL,1,solrpds,rugpull_token,Inactive,2024
 FQDNLZ1BQC4HfYzENBWS96sBegmsJK65VYrdtSWjy6qo,SOL,1,solrpds,rugpull_pool,Active,2024
+FQE2vomzJeAGtJX7dhFAigFzUrLRzR63jiEQFNvepump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 FQEshDKGTLSg1RccWhdyXvG1rMoJzM66kzvZVgn8pyN9,SOL,1,solrpds,rugpull_token,Active,2024
 FQEtEGwEx47szSiDXStQ3qB2AM41dWaXKKkAva6v9iLv,SOL,1,solrpds,rugpull_pool,Active,2024
 FQFgdbz7oL4e9yh3AZvDcn1eQ2cuSwxh1PLXJxLy85kp,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -89051,7 +89097,6 @@ FbzSTHbWADEUd132pfD7LLELL18272i84cjTkWS2Sf4u,SOL,1,solrpds,rugpull_pool,Inactive
 FbziCBuVZSPUuTf7AD9gNpxoKomiLvdHpvG2jZhuhJg6,SOL,1,solrpds,rugpull_pool,Active,2024
 Fbzt3k1umhQzXaiMY7sziRChGUTaw2c83R2Kyp7kLQRP,SOL,1,solrpds,rugpull_token,Inactive,2024
 Fc1Cc9eQ4gWCrRE3mt9ct7Hprucdm87AjSiDghebB412,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
-Fc1EwQUZyTEagaDvA1utHXCcZNyG1x2PLt2DfNu1cJdH,SOL,1,ofac_sdn,sanctions,CYBER4,
 Fc1b7ji7msqSNMUHzZwH4bJXvpuhu9sL6Rq7zTuxmB52,SOL,1,solrpds,rugpull_pool,Active,2024
 Fc21ZKrPDyVQGCGLk9pd45U2C6jveFcipdq3owB47XX1,SOL,1,solrpds,rugpull_token,Inactive,2024
 Fc2JNk4qSkTs65pXNSAUfnAvrew9NXaTE7dZPXrC8GoQ,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -89911,6 +89956,7 @@ Fje3LvFEpyxNv9MZnn4dJMjZ2U4hZbmnmhTckb11S8Ri,SOL,1,solrpds,rugpull_pool,Inactive
 Fjfs7DWkFxwNYPaa7QYvAQK4bq5aPwuzxLrveS3Ssvfr,SOL,1,allenhark,scammer_pumpfun,blacklist,
 FjgASWkYtRnNFWvjfE1d2KXqxSbwybakto5iGwpMvrMQ,SOL,1,solrpds,rugpull_pool,Active,2024
 FjgfzTve3nUz69SiJSp9fNxH77F5UJRmTB9kmbe3DroX,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+FjgmUkNKqnxvCL6MHxcsVmqCohGb1kTgDcRFxHMsZJn1,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 FjhUTic9fAYRQMqdGRVQs6SNdVQEX388Q6qQiuvppwxM,SOL,1,solrpds,rugpull_token,Active,2024
 Fjijng6UBn9MG7FGTyQZvG3fyYNjoAQKyDBobbY6QesK,SOL,1,solrpds,rugpull_pool,Active,2023
 FjioZytachHDb5Br9g94wxf6p8BNHwMfyTBpUjE4QSJX,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -94439,6 +94485,7 @@ GRzUMgZhN4cyd7KHQwWbiCZdjoFU2QxdeA3exSKFw8pp,SOL,1,allenhark,scammer_pumpfun,bla
 GS12sWmXuKBQqp4aipfoM3BpviZC5iSCaZU9nbANE2Nw,SOL,1,solrpds,rugpull_pool,Active,2024
 GS16XeHNSf7KhZDzSqbQMwXTgyA9EkU29JR8E5ab38tV,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 GS1VjXDZmDFsiqzBFYoACgRQBmXYuvdPJ88NQcXxg3qM,SOL,1,solrpds,rugpull_token,Active,2024
+GS1pyDnbroT9cFmAmCsCWjVS4HUPWgL2tRFsNbAxErH1,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2026-05-01
 GS29QaWc93Fjr8c1a41T5qapAX2QXkSthXNz77kiBQsu,SOL,1,solrpds,rugpull_token,Inactive,2024
 GS2AE2dML5bcJULbJ3YxXBNxBHetQgcjjKprcSUFK8ST,SOL,1,chainabuse_crawl,chainabuse,IMPERSONATION,2026-03-08
 GS2KyzzvLnviUzrc3o5cQa3yKNX8T8kxJTyaaKVYnjYU,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -94665,6 +94712,7 @@ GTtWnYdAjAt3RgfcVMkavZYKrWpK1VaNE652GgxJMip9,SOL,1,solrpds,rugpull_pool,Active|I
 GTtyzhwV1pUNhgFB9TyR4Ejp7YMxKyeDWR6PngrrDtPd,SOL,1,solrpds,rugpull_pool,Active,2024
 GTuwNUwYw7ZMhdAjUKNVqj6KkqFqmTo5tKfuApMvZQNF,SOL,1,solrpds,rugpull_pool,Active,2024
 GTvtXrbFT9jBczpE4BrmBuQeL6KfgoRMSy4gb6gTHNEp,SOL,1,solrpds,rugpull_token,Inactive,2024
+GTwKCr3JwtXZv4jg6gXZQwaK4Bq7K33nvZRCbegLjrPz,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2026-08-10
 GTwS5fGHw1KutU6vJtz96ePABF9YimutWtt5Nsyzk8iq,SOL,1,chainpatrol,blocklist,BLOCKED,2026-05-17
 GTwTuFDZYbfPTnBFcobjfJpJ2X1irnv4U5fQisB4PbU8,SOL,1,solrpds,rugpull_token,Inactive,2024
 GTwqPCSLHJkvbbPRt2MUgj9WLLhZRGwh7N2T8oUzcdV6,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -95813,7 +95861,6 @@ GeDFHt7FkfdhoTamrxw5dENa7Zq8PMs4Rr1eHj1KYYHq,SOL,1,solrpds,rugpull_pool,Active,2
 GeDgE8X11ZH4aWtBNrnJtALDkFHEoaNWWnLKHYW2pump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-12
 GeELt5wqtW1jkRDNDf21RJzQyCEaPZhwbh1yz9ffFkH5,SOL,1,solrpds,rugpull_pool,Active,2024
 GeEbYNsDv6Yen2uXCs4j3vkb6hGnQR94hpRjpEo6a5CE,SOL,1,solrpds,rugpull_token,Active,2024
-GeEccGJ9BEzVbVor1njkBCCiqXJbXVeDHaXDCrBDbmuy,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT|OTHER_HACK|RUG_PULL,2023-10-10
 GeEzy5n9nbynfx4C34XCETq3DiQn9XeTCRkjrYqcvDSe,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 GeFKD3inAM1a3oFtppyLY3q5ui2wNTAiYqA19bUcVeqU,SOL,1,solrpds,rugpull_pool,Active|Inactive,2023
 GeGDrQVgEqREz6RkoNw7raE4yQoCBnNBE2ZuToXTfrhR,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -97143,6 +97190,7 @@ GqhQRRYfgGXiGJpG1TsCVBW2R3GrEGr7DHJaBvwLCjq8,SOL,1,chainabuse_crawl,chainabuse,P
 GqhittGxwhmX5qYdsKUv4CSMqFiQ4rsy9WBHaRaQpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-22
 GqhmE5LGEhtedhkmoGwPWaZ1RrWqD4DGn8utfhWuLxFu,SOL,1,solrpds,rugpull_pool,Active,2024
 GqiReKpoAHQCnziNA1koxcttCkBD38W6Pyd45FoiBXQm,SOL,1,solrpds,rugpull_token,Inactive,2022
+GqiaB4RQ3h4sq2PUzeChr6FG24cmA4jrpHcfZ39CW5Xb,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-05-10
 GqicCQMwshCNvTfmVG1Pu2ruUELaEAia8oS5JD16hTqF,SOL,1,solrpds,rugpull_pool,Inactive,2024
 Gqiou284yNmVtTGVVM8guof4DaQtbrEDC4kgjNHZbbo4,SOL,1,solrpds,rugpull_token,Inactive,2022
 GqiruKnxavyvLFLY3gXPcYhkBPRQRCdgb7eqTwSRpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-31
@@ -97499,6 +97547,7 @@ Gu8AF3Mn6yy5otivW2Chf4WDWQytWwoPUyewk9bUu1XV,SOL,1,solrpds,rugpull_pool,Active|I
 Gu8HuMHSfk8Ate3UB7n93Kcz6457gBRk6YQoE8rSQdWv,SOL,1,solrpds,rugpull_pool,Active,2023
 Gu8rHKHZ5YgZ2LLPWR3S7eBW1ZafwdN9qTpNSPUZzaJs,SOL,1,solrpds,rugpull_pool,Inactive,2024
 Gu9WMwpH38mLzyrM15QrXiQDq7tiC7xHUwBvyif5pump,SOL,1,solrpds,rugpull_token,Inactive,2024
+GuA3ETaCy6uoRZtvBWMbjE1HjE2mLCBtvgEE4m5AVCyZ,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2024-07-08
 GuA3dNvcWfDra5VY4QEYx3SpeRkusqTwLJKcTccAWq8p,SOL,1,solrpds,rugpull_token,Inactive,2023
 GuAN6DRChdmAtkG2FQ8PYBFUU9S67hq2YefucF7LUzST,SOL,1,solrpds,rugpull_pool,Active|Inactive,2022
 GuAeP94J2oNvSe1smaxPYusjyXCrbMUr6keNxXCYS3dN,SOL,1,solrpds,rugpull_token,Inactive,2024
@@ -98478,6 +98527,7 @@ H48UV1odU24oL14ouHmcdD8H81FFWbkQYUPRYsh4BrRB,SOL,1,solrpds,rugpull_token,Inactiv
 H48bvTCUkTrB2TJaADsorqM87MjDGVxk3iVkVJTes6Tf,SOL,1,solrpds,rugpull_pool,Active,2024
 H48pmHqZUP6QA2mfaLjyqVehx5UxWseLjon5imJ17Rhn,SOL,1,solrpds,rugpull_pool,Active,2024
 H49XALURUKbXRysVXYvHKsd5h4TRbZA2iq9kChVi1JvF,SOL,1,solrpds,rugpull_pool,Active,2024
+H4A26BjRiTxCGGpLNfazrfbvrzYRBoFghFFvUqifpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-08-31
 H4Ad1gPTHaieSi3wXhzBnijVZg9zKmkfbmgSmEEzVBeY,SOL,1,solrpds,rugpull_pool,Active,2024
 H4Amn4MJv1M5sYVzAo64UaQkruFvgW3EFurwpJbEwJsG,SOL,1,solrpds,rugpull_pool,Inactive,2024
 H4AvyGkw7m6thY2pj293XXak5wWVyDVr5Qs2iseZc9fj,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -98571,6 +98621,7 @@ H51vmoTbxbKKeh2B2BKPAioK5bZALLHEWXVNUZAUpump,SOL,1,solrpds,rugpull_token,Active,
 H52CAqEJXY9dmPJChvi86cUR3vLEobUhu7B9wBMppump,SOL,1,solrpds,rugpull_token,Active,2024
 H52dcexYgv8ZxGPFpzp8oDYHyyLUwGUUbTJ2XJNRpump,SOL,1,chainpatrol,blocklist,BLOCKED,2026-07-16
 H52ezFJbw79n1Gf79GuYZaNpVRMyRJjnhjdE4Kq1WU4b,SOL,1,solrpds,rugpull_pool,Active,2024
+H52x66Ph9s4tRw1Te9mY4oxodbuDWevtRG9zfBZTxnuC,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-06-21
 H53UGEyBrB9easo9ego8yYk7o4Zq1G5cCtkxD3E3hZav,SOL,1,solrpds,rugpull_token,Active,2024
 H53fsLqf1ggxHauJKTE5krCS4fSum9uUhYUwEKtnsZD8,SOL,1,solrpds,rugpull_token,Active,2024
 H54BAMLSQ9kuGEHkn4L9m8UtrUTMvqwidayiPujx1bJZ,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -99764,6 +99815,7 @@ HEicmQ5K5f3DsN5NBTfi4dzUwXEeJcoYTng3bKUuovHU,SOL,1,solrpds,rugpull_pool,Active|I
 HEkGSMgEo6TBBptD6PJXQAL4NkR4us6V5vj8YzErnkGk,SOL,1,solrpds,rugpull_pool,Active,2024
 HEkkyux93C9BokS8Gc6UWz1hWkMpktenreLvy7SVuocJ,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 HEkou5Nm24Q4Z8Uc5eJfQMT5mYsSXX7VT9zSjKMmYHh,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
+HEmG1L1GWuE7GESBBLevFrFowwXxcin9AJaG5dxhCFuL,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-02-24
 HEmXwWWB3srayYkFLBj4BB1UkSmjtdjieWGjmsAMSu78,SOL,1,solrpds,rugpull_pool,Active,2024
 HEmzqKb3szbvvqDLPxpKVhzWvkkpE7nfSAHEfyk4pump,SOL,1,solrpds,rugpull_token,Active,2024
 HEnCT464HkAzjrCdZHbAbWjvBN4EbtZo6aCfjMvHq2od,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -101180,7 +101232,6 @@ HSpeMDGu2MsGMu7BDfGkzYbRVFmWdESoGwvYEkpmBG5S,SOL,1,chainabuse_crawl,chainabuse,P
 HSphnZTC5hro5e35gp8s1ibmDW2QMVoermLk6kqphBFD,SOL,1,solrpds,rugpull_token,Inactive,2024
 HSpwt7Z4Hb3139FWZR8W9q17yWpxffm47a3g63bQpump,SOL,1,solrpds,rugpull_token,Active,2024
 HSq7APYMXHyrK995s4W6VDTaQaCEffiLvCox7SGeDTiW,SOL,1,solrpds,rugpull_pool,Active,2024
-HSr1FNv266zCnVtUdZhfYrhgWx1a4LNEpMPDymQzPg4R,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
 HSr5ZMVyxmNnRrupPBFNykVBxCLbmbtAWoQhx1dzszAt,SOL,1,solrpds,rugpull_token,Active,2024
 HSrqSvdwjfBucofuACeYDZr9yt5KyjeJPW6ZMKqmyPo7,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 HSsJ63auJgRBAGAk3RcHPDUfSTkEWyPk4GhcJCLgDaeo,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -102602,6 +102653,7 @@ HfMVgG3fQr45JtrQD3jpVki6E5H5BSdjN8kCAvDEDKMQ,SOL,1,solrpds,rugpull_token,Active,
 HfMZUbHw4QcMfJDTN6mgHi9AF44R72g6H9VHy7uEfUTb,SOL,1,solrpds,rugpull_pool,Active,2024
 HfMdk8Q4UsAheaCzL2u2mC5xZidAdBcpWpmbXXeL2BDn,SOL,1,solrpds,rugpull_token,Inactive,2024
 HfMvUcr9fc7ZgcvvvtnaKMDMoChYPVV6G1Ebvrr2zpT2,SOL,1,solrpds,rugpull_pool,Active,2024
+HfNW8Nk8CFs93mn68ohYG4UQPbKxxtUzsfvuuKkbSLjg,SOL,1,usdc_sol_frozen,enforcement_frozen,USDC frozen onchain,2025-06-21
 HfNjWyfjetJXfwSsujzApatvx2i38W6dYECsc9ZwSgvA,SOL,1,solrpds,rugpull_pool,Active,2024
 HfPUBqf4GNyh7MMrBuR3jiZofr4B3pyRb2MnGJ5am79r,SOL,1,solrpds,rugpull_pool,Active,2024
 HfPhugiXV1tHhRwJCiroJKFUJKPfhbH3B2Yzy3K39Ddv,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -104122,7 +104174,6 @@ HtnDd1uNMdfhqog5ywPkLND9omrHt6cSGgPHkcEdAr4E,SOL,1,solrpds,rugpull_pool,Active,2
 Htnih5T64YYvwbkNDmeac2jbiAe1Gec7s5MCiUjTwUPw,SOL,1,solrpds,rugpull_pool,Active,2024
 Hto7vs3WiusjAWvZvdPoeZ4W5W4TTshtaRLcnaULwgV,SOL,1,solrpds,rugpull_pool,Active,2024
 Htp2Ez3JeX9UCAYh6DX3FAhF81YtAyEWyHrm2Y9hFBvQ,SOL,1,solrpds,rugpull_pool,Active,2024
-Htp9MGP8Tig923ZFY7Qf2zzbMUmYneFRAhSp7vSg4wxV,SOL,1,chainabuse_crawl,chainabuse,CONTRACT_EXPLOIT|OTHER_HACK|RUG_PULL,2023-10-10
 Htp9teR61rYGdbaki9zouLM7Ff5dnY33jRgye7hN3o6v,SOL,1,tayvano_lazarus,state_actor_dprk,more-hacks-and-thefts,
 HtpMfWQELCfCCeG6nHQDPfxLPrr2BNkZ2YVa9hKqpump,SOL,1,solrpds,rugpull_token,Active,2024
 HtpQuomVYd3HNmu6A5JxhKmXQknitArMFL7tBGJQZX9V,SOL,1,solrpds,rugpull_pool,Active,2024
@@ -106051,7 +106102,6 @@ JCJi3KoG7VQkw4e7BLPoQ2sxwWzy9zzaJzzpXtQFvjeU,SOL,1,chainabuse_crawl,chainabuse,F
 JCJzhfe9AS8x8iLEwZMeTEeezf4FbYm2KsETH9WD6XqG,SOL,1,chainabuse_crawl,chainabuse,PHISHING,2025-10-09
 JCLwPdaT5h9WLtDyePTZDdj3NQSh3nsXW6QxthZWNUxP,SOL,1,solrpds,rugpull_pool,Inactive,2024
 JCMEGrGTFW59KUgbFnX39RnoAxP9mL9mfwNLwQwSMzXh,SOL,1,solrpds,rugpull_pool,Active,2024
-JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw,SOL,1,chainabuse_crawl,chainabuse,OTHER_HACK,2025-10-06
 JCND5z5oSS1gw3VdH1uSVVEipRtpuRd7rULp4mBPVEQN,SOL,1,solrpds,rugpull_pool,Active,2024
 JCPCyTiUoY7j1XBtS1sCAdfCU6zwmzp7qD3gbNXKq7EP,SOL,1,solrpds,rugpull_pool,Active,2024
 JCQUjSTzSkfw6mX8kneHxaUJcR8RJYQCjHjrRLmsYMyi,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -107810,7 +107860,6 @@ TWh8rZzvbbb8fmCWu9g5xyry6U7CZRaewkqjjecABaq,SOL,1,chainpatrol,blocklist,BLOCKED,
 TWyXc6xcgAEJZBQHWBoNh7vpNWyMmQLjseKQPr1e1tZ,SOL,1,solrpds,rugpull_pool,Inactive,2024
 TX2FnsJkWvAyjSRoEZsCkDu4ViwZDEYMehiT6U6PXKj,SOL,1,solrpds,rugpull_token,Inactive,2022
 TXMwtEaDMqtXkhgpzDaPjXA6n3V6nuZuVzq7BmmJgvz,SOL,1,solrpds,rugpull_token,Inactive,2024
-TYFWG3hvvxWMs2KXEk8cDuJCsXEyKs65eeqpD9P4mK1,SOL,1,chainabuse_crawl,chainabuse,PHISHING,2025-09-08
 TYvbxDVGnneHjUedv8YXQUJyGPLBv7gjsN2zqwY7D7M,SOL,1,solrpds,rugpull_token,Inactive,2024
 TZ1RuBaiYyNSztCgpqRqygHYx7sqFUCpnAaxRh399tM,SOL,1,solrpds,rugpull_pool,Active,2024
 Ta3DVv1ret3AZWzngAEgkGBKYpyj8e16ELosSmdKEUu,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
@@ -111483,6 +111532,7 @@ tokbf1nASPWysYt5bxZBHcxbFjMZxpn8JhjrVHMdPVm,SOL,1,solrpds,rugpull_pool,Active|In
 token9EbyLQJdeY5sfxcFXJdzBRwQ8VrAJysBzSZbvX,SOL,1,chainabuse_crawl,chainabuse,AIRDROP|FAKE_RETURNS|IMPERSONATION|PHISH,2025-10-03
 tooLsNYLiVqzg8o4m3L2Uetbn62mvMWRqkog6PQeYKL,SOL,1,solrpds,rugpull_token,Inactive,2023
 tpBNmWuKn38SEGhdUxtpxRfWkdYbduYBT2oSbzzQLMS,SOL,1,solrpds,rugpull_pool,Active,2024
+tpTC9Ju2eDbhgQDbAGkaQtva4sZjo9gfnf1fixFPv31,SOL,1,usdt_sol_frozen,enforcement_frozen,USDT frozen onchain,2025-10-10
 tpdyY1pW3QongqVXX8S4HtpGiPypDriZWxXHGBfoksq,SOL,1,solrpds,rugpull_pool,Active|Inactive,2024
 tpfU2zrLpUDmhi6byz7Xoc3Dnv6wFKmDeHDaQUod93q,SOL,1,solrpds,rugpull_token,Inactive,2024
 tpm67z2qegejhkgdq6dqjfy75rupv5mxu8w3mccaq34,SOL,1,tayvano_lazarus,state_actor_dprk,hacks-and-thefts,
