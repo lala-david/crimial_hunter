@@ -2488,7 +2488,7 @@ EbHzxYXdJ9kv2q8L6RbjUcKDYJZ6S32eRVk955sQhr18,SOL,chainabuse:IMPERSONATION,chaina
 51Gjk6oqAbzo5wYeiHbgty4dMFByBiYz6RJsqNXxNwz1,SOL,chainabuse:FAKE_RETURNS,chainabuse_crawl,FAKE_RETURNS,votes=1;checked=False,2025-05-01
 DDCaZxSE5retcFvJmoZZoMHnpRGJroUrk7C6GVBvGZ3J,SOL,chainabuse:OTHER,chainabuse_crawl,OTHER,votes=1;checked=False,2025-05-01
 FQT95WXraQZFuVBmEHwUDYnww4NaTAU7JdkFVpDHEQbM,SOL,chainabuse:OTHER,chainabuse_crawl,OTHER,votes=1;checked=False,2025-05-01
-EUo6WiLqsMWzj4zVFycJbjeDjTyB7dKtPdZ5XJ9M5JvZ,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2025-04-30
+EUo6WiLqsMWzj4zVFycJbjeDjTyB7dKtPdZ5XJ9M5JvZ,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2026-09-01
 FnnNT495T48Rk2FQsFd57epZGGkvxV7na8QpviuECRw,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2025-04-30
 4EsBoV6vYdkWogaTHJMfaTEtngN6Q7jKpq2YHk92xP26,SOL,chainabuse:OTHER_HACK,chainabuse_crawl,OTHER_HACK,votes=1;checked=False,2025-04-30
 566imCUTssAotuT9zt6r6oJUknFkWUxnqFF3JGTeKQG4,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2025-04-30
@@ -4156,3 +4156,7 @@ BJG9NmckPEgSnrk2Shkx8cSBh1uNv7NrWs1g3Tv5joGS,SOL,chainabuse:PIGBUTCHERING+ROMANC
 DfKKMo3VHsMg3NAWLKRndjAgfHBE8CEqqRnChLBMtGVg,SOL,chainabuse:PHISHING,chainabuse_crawl,PHISHING,label=drainer;votes=1;checked=False,2026-08-26
 9zuvEn1SFD7hAzSxAUvqBDH1Q7hW62SiaCnJKhiew4uA,SOL,chainabuse:OTHER_HACK,chainabuse_crawl,OTHER_HACK,votes=1;checked=False,2026-08-26
 SACFEuRRK1QxJV1PEXTaWo88DSfk2hxjnSton9Ehdad,SOL,chainabuse:FAKE_PROJECT,chainabuse_crawl,FAKE_PROJECT,label=SACF SPL mint;votes=1;checked=False,2026-08-29
+7D1Y67wXzRUDo5zMYrjyfVpbk1XY1W6U9hi9LPULiCet,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2026-09-01
+F9K7oH6yCLhdF4FY3L7S6MX7RRmN6Mi24dm4iW6KwxR4,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2026-09-01
+5q2y1NoD6gySRypLDs9h5aHf1rKiBVAaKFBPYeTzcQrT,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2026-09-01
+3t5e1pxWAZ7d4YigrgBGk2cSgFYzpDiUp8P9EmKafGXH,SOL,chainabuse:IMPERSONATION,chainabuse_crawl,IMPERSONATION,votes=1;checked=False,2026-09-01

@@ -1,5 +1,5 @@
 @echo off
-rem 스케줄러용 러너 — 로그를 logs\refresh_YYYY-MM-DD.log 에 남김
+rem Scheduler runner - writes daily log to logs\refresh_YYYY-MM-DD.log
 cd /d "%~dp0.."
 if not exist logs mkdir logs
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).ToString(\"yyyy-MM-dd\")"') do set TODAY=%%d

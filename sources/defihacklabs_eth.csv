@@ -282,6 +282,7 @@ address,chain,category,source,label,detail,ref_date
 0x326dc2ff9045ae79ca3e395d584d3b56af1f310e,ETH,defi_hack_attacker,defihacklabs,SizeFlashLoanLooping,PoC 사건 재현 repo,2025-08
 0x32db518e84955739912b6257cc65e3e8374b60e4,ETH,defi_hack_attacker,defihacklabs,SEAToken,PoC 사건 재현 repo,2026-05
 0x32fb1bedd95bf78ca2c6943ae5aeaeaafc0d97c1,ETH,defi_hack_attacker,defihacklabs,CloberDEX,PoC 사건 재현 repo,2024-12
+0x338c7ec9befbb451d66fd8a468c32184f5689a41,ETH,defi_hack_attacker,defihacklabs,BalancerV1BPool,PoC 사건 재현 repo,2026-08
 0x3392c91403f09ad3b7e7243dbd4441436c7f443c,ETH,defi_hack_attacker,defihacklabs,LuckyTiger,PoC 사건 재현 repo,2022-08
 0x33a0aab2642c78729873786e5903cc30f9a94be2,ETH,defi_hack_attacker,defihacklabs,Curve_LlamaLend,PoC 사건 재현 repo,2026-03
 0x33fb722c76d4e9fc0c86bbf10ebdea45a4434a34,ETH,defi_hack_attacker,defihacklabs,Renegade,PoC 사건 재현 repo,2026-05
@@ -798,6 +799,7 @@ address,chain,category,source,label,detail,ref_date
 0x9c66b0c68c144ffe33e7084fe8ce36ebc44ad21e,ETH,defi_hack_attacker,defihacklabs,BCT,PoC 사건 재현 repo,2023-12
 0x9c9fb3100a2a521985f0c47de3b4598dafd25b01,ETH,defi_hack_attacker,defihacklabs,Templedao,PoC 사건 재현 repo,2022-10
 0x9ca536d01b9e78dd30de9d7457867f8898634049,ETH,defi_hack_attacker,defihacklabs,OrbitChain,PoC 사건 재현 repo,2024-01
+0x9caa8d0e44b22f50057d2f4ce0d1446529e11be3,ETH,defi_hack_attacker,defihacklabs,BalancerV1BPool,PoC 사건 재현 repo,2026-08
 0x9ce8d0eb6eba0bf2ac2b43231f5acb42fc5692bb,ETH,defi_hack_attacker,defihacklabs,MONA_LisaVault,PoC 사건 재현 repo,2026-04
 0x9cffc95e742d22c1446a3d22e656bb23835a38ac,ETH,defi_hack_attacker,defihacklabs,Carson,PoC 사건 재현 repo,2023-07
 0x9d0d28f7b9a9e6d55abb9e41a87df133f316c68c,ETH,defi_hack_attacker,defihacklabs,EHX,PoC 사건 재현 repo,2023-11
