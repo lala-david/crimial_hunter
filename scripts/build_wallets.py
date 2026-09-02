@@ -48,6 +48,13 @@ for f in ("sol_types_curated.csv", "sol_types_jcb07.csv", "sol_types_new.csv"):
             types[r["address"]] = r["type"]
 print(f"온체인 분류 로드: {len(types)}개 ({dict(Counter(types.values()))})")
 
+# DexScreener 검증 오탐(정상 대형 풀) 제외 — 유동성 수백만$ SOL/USDC 풀이 SolRPDS에 오라벨된 것
+false_pos = set()
+fpp = os.path.join(VER, "false_positive_pools.txt")
+if os.path.exists(fpp):
+    false_pos = {l.strip() for l in open(fpp, encoding="utf-8") if l.strip()}
+    print(f"오탐 정상풀 제외: {len(false_pos)}개")
+
 def is_wallet(addr, default_wallet):
     t = types.get(addr)
     if t is None:
@@ -72,6 +79,8 @@ def add(path, default_wallet, want_wallet):
             continue
         # 노이즈 배제: base58 32바이트 유효성 미달(0x혼입·체크섬 실패) 제거
         if not valid_pubkey(a):
+            continue
+        if a in false_pos:          # DexScreener 검증 오탐(정상 대형 풀) 제외
             continue
         if is_wallet(a, default_wallet) != want_wallet:
             continue

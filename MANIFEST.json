@@ -41,8 +41,9 @@
     "file": "master_solana_wallets.csv"
   },
   "solana_tokens_separated": {
-    "total": 104645,
-    "file": "master_solana_tokens.csv (지갑 아님)"
+    "total": 104490,
+    "file": "solana/master_solana_tokens.csv",
+    "pool_verified": "94.6% rug-confirmed, 155 false-positives removed"
   },
   "refresh_failures": []
 }
