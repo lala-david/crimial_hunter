@@ -49,6 +49,7 @@ address,chain,category,source,label,detail,ref_date
 0x0508afa25cd071a9d7e173d5657b4592c700bc41,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-07-07
 0x053965d18afd468a7afa9cc3ff5e089aa6404f44,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2025-10-31
 0x054a3bc6e38de4c39f532881f78e8a1afeb0658f,ETH,community_reported_desc,chainabuse_desc,OTHER,본문 언급 collector/cash-out,2025-05-24
+0x0556b9a8fe900b956a3b938b43e7c334665072fa,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-09-02
 0x056cca921a1fcc51de580df7c0a7c1bba7e7f60a,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-01-01
 0x057383d98da8671b5ddf7d70c43f5290aa6c75d6,ETH,community_reported_desc,chainabuse_desc,CONTRACT_EXPLOIT,본문 언급 collector/cash-out,2024-06-06
 0x05a0afc52d4d2f14000b63f740d0fa013c04cabb,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2023-09-29
@@ -1043,6 +1044,7 @@ address,chain,category,source,label,detail,ref_date
 0x8fb7adf1a655d94f2060085c7c32dcc502398b36,ETH,community_reported_desc,chainabuse_desc,FAKE_PROJECT,본문 언급 collector/cash-out,2024-06-14
 0x90048a758035b2fd23fcaa3bda8f5cac94a909db,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2025-03-12
 0x902398aa9819cf376981aa404be084af4318d70f,ETH,community_reported_desc,chainabuse_desc,FAKE_RETURNS,본문 언급 collector/cash-out,2025-06-09
+0x902c53e23bb5f792f005aedd21255e250f03acd3,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2026-09-02
 0x904065ba663879deb7e5f902220e7db97cbf04af,ETH,community_reported_desc,chainabuse_desc,CONTRACT_EXPLOIT,본문 언급 collector/cash-out,2024-10-09
 0x904cfa5ae0aa61803c98326a21e515f35eaf3eb9,ETH,community_reported_desc,chainabuse_desc,FAKE_RETURNS,본문 언급 collector/cash-out,2024-06-16
 0x90996d1d1fe911acf6c241367facee9543200ccb,ETH,community_reported_desc,chainabuse_desc,CONTRACT_EXPLOIT,본문 언급 collector/cash-out,2022-07-20
@@ -1069,6 +1071,7 @@ address,chain,category,source,label,detail,ref_date
 0x93d6ce8e7b946a2d7c26ae3c3b05eff7afb7d5c6,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2023-07-18
 0x93dd6968bd8a45ba3aba03da412dfff433b32f33,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2026-07-24
 0x9454431e88c155a8520d3615569f2745d690e295,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2024-09-19
+0x945595213137722bd0ee44e27c54e0cfb22f9fff,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2026-09-02
 0x947141153c8fb15255beeb20686b3e2d6541f212,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2024-05-26
 0x947dceced7618cc254be8dcbef34c64d1d16ff25,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2023-10-08
 0x94be6962be41377d5beda8dfe1b100f3bf0eacf3,ETH,community_reported_desc,chainabuse_desc,FAKE_PROJECT,본문 언급 collector/cash-out,2023-09-06
@@ -1446,6 +1449,7 @@ address,chain,category,source,label,detail,ref_date
 0xc90bb784f6667ec1bd6c5164e56261ade1e68c27,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-01-01
 0xc99512b588a613694dae96168c4c8bc59c7383a7,ETH,community_reported_desc,chainabuse_desc,AIRDROP,본문 언급 collector/cash-out,2025-08-18
 0xc99a3bdef26547ae125d4afc417c9b5ce4354f9c,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-03-14
+0xca11bde05977b3631167028862be2a173976ca11,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2026-09-02
 0xca506793a420e901bbca8066be5661e3c52c84c2,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2025-07-15
 0xca656f834d71dc57957c501799e972ff8ec1177c,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2026-04-07
 0xca6ea08ac0f3f94cf9e0bfef646a92619493f931,ETH,community_reported_desc,chainabuse_desc,FAKE_PROJECT,본문 언급 collector/cash-out,2026-05-03
@@ -1579,6 +1583,7 @@ address,chain,category,source,label,detail,ref_date
 0xda206205cb2a4c8ae706ecef6c24d08460057f43,ETH,community_reported_desc,chainabuse_desc,PIGBUTCHERING,본문 언급 collector/cash-out,2025-08-07
 0xda4ddae1f7a81f0ba802f81171b9ed503dde480d,ETH,community_reported_desc,chainabuse_desc,PHISHING,본문 언급 collector/cash-out,2025-05-23
 0xda5857d0dfcc8e7c53cf816b14f3bce0976b0710,ETH,community_reported_desc,chainabuse_desc,OTHER,본문 언급 collector/cash-out,2026-07-25
+0xda5e28f777576712f05df960d79ce9ac942212a6,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2026-09-02
 0xda60ec5030a821ac0537aa86eed48d0587ec61b4,ETH,community_reported_desc,chainabuse_desc,FAKE_PROJECT,본문 언급 collector/cash-out,2025-02-10
 0xda6212e75247233c982b6c1ef51605fbde631dc3,ETH,community_reported_desc,chainabuse_desc,OTHER_HACK,본문 언급 collector/cash-out,2025-08-13
 0xda78918ce7af0f99b3dd47a03a53333ddbf1b86d,ETH,community_reported_desc,chainabuse_desc,RUG_PULL,본문 언급 collector/cash-out,2024-06-07
