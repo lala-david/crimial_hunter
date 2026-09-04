@@ -122,9 +122,37 @@ else:
     if top1_pct is not None and top1_pct >= 90 and liq <= 100:
         score += 10; reasons.append("복합: 홀더≥90% AND 유동성≤$100 (FPR 0.6%)")
 
+# ── Tier-2 ML 점수 (홀더집중 있을 때) ──
+ml_proba, ml_thr = None, 0.6
+mpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "tier2_rugcheck.pkl")
+if top1_pct is not None and os.path.exists(mpath):
+    try:
+        import numpy as np, pickle
+        M = pickle.load(open(mpath, "rb"))
+        ml_thr = M.get("block_threshold", 0.6)
+        avail = {"top1_pct": signals.get("top1_pct"), "top10_pct": signals.get("top10_pct"),
+                 "total_holders": None, "lp_providers": None, "liquidity_usd": signals.get("liquidity_usd")}
+        vec = []
+        for i, f in enumerate(M["features"]):
+            v = avail.get(f)
+            if v is None or (isinstance(v, float) and v != v):
+                v = M["medians"][i]                       # 학습 median 대체(변환 공간)
+            else:
+                v = float(v)
+                if f in M["log"]:
+                    v = float(np.log1p(max(v, 0.0)))
+            vec.append(v)
+        ml_proba = float(M["model"].predict_proba(np.array([vec]))[0, 1])
+        print(f"Tier-2 ML 러그확률: {ml_proba:.3f}  (95%정밀 차단임계 {ml_thr:.3f}, 결측 feature는 median 대체)")
+        if ml_proba >= ml_thr:
+            reasons.append(f"ML 러그확률 {ml_proba:.2f} ≥ 차단임계 {ml_thr:.2f}")
+    except Exception as e:
+        print(f"Tier-2 ML 생략: {str(e)[:60]}")
+
 # ── 판정 (고정밀 블록리스트) ──
 score = min(score, 100)
 if (top1_pct is not None and top1_pct >= 95) or signals.get("account_closed") or \
+   (ml_proba is not None and ml_proba >= ml_thr) or \
    (top1_pct is not None and top1_pct >= 90 and signals.get("liquidity_usd", 1e9) <= 100):
     verdict = "🔴 BLOCK (고위험 — 자동 차단 권장)"
 elif score >= 40:

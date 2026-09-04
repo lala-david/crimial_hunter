@@ -46,9 +46,19 @@ add측 feature(add, num_adds, add_per_event)만, 시간분할.
 - **결론**: 유동성-추가 신호만으론 자동차단 불가 → **홀더집중(Tier-2/Helius)이 필수**임을 실증
 - feature 중요도: add_per_event(0.61) > num_adds(0.31). 러그는 회당 미끼 110만 vs 정상 1천
 
-### ⏳ E2 — Helius 홀더집중·첫구간 tx 추가 (키 대기) → `features_helius.py`
-SolRPDS 동일집단 샘플에 Helius로 B·D 블록 feature를 replay로 추출 → Tier-2 학습.
-죽은 러그도 pool 서명 히스토리를 되짚어 첫 구간 동역학 복원(생존편향 완화).
+### ✅ Tier-2 잠정 (완료, 키 불필요) → `tier2_now.py`
+기존 RugCheck 홀더집중 데이터로 지금 학습, detect.py에 ML 두뇌 연결.
+feature = top1_pct·top10_pct·liquidity_usd (전부 추론시점 획득 가능, 결측대체 없음).
+- **5-fold CV: AUC 0.947 / PR-AUC 0.986 / MCC 0.697**
+- **고정밀 운영점**: 정밀도 99%→재현율 67.6% · **정밀도 95%→재현율 92.9%** · 90%→96.9%
+- feature 중요도: top1_pct 0.53 > top10_pct 0.33 > liquidity 0.14
+- ⚠️ 학습데이터 출처편향 + 높은 기저율(0.81) → **절대성능 낙관적**. 신호(홀더집중)는
+  research/compare에서 독립검증됨(top1≥90%=69%@3.4%FPR). E2로 편향 제거 재학습.
+
+### ⏳ E2 — Helius 홀더집중·첫구간 tx 추가 (키 대기) → `features_helius.py` + `e2_train.py`
+SolRPDS **동일집단** 샘플에 Helius로 홀더집중을 추출 → Tier-2를 편향 없이 재학습.
+죽은 러그도 pump.fun mint 계정이 살아있어 홀더 조회 가능(생존편향 완화).
+이것이 tier2_rugcheck(잠정)를 대체하는 최종 모델.
 
 ### ⏳ E3 — ablation (feature 블록별 기여, 누수판 vs 누수없는판 격차)
 ### ⏳ E4 — 운영점 확정 + 보정 + `detect.py` Tier-2 통합
@@ -58,9 +68,11 @@ SolRPDS 동일집단 샘플에 Helius로 B·D 블록 feature를 replay로 추출
 detector/
 ├── README.md            (이 문서 — 설계·진행)
 ├── e1_leakfree.py       E1: 누수없는 베이스라인 (완료)
-├── detect.py            Tier-1 규칙 기반 실 mint 채점 (getAccountInfo, Helius-ready)
-├── features_helius.py   E2: Helius 홀더집중·tx replay feature 추출 (키 대기)
-└── models/              e1_leakfree.pkl, e1_metrics.json, (e2 예정)
+├── tier2_now.py         Tier-2 잠정: RugCheck 홀더집중 학습 (완료)
+├── detect.py            Tier-1 규칙 + Tier-2 ML 실 mint 채점 (getAccountInfo, Helius-ready)
+├── features_helius.py   E2: Helius 홀더집중 추출 (키 대기)
+├── e2_train.py          E2: SolRPDS 동일집단 Tier-2 재학습 (키 대기)
+└── models/              e1_leakfree.pkl, tier2_rugcheck.pkl (+메트릭 json)
 ```
 
 ## 정직한 한계

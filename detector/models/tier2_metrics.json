@@ -1,0 +1,34 @@
+{
+  "experiment": "tier2_rugcheck_interim",
+  "features": [
+    "top1_pct",
+    "top10_pct",
+    "liquidity_usd"
+  ],
+  "auc": 0.9390793650793651,
+  "pr_auc": 0.9832446953289233,
+  "base_rate": 0.8108108108108109,
+  "operating_points": {
+    "0.99": {
+      "threshold": 0.9720037976900736,
+      "precision": 0.990228013029316,
+      "recall": 0.6755555555555556
+    },
+    "0.97": {
+      "threshold": 0.7994376023610433,
+      "precision": 0.9707317073170731,
+      "recall": 0.8844444444444445
+    },
+    "0.95": {
+      "threshold": 0.639393945535024,
+      "precision": 0.95,
+      "recall": 0.9288888888888889
+    },
+    "0.9": {
+      "threshold": 0.3402712096770604,
+      "precision": 0.9008264462809917,
+      "recall": 0.9688888888888889
+    }
+  },
+  "caveat": "출처편향 학습데이터, 절대성능 낙관적. Helius+SolRPDS 재학습으로 대체 예정"
+}
