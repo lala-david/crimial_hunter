@@ -25,6 +25,10 @@
 | mint/freeze 권한 생존 | (보조) | — | 구조 신호 |
 | 복합: 홀더≥90% AND 유동성≤$100 | 22.9% | **0.6%** | research/compare |
 
+> ⚠️ **이 FPR 수치는 E2에서 출처 인공물로 판명됨** — Jupiter 블루칩을 정상 대조군으로 썼기 때문.
+> 동일집단(SolRPDS)에선 정상도 35%가 top1≥90% → 위 규칙의 실제 FPR은 훨씬 높다. detect.py는
+> 홀더집중을 자동차단 규칙에서 제외하고 위험확률로만 사용. **자동차단은 유동성 소멸 등 포렌식 신호에만.**
+
 권한/구조는 `getAccountInfo`(공개 RPC, 지금 가능), 홀더집중은 `getTokenLargestAccounts`(Helius 필요).
 
 ### Tier-2 — ML (SolRPDS 라벨 + Helius feature)
@@ -55,10 +59,32 @@ feature = top1_pct·top10_pct·liquidity_usd (전부 추론시점 획득 가능,
 - ⚠️ 학습데이터 출처편향 + 높은 기저율(0.81) → **절대성능 낙관적**. 신호(홀더집중)는
   research/compare에서 독립검증됨(top1≥90%=69%@3.4%FPR). E2로 편향 제거 재학습.
 
-### ⏳ E2 — Helius 홀더집중·첫구간 tx 추가 (키 대기) → `features_helius.py` + `e2_train.py`
-SolRPDS **동일집단** 샘플에 Helius로 홀더집중을 추출 → Tier-2를 편향 없이 재학습.
-죽은 러그도 pump.fun mint 계정이 살아있어 홀더 조회 가능(생존편향 완화).
-이것이 tier2_rugcheck(잠정)를 대체하는 최종 모델.
+### ✅ E2 — Helius 홀더집중, SolRPDS 동일집단 (완료) → `features_helius.py` + `e2_train.py`
+SolRPDS **동일집단** 1,474개(러그736/정상738, ok율 99.9%)에 Helius로 홀더집중 추출 → 재학습.
+죽은 러그도 pump.fun mint 계정이 살아있어 홀더 조회 가능(생존편향 사실상 없음, no_data 2개).
+
+**🚨 핵심 발견 — "홀더집중=최강신호"는 출처 인공물이었다:**
+| | 러그 | 정상(Active) |
+|---|---|---|
+| top1_pct median | 86.3% | 84.1% |
+| top1 ≥ 90% 비율 | 44.3% | **35.1%** |
+
+동일집단에선 러그·정상 집중도가 **거의 같다**. research/compare의 "top1≥90%=69%@3.4%FPR"은
+memecoin(러그후보) vs 블루칩(Jupiter정상)을 비교한 탓 — 실제 같은 pump.fun 집단에선 정상도
+35%가 top1≥90%. **통제하니 최강 신호가 무너짐.**
+
+**e2 정직한 성능**: 홀더집중+구조 전체 AUC **0.767** / MCC 0.44 (잠정 RugCheck판 0.947의 거품 제거).
+**고정밀 블록리스트 도달 불가** → 스냅샷 집중도는 랭킹용 약신호이지 자동차단 근거 아님.
+feature 중요도: top20_pct 0.30 > freeze_auth 0.15 > top1 0.11 (단일 지배 신호 없음).
+
+### ⚠️ 결론 — 스냅샷의 한계, 다음 지렛대
+스냅샷(홀더집중·권한)만으론 동일집단 러그/정상을 AUC~0.77로 약하게만 가른다. detect.py는
+이를 반영해 **자동차단을 포렌식 신호(유동성 소멸·계정 닫힘)에만** 두고, 홀더집중은 위험확률로만 표시.
+진짜 조기 강판별은 **초기 tx 동역학**(생성~마이그레이션 첫 구간의 매수/매도·번들·유동성 흐름)이
+필요 — SolRPDS 유동성 add/remove가 AUC 0.90을 낸 이유이자, 다음 실험(E5, Helius tx replay)의 방향.
+
+### ⏳ E5 — 초기 tx 동역학 (Helius tx replay, 제안)
+pool 서명 히스토리를 되짚어 첫 N시간의 매수/매도·고유매수자·번들비율·유동성 흐름 추출(누수 없음).
 
 ### ⏳ E3 — ablation (feature 블록별 기여, 누수판 vs 누수없는판 격차)
 ### ⏳ E4 — 운영점 확정 + 보정 + `detect.py` Tier-2 통합

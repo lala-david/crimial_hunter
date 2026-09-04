@@ -69,14 +69,15 @@ else:
     decimals = inf.get("decimals")
     supply = float(inf.get("supply") or 0)
     exts = [e.get("extension") for e in (inf.get("extensions") or [])]
-    signals.update(is_token2022=is2022, mint_auth_live=bool(mint_auth),
-                   freeze_auth_live=bool(freeze_auth), decimals=decimals, extensions=exts)
+    RISKY_EXT = {"transferHook", "permanentDelegate", "transferFeeConfig"}
+    signals.update(is_token2022=int(is2022), mint_auth_live=int(bool(mint_auth)),
+                   freeze_auth_live=int(bool(freeze_auth)), decimals=decimals, extensions=exts,
+                   risky_ext=int(any(e in RISKY_EXT for e in exts)))
     print(f"토큰: {'Token-2022' if is2022 else 'SPL'}  decimals={decimals}  supply={supply:.0f}")
     print(f"권한: mint={'살아있음' if mint_auth else '소각'}  freeze={'살아있음' if freeze_auth else '소각'}")
     # ⚠️ 권한 생존은 점수화하지 않는다 — 우리 연구(research/compare): 정상이 오히려 권한 생존율
     #    더 높음(정상 8.9%/2.6% vs 러그 0%). 요즘 러그는 launchpad가 권한 자동소각.
     #    권한 생존을 위험으로 잡으면 USDC 등 정상을 오탐 → 고정밀 블록리스트에 역효과. 정보 표시만.
-    RISKY_EXT = {"transferHook", "permanentDelegate", "transferFeeConfig"}
     bad = [e for e in exts if e in RISKY_EXT]
     if bad:
         score += 15; reasons.append(f"위험 확장: {bad}")
@@ -85,26 +86,36 @@ else:
 # ── 2. 홀더 집중도 (getTokenLargestAccounts) — 최강 신호 ──
 top1_pct = None
 largest = rpc("getTokenLargestAccounts", [MINT])
+def owner_of(token_account):
+    r = rpc("getAccountInfo", [token_account, {"encoding": "jsonParsed"}])
+    try:
+        return r["value"]["data"]["parsed"]["info"]["owner"]
+    except Exception:
+        return None
+
 if largest and not largest.get("__err__") and largest.get("value"):
     supply_res = rpc("getTokenSupply", [MINT])
-    supply_ui = None
-    if supply_res and not supply_res.get("__err__"):
-        supply_ui = float((supply_res.get("value") or {}).get("uiAmount") or 0)
+    supply_ui = float((supply_res.get("value") or {}).get("uiAmount") or 0) \
+        if (supply_res and not supply_res.get("__err__")) else 0
     accts = largest["value"]
-    # 각 홀더 소유자 확인은 비용 큼 → 상위 잔고만으로 집중도(보수적: 풀 제외 없이 최대치)
-    amts = sorted([float(a.get("uiAmount") or 0) for a in accts], reverse=True)
-    if supply_ui and supply_ui > 0:
-        top1_pct = 100 * amts[0] / supply_ui if amts else 0
-        top10_pct = 100 * sum(amts[:10]) / supply_ui
-        signals.update(top1_pct=round(top1_pct, 2), top10_pct=round(top10_pct, 2))
-        print(f"홀더집중: top1={top1_pct:.1f}%  top10={top10_pct:.1f}%  (상위 {len(amts)}개 조회)")
-        # 검증된 규칙 (research/compare)
-        if top1_pct >= 99:
-            score += 45; reasons.append(f"단일홀더 {top1_pct:.0f}% ≥99% (FPR 0.3%)")
-        elif top1_pct >= 95:
-            score += 40; reasons.append(f"단일홀더 {top1_pct:.0f}% ≥95% (FPR 1.1%)")
-        elif top1_pct >= 90:
-            score += 30; reasons.append(f"단일홀더 {top1_pct:.0f}% ≥90% (FPR 3.4%)")
+    filtered = []
+    for a in accts:                      # 상위 5개만 소유자 확인(비용) → 풀/LP 제외 (학습과 일치)
+        amt = float(a.get("uiAmount") or 0)
+        if len(filtered) < 5 and owner_of(a.get("address")) in POOL_OWNERS:
+            continue
+        filtered.append(amt)
+    filtered.sort(reverse=True)
+    if supply_ui > 0 and filtered:
+        top1_pct = 100 * filtered[0] / supply_ui
+        signals.update(top1_pct=round(top1_pct, 3),
+                       top5_pct=round(100 * sum(filtered[:5]) / supply_ui, 3),
+                       top10_pct=round(100 * sum(filtered[:10]) / supply_ui, 3),
+                       top20_pct=round(100 * sum(filtered[:20]) / supply_ui, 3),
+                       hhi=round(sum((x / supply_ui) ** 2 for x in filtered), 5),
+                       n_holders=len(accts))
+        print(f"홀더집중(풀제외): top1={signals['top1_pct']:.1f}% top5={signals['top5_pct']:.1f}% "
+              f"top10={signals['top10_pct']:.1f}%")
+        print(f"  ⚠️ 동일집단 검증: 정상 memecoin의 35%도 top1≥90% → 집중도 단독은 약한 신호(규칙 점수화 안 함)")
 else:
     err = (largest or {}).get("__err__", "?")
     print(f"홀더집중: 조회 실패 ({err}) — {'Helius 키 필요' if not HELIUS else 'RPC 제한'}")
@@ -119,54 +130,55 @@ else:
     liq = dex["liquidity_usd"]
     signals["liquidity_usd"] = round(liq, 2)
     print(f"유동성: ${liq:,.0f} ({dex['dex']})")
-    if top1_pct is not None and top1_pct >= 90 and liq <= 100:
-        score += 10; reasons.append("복합: 홀더≥90% AND 유동성≤$100 (FPR 0.6%)")
 
-# ── Tier-2 ML 점수 (홀더집중 있을 때) ──
-ml_proba, ml_thr = None, 0.6
-mpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "tier2_rugcheck.pkl")
+# ── Tier-2 ML 위험점수 (동일집단 학습 e2 모델 우선) ──
+ml_proba, model_tag = None, None
+mdir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
+mpath, model_tag = os.path.join(mdir, "e2_tier2.pkl"), "e2(동일집단·비편향)"
+if not os.path.exists(mpath):
+    mpath, model_tag = os.path.join(mdir, "tier2_rugcheck.pkl"), "잠정(RugCheck·편향)"
 if top1_pct is not None and os.path.exists(mpath):
     try:
         import numpy as np, pickle
         M = pickle.load(open(mpath, "rb"))
-        ml_thr = M.get("block_threshold", 0.6)
-        avail = {"top1_pct": signals.get("top1_pct"), "top10_pct": signals.get("top10_pct"),
-                 "total_holders": None, "lp_providers": None, "liquidity_usd": signals.get("liquidity_usd")}
         vec = []
         for i, f in enumerate(M["features"]):
-            v = avail.get(f)
+            v = signals.get(f)
             if v is None or (isinstance(v, float) and v != v):
-                v = M["medians"][i]                       # 학습 median 대체(변환 공간)
+                v = M["medians"][i]
             else:
                 v = float(v)
-                if f in M["log"]:
+                if f in M.get("log", []):
                     v = float(np.log1p(max(v, 0.0)))
             vec.append(v)
         ml_proba = float(M["model"].predict_proba(np.array([vec]))[0, 1])
-        print(f"Tier-2 ML 러그확률: {ml_proba:.3f}  (95%정밀 차단임계 {ml_thr:.3f}, 결측 feature는 median 대체)")
-        if ml_proba >= ml_thr:
-            reasons.append(f"ML 러그확률 {ml_proba:.2f} ≥ 차단임계 {ml_thr:.2f}")
+        print(f"Tier-2 ML 위험확률: {ml_proba:.3f}  [{model_tag}, AUC~0.77 — 랭킹용, 단독 자동차단 부적합]")
+        if ml_proba >= 0.5:
+            reasons.append(f"ML 위험확률 {ml_proba:.2f} (집중/구조)")
     except Exception as e:
         print(f"Tier-2 ML 생략: {str(e)[:60]}")
 
-# ── 판정 (고정밀 블록리스트) ──
-score = min(score, 100)
-if (top1_pct is not None and top1_pct >= 95) or signals.get("account_closed") or \
-   (ml_proba is not None and ml_proba >= ml_thr) or \
-   (top1_pct is not None and top1_pct >= 90 and signals.get("liquidity_usd", 1e9) <= 100):
-    verdict = "🔴 BLOCK (고위험 — 자동 차단 권장)"
-elif score >= 40:
-    verdict = "🟠 WARN (의심 — 수동 검토)"
+# ── 판정 ──
+# 고정밀 자동차단은 '포렌식 확실성'에만 — 동일집단 검증상 스냅샷 집중도로는 고정밀 불가.
+if signals.get("account_closed") or signals.get("no_pair"):
+    verdict = "🔴 BLOCK (유동성 소멸/계정 닫힘 — 완료된 러그 또는 미거래)"
+elif ml_proba is not None and ml_proba >= 0.7:
+    verdict = "🟠 WARN (집중/구조 위험 높음 — 수동 검토)"
+elif ml_proba is not None and ml_proba >= 0.4:
+    verdict = "🟡 CAUTION (집중/구조 위험 중간)"
 else:
     verdict = "🟢 LOW (뚜렷한 위험신호 없음)"
 
-print("\n" + "=" * 56)
+print("\n" + "=" * 60)
 print(f"판정: {verdict}")
-print(f"위험점수: {score}/100")
+if ml_proba is not None:
+    print(f"ML 위험확률: {ml_proba:.3f}  (모델: {model_tag})")
 if reasons:
     print("근거:")
     for r in reasons:
         print(f"  • {r}")
 if not HELIUS:
-    print("\n💡 ~/.helius_key 를 설정하면 홀더집중(최강 신호)까지 채점됩니다.")
-print("=" * 56)
+    print("\n💡 ~/.helius_key 설정 시 홀더집중·ML 위험확률까지 채점됩니다.")
+print("\n※ 동일집단 검증: 스냅샷 홀더집중은 러그/정상을 약하게만 구분(AUC~0.77).")
+print("  고정밀 자동차단은 유동성소멸 등 포렌식 신호에만. 조기 강판별은 초기 tx 동역학 필요.")
+print("=" * 60)

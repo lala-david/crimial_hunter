@@ -57,7 +57,9 @@ for name, feats in [("홀더집중만", HOLDER), ("구조만", STRUCT), ("전체
           f"{r['test_matthews_corrcoef'].mean():7.3f}")
 
 # ── 최종 모델: 전체 feature, hold-out 30% ──
-X = matrix(ALL)
+from sklearn.impute import SimpleImputer as _Imp
+_imp = _Imp(strategy="median")
+X = _imp.fit_transform(np.column_stack([col(f) for f in ALL]))
 Xtr, Xte, ytr, yte = train_test_split(X, y, test_size=0.3, stratify=y, random_state=42)
 base = xgb.XGBClassifier(n_estimators=300, max_depth=5, learning_rate=0.08,
                          scale_pos_weight=float((ytr==0).sum())/max(1,(ytr==1).sum()),
@@ -88,7 +90,9 @@ for f, v in imp:
     print(f"  {f:16} {v:.3f}")
 
 os.makedirs(os.path.join(D, "models"), exist_ok=True)
-pickle.dump({"model": clf, "features": ALL}, open(os.path.join(D, "models", "e2_tier2.pkl"), "wb"))
+pickle.dump({"model": clf, "features": ALL, "log": [], "medians": _imp.statistics_.tolist(),
+             "block_threshold": picks.get(0.95, picks.get(0.97, {})).get("threshold", 0.6)},
+            open(os.path.join(D, "models", "e2_tier2.pkl"), "wb"))
 json.dump(dict(experiment="E2_tier2", features=ALL, auc=float(auc), pr_auc=float(ap),
                base_rate=float(yte.mean()), operating_points=picks),
           open(os.path.join(D, "models", "e2_metrics.json"), "w", encoding="utf-8"),

@@ -61,8 +61,12 @@ def sample(lst, n):
         return lst
     step = len(lst) / n
     return [lst[int(i * step)] for i in range(n)]
-targets = [(m, 1) for m in sample(rugs, N)] + [(m, 0) for m in sample(legit, N)]
-print(f"라벨: 러그 {len(rugs)} / 정상 {len(legit)} → 샘플 각 {N} = {len(targets)}", flush=True)
+# 러그/정상 교차 배치 → 부분 데이터로도 균형 잡힌 학습 가능
+rs = [(m, 1) for m in sample(rugs, N)]
+ls = [(m, 0) for m in sample(legit, N)]
+targets = [x for pair in zip(rs, ls) for x in pair]
+targets += rs[len(ls):] if len(rs) > len(ls) else ls[len(rs):]
+print(f"라벨: 러그 {len(rugs)} / 정상 {len(legit)} → 샘플 각 {N} = {len(targets)} (교차배치)", flush=True)
 
 FIELDS = ["mint", "label", "status", "top1_pct", "top5_pct", "top10_pct", "top20_pct",
           "hhi", "n_holders", "mint_auth_live", "freeze_auth_live", "is_token2022", "risky_ext", "decimals"]

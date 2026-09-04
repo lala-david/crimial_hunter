@@ -1,0 +1,19 @@
+{
+  "experiment": "E2_tier2",
+  "features": [
+    "top1_pct",
+    "top5_pct",
+    "top10_pct",
+    "top20_pct",
+    "hhi",
+    "n_holders",
+    "mint_auth_live",
+    "freeze_auth_live",
+    "is_token2022",
+    "risky_ext"
+  ],
+  "auc": 0.7833455627573275,
+  "pr_auc": 0.7367914365251766,
+  "base_rate": 0.49887133182844245,
+  "operating_points": {}
+}
