@@ -1,0 +1,13 @@
+{
+  "experiment": "E1_leakfree",
+  "features": [
+    "add",
+    "na",
+    "add_per_event"
+  ],
+  "auc": 0.8396608620722521,
+  "pr_auc": 0.5467277256911963,
+  "base_rate": 0.19987006454857908,
+  "operating_points": {},
+  "note": "누수배제 add측만. E2에서 Helius 홀더집중·첫구간tx 추가 예정"
+}
